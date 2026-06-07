@@ -1,0 +1,66 @@
+{
+  "mario": {
+    "teams": [
+      { "id": "toad-smanettoni", "name": "Toad Smanettoni", "emoji": "🍄" },
+      { "id": "yoshi-volanti", "name": "Yoshi Volanti", "emoji": "🦕" },
+      { "id": "stelle-invincibili", "name": "Stelle Invincibili", "emoji": "⭐" },
+      { "id": "gusci-rossi", "name": "Gusci Rossi", "emoji": "🐢" },
+      { "id": "fiamme-di-bowser", "name": "Fiamme di Bowser", "emoji": "🔥" }
+    ],
+    "order": {
+      "toad-smanettoni": [0, 4, 8, 12, 2, 6, 10, 14, 1, 5, 9, 13, 3, 7, 11],
+      "yoshi-volanti": [2, 6, 10, 14, 0, 4, 8, 12, 3, 7, 11, 1, 5, 9, 13],
+      "stelle-invincibili": [4, 8, 12, 0, 6, 10, 14, 2, 7, 11, 1, 5, 9, 13, 3],
+      "gusci-rossi": [6, 10, 14, 2, 8, 12, 0, 4, 9, 13, 3, 7, 11, 1, 5],
+      "fiamme-di-bowser": [8, 12, 0, 4, 10, 14, 2, 6, 11, 1, 5, 9, 13, 3, 7]
+    }
+  },
+  "magia": {
+    "teams": [
+      { "id": "bacchette-wifi", "name": "Bacchette Wi-Fi", "emoji": "🪄" },
+      { "id": "maghi-del-codice", "name": "Maghi del Codice", "emoji": "💻" },
+      { "id": "gufi-elettronici", "name": "Gufi Elettronici", "emoji": "🦉" },
+      { "id": "incantesimi-binari", "name": "Incantesimi Binari", "emoji": "✨" },
+      { "id": "pozioni-di-pixel", "name": "Pozioni di Pixel", "emoji": "🧪" }
+    ],
+    "order": {
+      "bacchette-wifi": [1, 5, 9, 13, 3, 7, 11, 0, 4, 8, 12, 2, 6, 10, 14],
+      "maghi-del-codice": [3, 7, 11, 1, 5, 9, 13, 2, 6, 10, 14, 0, 4, 8, 12],
+      "gufi-elettronici": [5, 9, 13, 3, 7, 11, 1, 4, 8, 12, 0, 6, 10, 14, 2],
+      "incantesimi-binari": [7, 11, 1, 5, 9, 13, 3, 6, 10, 14, 2, 8, 12, 0, 4],
+      "pozioni-di-pixel": [9, 13, 3, 7, 11, 1, 5, 8, 12, 0, 4, 10, 14, 2, 6]
+    }
+  },
+  "cyber": {
+    "teams": [
+      { "id": "lenti-ingrandimento", "name": "Lenti d'Ingrandimento", "emoji": "🔍" },
+      { "id": "ispettori-del-web", "name": "Ispettori del Web", "emoji": "🌐" },
+      { "id": "detective-di-byte", "name": "Detective di Byte", "emoji": "🕵️" },
+      { "id": "cacciatori-di-virus", "name": "Cacciatori di Virus", "emoji": "🛡️" },
+      { "id": "007-del-computer", "name": "007 del Computer", "emoji": "🔐" }
+    ],
+    "order": {
+      "lenti-ingrandimento": [0, 3, 6, 9, 12, 1, 4, 7, 10, 13, 2, 5, 8, 11, 14],
+      "ispettori-del-web": [2, 5, 8, 11, 14, 0, 3, 6, 9, 12, 1, 4, 7, 10, 13],
+      "detective-di-byte": [4, 7, 10, 13, 0, 2, 5, 8, 11, 14, 3, 6, 9, 12, 1],
+      "cacciatori-di-virus": [6, 9, 12, 1, 4, 8, 11, 14, 0, 3, 5, 7, 10, 13, 2],
+      "007-del-computer": [8, 11, 14, 3, 6, 10, 13, 0, 2, 5, 7, 9, 12, 1, 4]
+    }
+  },
+  "spazio": {
+    "teams": [
+      { "id": "esploratori-galattici", "name": "Esploratori Galattici", "emoji": "🚀" },
+      { "id": "astronauti-digitali", "name": "Astronauti Digitali", "emoji": "👨‍🚀" },
+      { "id": "razzi-supersonici", "name": "Razzi Supersonici", "emoji": "⚡" },
+      { "id": "ingegneri-stellari", "name": "Ingegneri Stellari", "emoji": "🔭" },
+      { "id": "pirati-dello-spazio", "name": "Pirati dello Spazio", "emoji": "🏴‍☠️" }
+    ],
+    "order": {
+      "esploratori-galattici": [0, 5, 10, 1, 6, 11, 2, 7, 12, 3, 8, 13, 4, 9, 14],
+      "astronauti-digitali": [2, 7, 12, 3, 8, 13, 4, 9, 14, 0, 5, 10, 1, 6, 11],
+      "razzi-supersonici": [4, 9, 14, 5, 10, 1, 6, 11, 2, 7, 12, 3, 8, 13, 0],
+      "ingegneri-stellari": [6, 11, 2, 7, 12, 3, 8, 13, 4, 9, 14, 0, 5, 10, 1],
+      "pirati-dello-spazio": [8, 13, 4, 9, 14, 0, 5, 10, 1, 6, 11, 2, 7, 12, 3]
+    }
+  }
+}

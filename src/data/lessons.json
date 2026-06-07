@@ -1,0 +1,402 @@
+[
+  {
+    "id": "mario",
+    "slug": "regno-dei-funghi",
+    "title": "Il Regno dei Funghi",
+    "subtitle": "Salva la Principessa Peach!",
+    "intro": "Era una bellissima e tranquilla mattina nel Regno dei Funghi. Il sole splendeva, i fiorellini colorati ondeggiavano nel prato e la Principessa Peach stava preparando una grande sorpresa nel giardino del castello. Aveva appena finito di sfornare una torta gigantesca e stava per inviare gli inviti digitali a tutti i Toad del regno usando il suo tablet. Tutto sembrava perfetto. Ma, all'improvviso, il cielo si è fatto scuro! Un'enorme nave volante, grigia e piena di fumo, è comparsa tra le nuvole nascondendo il sole. Era il perfido Bowser! Con una risata malvagia che ha fatto tremare i vetri del castello, si è calato giù, ha afferrato la Principessa Peach e il suo tablet, ed è scappato a tutta velocità verso il suo vulcano. Purtroppo non si è limitato a rapire la Principessa: per essere sicuro che nessuno andasse a cercarla, ha manomesso tutti i computer del Regno! Ha cambiato le password, ha nascosto i file importanti e ha chiuso il gigantesco cancello del suo castello con un super-lucchetto digitale difficilissimo da aprire. I Toad sono nel panico e, purtroppo, Mario è in vacanza lontanissimo da qui. Tocca a voi! Per salvare Peach dovrete usare tutta la vostra intelligenza, superare i dispetti informatici di Bowser e recuperare le combinazioni segrete. Scegliete la vostra squadra, sedetevi alle postazioni e, appena siete pronti, inserite il primo codice segreto per iniziare l'avventura!",
+    "outro": "Bravissimi, ci siete riusciti! Mentre voi superavate l'ultima e difficilissima prova sui vostri schermi, tutti i computer del Regno dei Funghi si sono riaccesi improvvisamente, suonando una musichetta vittoriosa. DING-DING-DING! In quel preciso istante, l'enorme lucchetto digitale che teneva chiuso il castello di Bowser ha fatto un clic rumoroso e le pesanti porte si sono spalancate! Bowser, che se ne stava seduto sul suo trono convinto che nessuno lo avrebbe mai raggiunto, ha visto i suoi monitor spegnersi uno ad uno. Terrorizzato da dei ragazzini così esperti al computer, è scappato a gambe levate urlando a squarciagola! La Principessa Peach è potuta finalmente tornare a casa e la grande festa è iniziata. Tutti gli abitanti del Regno vi stanno applaudendo per aver salvato la situazione usando il lavoro di squadra e la tecnologia. Ma adesso arriva il momento della verità... quale squadra è stata la più veloce ad aggirare i trucchi di Bowser? Scopriamo insieme la classifica finale!",
+    "steps": [
+      {
+        "id": 1,
+        "title": "Il Blocco ? Magico",
+        "description": "Mario ha trovato un blocco ? misterioso! Per aprirlo, devi risolvere questo enigma: Su una scacchiera standard, quante caselle ci sono in totale? Scrivi il numero come risposta e trova il codice nascosto nella casella numero 64.",
+        "pin": "1234"
+      },
+      {
+        "id": 2,
+        "title": "La Caverna di Koopa",
+        "description": "Nelle caverne di Koopa si nasconde un segreto! Apri il programma Paint sul computer e disegna una tartaruga con almeno 5 colori diversi. Salva il file con il nome 'koopa' e mostralo all'insegnante.",
+        "pin": "5678"
+      },
+      {
+        "id": 3,
+        "title": "Il Labirinto di Luigi",
+        "description": "Luigi si è perso! Crea un labirinto su carta quadrettata 10x10. Deve avere un ingresso, un'uscita e almeno 3 vicoli ciechi. Usa la matita per indicare il percorso corretto.",
+        "pin": "9012"
+      },
+      {
+        "id": 4,
+        "title": "La Moneta d'Oro",
+        "description": "Bowser ha nascosto le monete! Su Word o LibreOffice scrivi una storia di Mario lunga almeno 5 righe, inserisci un titolo in grassetto e almeno un'immagine. Salva il documento con il nome 'mario_story'.",
+        "pin": "3456"
+      },
+      {
+        "id": 5,
+        "title": "Il Fungo Gigante",
+        "description": "Il fungo magico si trasforma! Sequenza logica: 2, 4, 8, 16, __, __. Quali sono i prossimi due numeri? Scrivi la risposta su un foglio e disegna un fungo accanto.",
+        "pin": "7890"
+      },
+      {
+        "id": 6,
+        "title": "La Stella di Power-Up",
+        "description": "La stella ti rende invincibile! Apri un browser e cerca su internet: qual è il record mondiale nel videogioco Super Mario Bros? Scrivi il nome del record-man e il suo tempo su un foglio.",
+        "pin": "2345"
+      },
+      {
+        "id": 7,
+        "title": "Il Castello di Bowser",
+        "description": "Il castello è pieno di trappole! Crea una presentazione con almeno 3 slide: 1) Titolo con nome squadra, 2) Le regole del gioco Mario, 3) Il vostro personaggio preferito. Usa almeno 2 colori diversi per i titoli.",
+        "pin": "6789"
+      },
+      {
+        "id": 8,
+        "title": "Il Mondo Acquatico",
+        "description": "Nuotate tra i Cheep-Cheep! Indovinello: Ho righe ma non sono un quaderno, ho colonne ma non sono un giornale, mi usano in ufficio per fare calcoli. Cosa sono? Apri il programma giusto e inserisci i numeri da 1 a 10 in colonna A.",
+        "pin": "0123"
+      },
+      {
+        "id": 9,
+        "title": "La Foresta dei Boo",
+        "description": "I fantasmi Boo si nascondono! Gioco di logica: 5 amici si devono dare la mano. Quante strette di mano ci sono in totale? Disegna il diagramma su carta e conta le linee. Attenzione: ogni coppia si stringe la mano una sola volta!",
+        "pin": "4567"
+      },
+      {
+        "id": 10,
+        "title": "Il Vulcano di Lava",
+        "description": "Il vulcano sta per eruttare! Apri il Blocco Note e scrivi i nomi di 10 paesi europei, ognuno su una riga separata. Poi ordinarli in ordine alfabetico manualmente (taglio e incolla). Salva come 'europa.txt'.",
+        "pin": "8901"
+      },
+      {
+        "id": 11,
+        "title": "Il Mondo delle Nuvole",
+        "description": "Sulle nuvole si nascondono segreti! Crea un foglio di calcolo con 3 colonne: Nome, Punteggio, Posizione. Inserisci 5 giocatori inventati con punteggi diversi e ordina per punteggio dal più alto al più basso.",
+        "pin": "2346"
+      },
+      {
+        "id": 12,
+        "title": "Il Negozio di Toad",
+        "description": "Toad vende oggetti magici! Problema: Un fungo costa 3 monete, una stella costa 5 monete e un fiore di fuoco costa 4 monete. Mario ha 20 monete. Quante combinazioni diverse può comprare acquistando esattamente 3 oggetti? Elenca tutte le combinazioni su carta.",
+        "pin": "7891"
+      },
+      {
+        "id": 13,
+        "title": "La Gara dei Kart",
+        "description": "È ora della gara! Crea un poster digitale su Paint o Word: annuncio di una gara di kart tra le vostre squadre. Deve avere: titolo grande, nomi di almeno 4 piloti, data e orario inventati, disegno o clip-art di un kart.",
+        "pin": "3457"
+      },
+      {
+        "id": 14,
+        "title": "La Torre di Wario",
+        "description": "Wario blocca la strada! Puzzle: disponete le lettere M-A-R-I-O in tutti i modi possibili (permutazioni). Quante combinazioni diverse trovate? Scrivetele tutte su carta. Suggerimento: con 5 lettere diverse le combinazioni sono 5 × 4 × 3 × 2 × 1.",
+        "pin": "6780"
+      },
+      {
+        "id": 15,
+        "title": "La Battaglia Finale!",
+        "description": "È arrivato il momento di sconfiggere Bowser! Realizza una breve presentazione (5 slide) che racconta tutta l'avventura della vostra squadra oggi: le sfide affrontate, quelle che vi hanno messo più in difficoltà, cosa avete imparato. Aggiungete almeno 3 immagini.",
+        "pin": "9999"
+      }
+    ]
+  },
+  {
+    "id": "magia",
+    "slug": "accademia-magia",
+    "title": "L'Accademia di Magia Digitale",
+    "subtitle": "Salva il Grande Mago Preside!",
+    "intro": "Era la notte prima degli esami finali all'Accademia di Magia Digitale. Il Grande Mago Preside stava sistemando le pagelle magiche nel Grande Server di Cristallo, la stanza segreta della scuola dove le informazioni fluttuano nell'aria come polvere di stelle. Tutto era tranquillo, si sentiva solo il leggero ronzio dei calderoni e il gufare di qualche civetta. All'improvviso, un fulmine verde ha squarciato il soffitto! Il dispettoso Stregone Malware, un mago oscuro scacciato anni fa perché usava la magia per copiare i compiti, si è intrufolato nell'Accademia. Con un colpo della sua bacchetta distorta, ha lanciato un terribile incantesimo: ha rimpicciolito il Preside e lo ha intrappolato dentro una minuscola chiavetta USB! Come se non bastasse, ha sparso le formule per il contro-incantesimo in tutti i computer della scuola, sigillando i file con dei potenti lucchetti magici. I professori sono nel panico: senza il Preside, la magia dell'Accademia rischia di spegnersi per sempre! Tocca a voi, i giovani apprendisti più talentuosi. Dovrete usare i computer come vere e proprie bacchette magiche, decifrare antiche pergamene, navigare nelle reti incantate e superare le illusioni di Malware. Scegliete la vostra casata magica, mettetevi comodi davanti agli schermi e, quando siete pronti, digitate il vostro primo codice segreto per rompere il primo incantesimo!",
+    "outro": "Ci siete riusciti, la magia è compiuta! Non appena l'ultima prova è stata superata, dai vostri schermi è scaturita una luce dorata e brillante. La luce ha attraversato tutta l'aula ed è finita dritta sulla chiavetta USB dove era rinchiuso il Preside. Con un fragoroso scoppio di scintille blu, l'incantesimo di Malware si è rotto in mille pezzi e il Grande Mago è tornato alla sua grandezza naturale, sano e salvo! Lo Stregone Malware, rendendosi conto della potenza dei vostri incantesimi informatici, ha lanciato un urlo di terrore, gli è caduto il cappello a punta e se l'è data a gambe scomparendo in una nuvola di fumo nero, per non farsi vedere mai più! Il Preside si sta spolverando il mantello e vi ringrazia di cuore: avete salvato l'Accademia dimostrando che logica, intelligenza e lavoro di squadra sono la magia più potente di tutte. Ma ora, togliamoci i cappelli a punta e diamo uno sguardo al grande tabellone luminoso... quale casata magica avrà dimostrato di essere la più abile?",
+    "steps": [
+      {
+        "id": 1,
+        "title": "Il Primo Incantesimo",
+        "description": "Ogni mago deve saper leggere i simboli antichi! Decodifica questo messaggio cifrato (ogni lettera è spostata di 3 posizioni nell'alfabeto): 'PDJLR GL FODVVH'. Scrivi la risposta su carta e mostrala all'insegnante.",
+        "pin": "1111"
+      },
+      {
+        "id": 2,
+        "title": "La Pozione della Conoscenza",
+        "description": "La pozione richiede ingredienti precisi! Su Word, crea una 'Ricetta Magica' con: titolo in font grande e colorato, lista di 7 ingredienti fantastici con quantità, procedimento in almeno 5 passi numerati. Usa il formato elenco puntato per gli ingredienti.",
+        "pin": "2222"
+      },
+      {
+        "id": 3,
+        "title": "Lo Specchio Magico",
+        "description": "Lo specchio rivela la verità! Apri Paint e disegna un labirinto a specchio (simmetrico rispetto all'asse verticale). Deve avere almeno 10 muri e un percorso dall'alto al basso. Il lato sinistro e destro devono essere speculari.",
+        "pin": "3333"
+      },
+      {
+        "id": 4,
+        "title": "La Biblioteca Stregata",
+        "description": "I libri volano via! Problema logico: in una biblioteca ci sono 3 scaffali. Il primo ha il doppio dei libri del secondo. Il terzo ha 10 libri in meno del primo. In tutto ci sono 90 libri. Quanti libri ci sono su ogni scaffale? Mostra tutti i calcoli.",
+        "pin": "4444"
+      },
+      {
+        "id": 5,
+        "title": "Il Calderone Bollente",
+        "description": "Nel calderone si mescola la sapienza! Crea una presentazione su 'La storia della magia nei libri e film famosi'. Almeno 4 slide con: Harry Potter, Il Signore degli Anelli, e altri due esempi a scelta. Ogni slide deve avere un'immagine.",
+        "pin": "5555"
+      },
+      {
+        "id": 6,
+        "title": "La Verga Magica",
+        "description": "La verga risponde ai comandi precisi! Apri il foglio di calcolo e crea una tabella delle moltiplicazioni dal 6 al 10 (righe: 6,7,8,9,10 × colonne: 6,7,8,9,10). Colora in giallo i numeri pari e in azzurro i dispari.",
+        "pin": "6666"
+      },
+      {
+        "id": 7,
+        "title": "Il Gufo Messaggero",
+        "description": "Il gufo porta messaggi segreti! Inventate un codice segreto per la vostra squadra: assegnate un simbolo diverso a ogni lettera dell'alfabeto (usate forme geometriche, numeri, simboli). Scrivetelo su carta e codificate il nome della vostra squadra.",
+        "pin": "7777"
+      },
+      {
+        "id": 8,
+        "title": "La Torre dell'Osservazione",
+        "description": "Dalla torre si vede tutto! Cerca su internet e scrivi su Word: i nomi delle costellazioni visibili in Italia in inverno. Trova almeno 5 costellazioni, scrivi il nome e un fatto interessante su ognuna. Inserisci una immagine del cielo stellato.",
+        "pin": "8888"
+      },
+      {
+        "id": 9,
+        "title": "Il Libro degli Animali Fantastici",
+        "description": "Ogni creatura magica ha i suoi segreti! Create una scheda tecnica per 3 animali fantastici inventati: nome, poteri speciali, habitat, cosa mangia, livello di pericolosità (1-10). Usate una tabella in Word con 5 colonne.",
+        "pin": "9911"
+      },
+      {
+        "id": 10,
+        "title": "La Sfida del Labirinto",
+        "description": "Il labirinto cambia continuamente! Puzzle: hai 3 porte magiche. Dietro una c'è il tesoro, dietro le altre due ci sono draghi. Scegli una porta, poi il guardiano apre un'altra porta (con un drago). Conviene cambiare la tua scelta? Discutete in gruppo e spiegate il ragionamento.",
+        "pin": "1122"
+      },
+      {
+        "id": 11,
+        "title": "Il Telescopio Astronomico",
+        "description": "Guardate le stelle con occhio magico! Su un foglio di calcolo, inserite i dati dei pianeti del sistema solare: Nome, Distanza dal Sole (km), Diametro (km), Numero di lune. Ordinate per distanza dal Sole. Cercate i dati su internet.",
+        "pin": "3344"
+      },
+      {
+        "id": 12,
+        "title": "La Mappa del Tesoro",
+        "description": "Ogni mago sa leggere le mappe! Su Paint, disegna una mappa di un'isola immaginaria con: almeno 5 luoghi con nome, una bussola, un percorso indicato con frecce, e una legenda con 4 simboli spiegati.",
+        "pin": "5566"
+      },
+      {
+        "id": 13,
+        "title": "Il Torneo degli Stregoni",
+        "description": "Il torneo richiede strategia! Creare un tabellone di un torneo a eliminazione diretta per 8 squadre. Disegnatelo su carta (o Word), inventate i nomi delle squadre, simulate i risultati dei match e determinate il vincitore finale.",
+        "pin": "7788"
+      },
+      {
+        "id": 14,
+        "title": "Il Libro dei Sortilegi",
+        "description": "I sortilegi vanno scritti con precisione! Apri Word e crea un 'Manuale di Istruzioni' per un oggetto quotidiano (es. un temperamatite o uno zaino) come se fosse un oggetto magico. Deve avere: descrizione magica, istruzioni d'uso, avvertenze e controindicazioni. Almeno 300 parole.",
+        "pin": "9900"
+      },
+      {
+        "id": 15,
+        "title": "La Cerimonia di Laurea",
+        "description": "Il grande giorno è arrivato! Create il diploma di laurea della vostra casata all'Accademia di Magia. Su Word: nome dell'accademia con font elegante, i nomi di tutti i componenti della squadra, il titolo ricevuto, la data di oggi e uno stemma disegnato (o incollato). Stampate e presentate al Grande Mago!",
+        "pin": "1010"
+      }
+    ]
+  },
+  {
+    "id": "cyber",
+    "slug": "cyber-detective",
+    "title": "Cyber-Detective in Azione",
+    "subtitle": "Ritrova la ricetta segreta!",
+    "intro": "Era un tranquillo pomeriggio di pioggia e nella cassaforte digitale della nostra scuola era custodito il tesoro più grande di tutti: la ricetta segreta della 'Pizza Perfetta', una pizza talmente buona che fa venire voglia di fare i compiti di matematica con il sorriso! Il Preside la teneva al sicuro nel server principale, protetta da password difficilissime. Ma, proprio quando i cuochi della mensa stavano per preparare l'impasto, è suonato l'allarme rosso! Un misterioso ladro, conosciuto nel mondo criminale come 'L'Ombra Digitale', è riuscito a intrufolarsi nel sistema. In un batter d'occhio ha rubato l'unica copia della ricetta e ha cancellato tutti i backup! La polizia è disperata perché il ladro è furbo e non ha lasciato impronte digitali, ma solo strane tracce elettroniche: file nascosti, codici segreti e indovinelli sparsi per i computer. Hanno un disperato bisogno di voi, la squadra speciale di Cyber-Detective! Dovrete indagare a fondo, usare i vostri computer come lenti d'ingrandimento per scovare gli indizi e risolvere il caso prima che l'Ombra Digitale si mangi tutta la pizza. Scegliete la vostra agenzia investigativa, mettetevi comodi davanti ai monitor e, appena siete pronti, inserite il primo codice segreto per aprire il fascicolo delle indagini!",
+    "outro": "Incredibile lavoro di squadra, agenti speciali! Analizzando l'ultimo difficilissimo indizio siete riusciti a tracciare la posizione esatta del computer del ladro! Grazie alle vostre ricerche, la polizia ha fatto irruzione nel nascondiglio dell'Ombra Digitale proprio mentre stava per infornare la prima pizza rubata. Il ladro è stato arrestato e, con un enorme sospiro di sollievo da parte di tutti, la ricetta segreta della Pizza Perfetta è tornata sana e salva nel server della scuola! Il capo della polizia vi ha inviato una medaglia virtuale al valore: avete dimostrato che non c'è ladro abbastanza furbo da sfuggire a dei veri investigatori. Siete stati tutti eccezionali nel seguire le piste e risolvere gli enigmi digitali senza mai arrendervi. Ma adesso, come in ogni centrale di polizia che si rispetti, dobbiamo guardare la lavagna dei punteggi... quale agenzia investigativa avrà chiuso più casi oggi?",
+    "steps": [
+      {
+        "id": 1,
+        "title": "File 001: Il Messaggio Cifrato",
+        "description": "L'Ombra Digitale ha lasciato un messaggio cifrato! Decodifica il seguente messaggio binario convertendo ogni gruppo di 8 bit in una lettera ASCII: 01001000, 01000101, 01001100, 01001100, 01001111. Scrivi cosa significa su carta. Usa una tabella ASCII su internet se serve.",
+        "pin": "0001"
+      },
+      {
+        "id": 2,
+        "title": "File 002: La Password Sicura",
+        "description": "Il ladro usava password deboli! Ricerca su internet i criteri per una password sicura. Poi crea 3 esempi di password: 1 debole, 1 media, 1 fortissima. Spiega in un documento Word perché ognuna ha quel livello di sicurezza. Minimo 5 criteri analizzati.",
+        "pin": "0002"
+      },
+      {
+        "id": 3,
+        "title": "File 003: Il Rebus della Rete",
+        "description": "L'indizio è nascosto in una rete! Logica: Ho 100 computer in rete. Ogni computer deve comunicare con tutti gli altri. Quanti cavi di rete sono necessari se ogni connessione è diretta tra 2 computer? (Formula: n*(n-1)/2). Calcola e scrivi il risultato.",
+        "pin": "0003"
+      },
+      {
+        "id": 4,
+        "title": "File 004: La Mappa della Rete",
+        "description": "Dovete mappare il percorso del ladro! Su carta quadrettata, disegna una rete di 8 computer collegati tra loro. Usa cerchi per i computer e linee per i cavi. Ogni computer deve avere almeno 2 connessioni. Nomina i computer con lettere A-H.",
+        "pin": "0004"
+      },
+      {
+        "id": 5,
+        "title": "File 005: Il Database Corrotto",
+        "description": "Il ladro ha manomesso il database! Crea un foglio di calcolo con questi dati su 10 studenti inventati: Nome, Cognome, Età, Materia preferita, Voto (7-10). Poi: ordina per voto decrescente, calcola la media dei voti con una formula, colora in verde i voti 9-10 e in giallo i voti 7-8.",
+        "pin": "0005"
+      },
+      {
+        "id": 6,
+        "title": "File 006: Il Codice Morse",
+        "description": "L'Ombra Digitale comunica in codice Morse! Cerca la tabella Morse su internet e decodifica: .- --. . -. - . / ... . --. .-. . - ---. Scrivi il messaggio in chiaro. Poi codifica il nome della tua squadra in Morse.",
+        "pin": "0006"
+      },
+      {
+        "id": 7,
+        "title": "File 007: L'Email Sospetta",
+        "description": "Attenzione alle email sospette! Crea su Word un esempio di email di phishing (FALSA, solo per riconoscerla) e accanto scrivi le 5 caratteristiche che la identificano come truffa. Poi scrivi i 3 consigli principali per non cadere nella trappola.",
+        "pin": "0007"
+      },
+      {
+        "id": 8,
+        "title": "File 008: Il Grafico degli Indizi",
+        "description": "L'analisi dei dati svela i pattern del ladro! Su foglio di calcolo: inserisci dati inventati sui 'furti informatici' per 12 mesi (es. numero di attacchi per mese). Crea un grafico a linee e un grafico a barre. Identifica il mese più pericoloso.",
+        "pin": "0008"
+      },
+      {
+        "id": 9,
+        "title": "File 009: Il Server Nascosto",
+        "description": "Il server del ladro è nascosto in un indirizzo IP! Ogni indirizzo IP ha 4 numeri separati da punti, ognuno tra 0 e 255. Quanti indirizzi IP diversi esistono in totale? Calcola: 256 × 256 × 256 × 256. Scrivi il risultato in forma normale e in notazione scientifica.",
+        "pin": "0009"
+      },
+      {
+        "id": 10,
+        "title": "File 010: Il Manuale di Sicurezza",
+        "description": "Dobbiamo proteggere i dati! Crea una presentazione su 'Come proteggere i propri dati online': almeno 5 slide con consigli pratici (backup, antivirus, aggiornamenti, password, privacy sui social). Ogni slide deve avere un titolo, testo e un'icona o immagine.",
+        "pin": "0010"
+      },
+      {
+        "id": 11,
+        "title": "File 011: L'Algoritmo dell'Indagine",
+        "description": "Un detective segue sempre un algoritmo! Scrivi su carta lo pseudocodice di un algoritmo che: 1) Chiede all'utente un numero. 2) Se è pari, lo divide per 2. 3) Se è dispari, lo moltiplica per 3 e aggiunge 1. 4) Ripete finché il numero non diventa 1. Testa con il numero 6.",
+        "pin": "0011"
+      },
+      {
+        "id": 12,
+        "title": "File 012: Il Quiz Sicurezza",
+        "description": "Metti alla prova le tue conoscenze investigative! Crea un quiz su Word con 10 domande vero/falso sulla sicurezza informatica. Includi le risposte in fondo. Le domande devono riguardare: virus, phishing, password, backup, privacy sui social, aggiornamenti software.",
+        "pin": "0012"
+      },
+      {
+        "id": 13,
+        "title": "File 013: Il Cifrario di Cesare",
+        "description": "Il Cifrario di Cesare è antico ma efficace! Cifra questo messaggio con uno spostamento di 13 (ROT13): 'LA TECNOLOGIA E POTERE'. Poi crea il tuo messaggio segreto cifrato con ROT13 e scambialo con un'altra squadra da decifrare.",
+        "pin": "0013"
+      },
+      {
+        "id": 14,
+        "title": "File 014: Il Rapporto d'Indagine",
+        "description": "Ogni detective scrive il suo rapporto! Su Word, scrivi il 'Rapporto d'Indagine sul caso Ombra Digitale': data, numero caso, descrizione del ladro (inventata), metodi usati, prove raccolte, conclusioni. Usa un formato professionale con intestazione, sezioni numerate e firma.",
+        "pin": "0014"
+      },
+      {
+        "id": 15,
+        "title": "File 015: L'Identità dell'Ombra Digitale",
+        "description": "L'ultima prova rivela l'identità del criminale! Create un profilo del ladro: nome vero (inventato), età, motivazioni, metodi usati, dove si nasconde. Presentatelo come una scheda della polizia con foto (disegnata su Paint) e tutti i dettagli. Presentate il caso alla classe!",
+        "pin": "0015"
+      }
+    ]
+  },
+  {
+    "id": "spazio",
+    "slug": "naufragio-spaziale",
+    "title": "Naufragio Spaziale",
+    "subtitle": "Ripara la Galactica e torna a casa!",
+    "intro": "Tutto procedeva alla perfezione a bordo della super-navicella scolastica 'Galactica'. Eravamo partiti per una fantastica gita spaziale, navigando tra le stelle per studiare da vicino gli anelli di Saturno. Le macchinette sfornavano panini spaziali a zero gravità e si stava benissimo. Ma, all'improvviso, BOOM! Abbiamo attraversato una turbolenta pioggia di meteoriti dispettosi. Uno di questi sassi spaziali ha colpito l'antenna principale, mandando in tilt l'intero sistema di navigazione. Le luci in cabina sono diventate rosse, le sirene hanno iniziato a suonare e i motori si sono spenti. Peggio ancora, ci siamo persi in una galassia sconosciuta e i radar segnalano che dei buffi ma appiccicosi alieni verdi stanno arrivando per smontare la nostra nave e usarla come pezzo di ricambio per i loro dischi volanti! Il computer centrale è andato in blocco di sicurezza e ha nascosto i manuali di riparazione in giro per i vari terminali. Ora tocca a voi, la nostra squadra speciale di Ingegneri Spaziali! Dovrete usare i vostri computer di bordo per ricalibrare i sensori, riparare i circuiti e superare i blocchi informatici per far ripartire i motori prima che gli alieni ci svitino le ali. Scegliete il vostro equipaggio, allacciate le cinture di sicurezza e inserite il primo codice di emergenza per iniziare le riparazioni. La Terra ci aspetta!",
+    "outro": "Missione compiuta, ingegneri! Appena avete inserito l'ultimo dato corretto nei vostri terminali, le fastidiose luci rosse si sono spente e un rassicurante bagliore azzurro ha illuminato la plancia di comando. I motori principali hanno fatto un rombo fortissimo – VROOOOSH! – e la Galactica è scattata in avanti alla velocità della luce, lasciandosi alle spalle i buffi alieni verdi proprio mentre stavano per svitare il nostro tubo di scappamento! In pochi istanti, il nostro bellissimo e rassicurante pianeta blu è ricomparso dai finestrini. Siamo sani e salvi! Il computer di bordo è tornato a funzionare perfettamente e vi invia un messaggio di congratulazioni: senza la vostra freddezza e le vostre abilità davanti allo schermo, staremmo ancora fluttuando nello spazio profondo. Avete dimostrato che un vero equipaggio non va in panico, ma lavora insieme per risolvere i problemi. Ma ora, togliamoci i caschi spaziali e diamo un'occhiata al radar dei punteggi... quale equipaggio sarà stato il più veloce a riparare la nave?",
+    "steps": [
+      {
+        "id": 1,
+        "title": "Missione 1: Sistema di Navigazione",
+        "description": "Il GPS spaziale è rotto! Per ripararlo devi calcolare la rotta: la Terra è al punto (0,0), la vostra nave è al punto (3,4). Calcolate la distanza usando il teorema di Pitagora (distanza = √(3²+4²)). Poi calcolate anche la distanza dal punto (5,12) all'origine.",
+        "pin": "2001"
+      },
+      {
+        "id": 2,
+        "title": "Missione 2: Banca Dati Stellare",
+        "description": "La banca dati è corrotta! Su foglio di calcolo, crea una tabella con le 10 stelle più luminose visibili dalla Terra: Nome, Distanza in anni luce, Magnitudine apparente, Costellazione di appartenenza. Cerca i dati su internet e ordina per luminosità.",
+        "pin": "2002"
+      },
+      {
+        "id": 3,
+        "title": "Missione 3: Comunicazioni di Emergenza",
+        "description": "Dobbiamo contattare la Terra! Crea un segnale di soccorso SOS su Word: intestazione MAYDAY × 3, posizione della nave (inventate coordinate galattiche), stato della nave, richiesta di soccorso, numero di equipaggio (voi). Formato ufficiale, professionale.",
+        "pin": "2003"
+      },
+      {
+        "id": 4,
+        "title": "Missione 4: Calcolo Carburante",
+        "description": "Il carburante scarseggia! Problema: la nave consuma 15 unità di carburante per ogni anno luce. Avete 847 unità rimanenti. Quanti anni luce potete ancora percorrere? La Terra è a 40.000 anni luce. Vi servono altri rifornimenti? Quante unità mancano? Mostrate tutti i calcoli.",
+        "pin": "2004"
+      },
+      {
+        "id": 5,
+        "title": "Missione 5: Sistema Ossigeno",
+        "description": "L'ossigeno si sta esaurendo! Su Paint o Word, disegna o rappresenta il ciclo dell'ossigeno sulla nave: come viene prodotto (elettrolisi dell'acqua), purificato, distribuito all'equipaggio, e l'anidride carbonica come viene eliminata. Usa frecce e didascalie.",
+        "pin": "2005"
+      },
+      {
+        "id": 6,
+        "title": "Missione 6: Mappa Galattica",
+        "description": "Dobbiamo orientarci! Su carta quadrettata, disegna una mappa del sistema solare in scala: il Sole al centro, poi i pianeti con le loro orbite (cerchi concentrici). Scrivi il nome di ogni pianeta e aggiungi almeno 3 fatti interessanti in legenda.",
+        "pin": "2006"
+      },
+      {
+        "id": 7,
+        "title": "Missione 7: Computer di Bordo",
+        "description": "Il computer di bordo deve essere riprogrammato! Scrivi su carta lo pseudocodice di un programma che: chiede la temperatura in Celsius, la converte in Fahrenheit (F = C × 9/5 + 32) e in Kelvin (K = C + 273.15), poi dice se la temperatura è adatta alla vita umana (36-37°C). Testa con 0°C, 37°C, 100°C.",
+        "pin": "2007"
+      },
+      {
+        "id": 8,
+        "title": "Missione 8: Registro dell'Equipaggio",
+        "description": "Dobbiamo catalogare l'equipaggio! Su foglio di calcolo, crea il registro della Galactica: almeno 8 membri (inventati), con: Nome, Ruolo a bordo, Età, Pianeta di origine (inventato), Specializzazione. Aggiungi una colonna 'Stato di salute' con semaforo colorato (verde/giallo/rosso).",
+        "pin": "2008"
+      },
+      {
+        "id": 9,
+        "title": "Missione 9: Analisi Asteroidi",
+        "description": "Dobbiamo evitare altri impatti! Crea una presentazione su 'Gli asteroidi del sistema solare': dove si trovano, le dimensioni più comuni, i più famosi (Ceres, Vesta, Apophis), il pericolo per la Terra, come si difende la Terra. Almeno 5 slide con immagini.",
+        "pin": "2009"
+      },
+      {
+        "id": 10,
+        "title": "Missione 10: Fisica del Razzo",
+        "description": "Dobbiamo calcolare la spinta! Il terzo principio di Newton dice: per ogni azione c'è una reazione uguale e contraria. Un razzo espelle 1000 kg di carburante al secondo a 3000 m/s. Qual è la forza di spinta? (F = m × v = 1000 × 3000). Convertila in chilonewton e scrivi la spiegazione.",
+        "pin": "2010"
+      },
+      {
+        "id": 11,
+        "title": "Missione 11: Pianificazione della Rotta",
+        "description": "Dobbiamo pianificare il viaggio di ritorno! Crea su Word un 'Piano di Viaggio Spaziale': stazione di rifornimento più vicina (inventata), rotta alternativa, fermate intermedie (almeno 3 sistemi stellari inventati con dati), stima tempi, rischi del percorso. Formato di documento tecnico.",
+        "pin": "2011"
+      },
+      {
+        "id": 12,
+        "title": "Missione 12: Decodifica Aliena",
+        "description": "Abbiamo ricevuto un segnale alieno! Il segnale usa la base 8 (ottale). Converti questi numeri ottali in decimale: 17, 35, 72, 100, 377. Poi converti i decimali 42, 127, 255 in ottale. Mostra tutti i passaggi. (Suggerimento: in base 8 le cifre vanno da 0 a 7).",
+        "pin": "2012"
+      },
+      {
+        "id": 13,
+        "title": "Missione 13: Inventario di Bordo",
+        "description": "Dobbiamo razionare le risorse! Su foglio di calcolo crea l'inventario della nave: almeno 15 tipi di rifornimenti (acqua, cibo, medicine, carburante, pezzi di ricambio...) con: quantità attuale, quantità necessaria al giorno, giorni rimasti. Aggiungi una formula per calcolare automaticamente i giorni rimasti.",
+        "pin": "2013"
+      },
+      {
+        "id": 14,
+        "title": "Missione 14: Diario di Bordo",
+        "description": "Ogni astronauta tiene il diario! Scrivi il diario di bordo della Galactica per gli ultimi 5 giorni (prima dell'incidente fino ad oggi). Ogni giorno deve avere: data stellare, ora, eventi principali, stato della nave, umore dell'equipaggio. Almeno 50 parole per giorno. Su Word, formato elegante.",
+        "pin": "2014"
+      },
+      {
+        "id": 15,
+        "title": "Missione 15: Rientro a Terra!",
+        "description": "Siamo quasi a casa! Create il resoconto finale della missione di salvataggio della Galactica: timeline degli eventi (con almeno 10 momenti chiave), le 5 decisioni più importanti prese, cosa avete imparato, e un messaggio di ringraziamento all'equipaggio. Presentatelo alla base (la classe) come conferenza stampa!",
+        "pin": "2015"
+      }
+    ]
+  }
+]
