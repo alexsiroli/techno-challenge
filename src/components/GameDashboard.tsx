@@ -10,9 +10,10 @@ interface Props {
   lesson: Lesson
   team: Team
   stepOrder: number[]
+  teamPins: string[]
 }
 
-export default function GameDashboard({ lesson, team, stepOrder }: Props) {
+export default function GameDashboard({ lesson, team, stepOrder, teamPins }: Props) {
   const theme = getTheme(lesson.id)
   const totalSteps = stepOrder.length
 
@@ -44,7 +45,8 @@ export default function GameDashboard({ lesson, team, stepOrder }: Props) {
     e.preventDefault()
     if (!currentChallenge) return
 
-    if (pinInput === currentChallenge.pin) {
+    const correctPin = teamPins[currentStepIndex]
+    if (pinInput === correctPin) {
       setPinError(false)
       setPinInput('')
       unlockStep(lesson.id, team.id, currentStepIndex)

@@ -102,12 +102,13 @@ export default function TeacherPage() {
                         {themeData.teams.map((t) => {
                           const challengeIndex = themeData.order[t.id][stepIndex]
                           const challenge = lesson.steps[challengeIndex]
+                          const pin = themeData.pins[t.id][stepIndex]
                           return (
                             <td key={t.id} className="px-3 py-3 border-r border-gray-700 last:border-r-0">
                               <div className="text-xs text-gray-500 mb-1">Prova #{challengeIndex + 1}</div>
                               <div className="text-xs text-gray-300 mb-2 line-clamp-1">{challenge?.title}</div>
                               <div className="font-mono font-bold text-lg text-yellow-400 tracking-widest bg-gray-950 rounded px-2 py-1 text-center border border-gray-700">
-                                {challenge?.pin}
+                                {pin}
                               </div>
                             </td>
                           )

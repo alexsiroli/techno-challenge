@@ -24,6 +24,7 @@ export interface Team {
 export interface ThemeData {
   teams: Team[]
   order: Record<string, number[]>
+  pins: Record<string, string[]>
 }
 
 export interface TeamsConfig {

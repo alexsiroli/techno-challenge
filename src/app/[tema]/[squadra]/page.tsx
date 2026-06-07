@@ -35,12 +35,14 @@ export default function TeamDashboardPage({ params }: Props) {
   if (!team) notFound()
 
   const stepOrder = themeData.order[team.id]
+  const teamPins = themeData.pins[team.id]
 
   return (
     <GameDashboard
       lesson={lesson}
       team={team}
       stepOrder={stepOrder}
+      teamPins={teamPins}
     />
   )
 }
