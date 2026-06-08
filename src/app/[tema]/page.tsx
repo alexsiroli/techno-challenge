@@ -86,7 +86,7 @@ export default async function ThemeLobbyPage({ params }: Props) {
                   <span className={`${theme.fontClass} text-center tracking-wide z-10`}>{team.name}</span>
                   
                   <div className="absolute bottom-4 opacity-0 group-hover:opacity-100 transform translate-y-4 group-hover:translate-y-0 transition-all duration-300 z-10">
-                    <span className="bg-white/20 px-4 py-1 rounded-full text-sm backdrop-blur-md">Seleziona →</span>
+                    <span className={`px-4 py-1.5 rounded-full text-sm font-semibold ${theme.buttonBg} ${theme.buttonText || 'text-white'} shadow-md`}>Seleziona →</span>
                   </div>
                 </Link>
               ))}

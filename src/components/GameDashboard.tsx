@@ -153,7 +153,7 @@ export default function GameDashboard({ lesson, team, stepOrder, teamPins }: Pro
 
       <div className="relative z-10 flex flex-col min-h-screen">
         <header className={`${theme.headerBg} border-b border-white/10 py-5 px-8 flex items-center justify-between shadow-2xl backdrop-blur-xl`}>
-          <Link href={`/${lesson.slug}`} className={`${theme.text} opacity-70 hover:opacity-100 transition-opacity text-sm font-bold tracking-widest flex items-center gap-2 uppercase`}>
+          <Link href={`/${lesson.slug}`} className={`${theme.text} opacity-85 hover:opacity-100 transition-opacity text-sm font-bold tracking-widest flex items-center gap-2 uppercase`}>
             ← LOBBY
           </Link>
           <div className="flex items-center gap-4">
@@ -217,7 +217,7 @@ export default function GameDashboard({ lesson, team, stepOrder, teamPins }: Pro
                     </div>
 
                     {pinError && (
-                      <div className="flex items-center gap-2 text-red-400 text-sm font-bold animate-bounce">
+                      <div className="flex items-center gap-2 text-red-400 text-sm font-bold animate-bounce text-outline">
                         <span>❌</span>
                         <span className={theme.fontClass}>Codice di avvio errato!</span>
                       </div>
@@ -272,7 +272,7 @@ export default function GameDashboard({ lesson, team, stepOrder, teamPins }: Pro
                                   ? 'CODICE DI AUTORIZZAZIONE PROSSIMO SETTORE'
                                   : 'Inserisci il PIN per sbloccare lo step successivo'}
                           </p>
-                          <p className={`${theme.text} text-xs opacity-50 ${theme.fontClass}`}>
+                          <p className={`${theme.text} text-xs opacity-80 ${theme.fontClass}`}>
                             Completa la prova sopra e inserisci il PIN dato dal professore per avanzare
                           </p>
                         </div>
@@ -306,7 +306,7 @@ export default function GameDashboard({ lesson, team, stepOrder, teamPins }: Pro
                         </div>
 
                         {pinError && (
-                          <div className="flex items-center gap-2 text-red-400 text-sm font-bold animate-bounce">
+                          <div className="flex items-center gap-2 text-red-400 text-sm font-bold animate-bounce text-outline">
                             <span>❌</span>
                             <span className={theme.fontClass}>
                               {theme.id === 'cyber' ? 'ACCESSO NEGATO' : theme.id === 'magia' ? 'Formula errata!' : 'Codice errato!'}
@@ -336,7 +336,7 @@ export default function GameDashboard({ lesson, team, stepOrder, teamPins }: Pro
                           <p className={`${theme.subtext} text-sm mb-1 ${theme.fontClass}`}>
                             COMPLIMENTI! AVETE ULTIMATO L&apos;ULTIMA MISSIONE
                           </p>
-                          <p className={`${theme.text} text-xs opacity-50 ${theme.fontClass}`}>
+                          <p className={`${theme.text} text-xs opacity-80 ${theme.fontClass}`}>
                             Fate controllare il lavoro finale al professore per completare ufficialmente la sfida
                           </p>
                         </div>

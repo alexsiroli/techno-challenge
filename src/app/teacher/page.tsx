@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import lessonsData from '@/data/lessons.json'
 import teamsData from '@/data/teams.json'
-import type { Lesson, ThemeData } from '@/types'
+import type { Lesson, ThemeData, Step } from '@/types'
 
 const lessons = lessonsData as Lesson[]
 const teams = teamsData as Record<string, ThemeData>
@@ -18,6 +18,7 @@ export default function TeacherPage() {
 
   const [revealedPins, setRevealedPins] = useState<Record<string, boolean>>({})
   const [highlights, setHighlights] = useState<string[]>([])
+  const [modalChallenge, setModalChallenge] = useState<Step | null>(null)
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
@@ -167,17 +168,30 @@ export default function TeacherPage() {
                                 <span className="font-mono font-bold text-base text-yellow-400 tracking-widest pl-1">
                                   {isRevealed ? pin : '••••'}
                                 </span>
-                                <button
-                                  type="button"
-                                  onClick={(e) => {
-                                    e.stopPropagation()
-                                    setRevealedPins((prev) => ({ ...prev, [cellKey]: !prev[cellKey] }))
-                                  }}
-                                  className="text-gray-400 hover:text-white transition-colors p-1"
-                                  title={isRevealed ? "Nascondi PIN" : "Mostra PIN"}
-                                >
-                                  {isRevealed ? '👁️' : '🙈'}
-                                </button>
+                                <div className="flex items-center gap-0.5">
+                                  <button
+                                    type="button"
+                                    onClick={(e) => {
+                                      e.stopPropagation()
+                                      setModalChallenge(challenge ?? null)
+                                    }}
+                                    className="text-gray-400 hover:text-blue-300 transition-colors p-1 text-xs"
+                                    title="Vedi dettagli prova"
+                                  >
+                                    📄
+                                  </button>
+                                  <button
+                                    type="button"
+                                    onClick={(e) => {
+                                      e.stopPropagation()
+                                      setRevealedPins((prev) => ({ ...prev, [cellKey]: !prev[cellKey] }))
+                                    }}
+                                    className="text-gray-400 hover:text-white transition-colors p-1"
+                                    title={isRevealed ? "Nascondi PIN" : "Mostra PIN"}
+                                  >
+                                    {isRevealed ? '👁️' : '🙈'}
+                                  </button>
+                                </div>
                               </div>
                             </td>
                           )
@@ -311,13 +325,17 @@ export default function TeacherPage() {
                     <div className="text-right">
                       <div className="text-xs text-indigo-300 mb-1">Prova #{(monitorChallengeIndex ?? 0) + 1}</div>
                       <div className="font-mono text-2xl font-bold text-yellow-400 tracking-widest">
-                        {monitorChallenge.pin}
+                        {monitorThemeData.pins[monitorTeam]?.[monitorStep] ?? '—'}
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="p-6">
                   <p className="text-gray-300 leading-relaxed text-base">{monitorChallenge.description}</p>
+                  <div className="mt-4 bg-gray-950 rounded-xl p-4 border border-gray-700">
+                    <div className="text-xs uppercase tracking-widest text-gray-500 mb-1">Risposta corretta</div>
+                    <p className="text-sm text-emerald-300 font-medium">{monitorChallenge.answer}</p>
+                  </div>
                 </div>
 
                 <div className="px-6 pb-6">
@@ -372,6 +390,38 @@ export default function TeacherPage() {
           </div>
         )}
       </div>
+
+      {modalChallenge && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4"
+          onClick={() => setModalChallenge(null)}
+        >
+          <div
+            className="bg-gray-900 border border-gray-600 rounded-2xl shadow-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="flex items-center justify-between px-6 py-4 border-b border-gray-700 bg-gray-800 rounded-t-2xl">
+              <h3 className="font-bold text-lg text-white">{modalChallenge.title}</h3>
+              <button
+                onClick={() => setModalChallenge(null)}
+                className="text-gray-400 hover:text-white text-xl transition-colors"
+              >
+                ✕
+              </button>
+            </div>
+            <div className="p-6">
+              <div className="mb-5">
+                <div className="text-xs uppercase tracking-widest text-gray-500 mb-2">Testo della prova</div>
+                <p className="text-gray-200 leading-relaxed text-sm whitespace-pre-wrap">{modalChallenge.description}</p>
+              </div>
+              <div className="bg-gray-950 rounded-xl p-4 border border-emerald-900/50">
+                <div className="text-xs uppercase tracking-widest text-emerald-500 mb-1">Risposta corretta</div>
+                <p className="text-sm text-emerald-300 font-medium whitespace-pre-wrap">{modalChallenge.answer}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </main>
   )
 }
