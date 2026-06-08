@@ -1,0 +1,100 @@
+{
+  "id": "mario",
+  "slug": "regno-dei-funghi",
+  "title": "Il Regno dei Funghi",
+  "subtitle": "Salva la Principessa Peach!",
+  "intro": "Era una bellissima e tranquilla mattina nel Regno dei Funghi. Il sole splendeva, i fiorellini colorati ondeggiavano nel prato e la Principessa Peach stava preparando una grande sorpresa nel giardino del castello. Aveva appena finito di sfornare una torta gigantesca e stava per inviare gli inviti digitali a tutti i Toad del regno usando il suo tablet. Tutto sembrava perfetto. Ma, all'improvviso, il cielo si è fatto scuro! Un'enorme nave volante, grigia e piena di fumo, è comparsa tra le nuvole nascondendo il sole. Era il perfido Bowser! Con una risata malvagia che ha fatto tremare i vetri del castello, si è calato giù, ha afferrato la Principessa Peach e il suo tablet, ed è scappato a tutta velocità verso il suo vulcano. Purtroppo non si è limitato a rapire la Principessa: per essere sicuro che nessuno andasse a cercarla, ha manomesso tutti i computer del Regno! Ha cambiato le password, ha nascosto i file importanti e ha chiuso il gigantesco cancello del suo castello con un super-lucchetto digitale difficilissimo da aprire. I Toad sono nel panico e, purtroppo, Mario è in vacanza lontanissimo da qui. Tocca a voi! Per salvare Peach dovrete usare tutta la vostra intelligenza, superare i dispetti informatici di Bowser e recuperare le combinazioni segrete. Scegliete la vostra squadra, sedetevi alle postazioni e, appena siete pronti, inserite il primo codice segreto per iniziare l'avventura!",
+  "outro": "Bravissimi, ci siete riusciti! Mentre voi superavate l'ultima e difficilissima prova, tutti i computer del Regno dei Funghi si sono riaccesi improvvisamente suonando una musichetta vittoriosa. DING-DING-DING! In quel preciso istante, l'enorme lucchetto digitale che teneva chiuso il castello di Bowser ha fatto un clic rumoroso e le pesanti porte si sono spalancate! Bowser, che se ne stava seduto sul suo trono convinto che nessuno lo avrebbe mai raggiunto, ha visto i suoi monitor spegnersi uno ad uno. Terrorizzato da dei ragazzini così esperti al computer, è scappato a gambe levate urlando a squarciagola! La Principessa Peach è potuta finalmente tornare a casa e la grande festa è iniziata. Tutti gli abitanti del Regno vi stanno applaudendo per aver salvato la situazione usando il lavoro di squadra e la tecnologia. Ma adesso arriva il momento della verità... quale squadra è stata la più veloce?",
+  "steps": [
+    {
+      "id": 1,
+      "title": "🗺️ La Mappa del Regno",
+      "description": "Bowser ha distrutto tutte le mappe del regno! Ridisegnate a mano su carta la mappa del Regno dei Funghi. Deve avere almeno 8 zone con nome (es. Pianura dei Funghi, Castello di Peach, Vulcano di Bowser...), collegate da strade o fiumi. Ogni zona deve avere un simbolo, la mappa una bussola e una legenda. Coloratela.",
+      "answer": "Nessuna risposta corretta — verificare che la mappa abbia almeno 8 zone nominate con simboli, una bussola, una legenda e colori."
+    },
+    {
+      "id": 2,
+      "title": "🎨 Il Ritratto in Paint",
+      "description": "Mario ha bisogno di un nuovo alleato: voi! Aprite Paint e disegnatevi come personaggio del mondo Mario (un nuovo Toad, un Koopa buono, un fungo gigante...). Aggiungete uno sfondo a tema Mario, il vostro nome e il vostro superpotere speciale. Salvate come 'eroe_[nome_squadra].png'.",
+      "answer": "Nessuna risposta corretta — verificare che il disegno abbia uno sfondo a tema, il nome e il superpotere indicati, e che il file sia salvato con il nome corretto."
+    },
+    {
+      "id": 3,
+      "title": "📖 La Storia Epica",
+      "description": "Il regno ha bisogno di un racconto eroico! Su Word scrivete una storia d'avventura in cui tutta la squadra entra nel gioco come personaggi speciali, ognuno con un superpotere unico. La storia deve avere un titolo, un momento di difficoltà e un trionfo finale in cui sconfiggete Bowser in modo originale.",
+      "answer": "Nessuna risposta corretta — verificare che ci siano tutti i membri come personaggi con superpoteri, un titolo, e una struttura narrativa con difficoltà e trionfo finale."
+    },
+    {
+      "id": 4,
+      "title": "🕺 La Coreografia di Mario",
+      "description": "Per entrare nel castello di Bowser bisogna conoscere le mosse segrete! Inventate una coreografia di gruppo di almeno 30 secondi ispirata a Mario. Deve includere: il salto con raccolta moneta, la corsa con ostacoli, la mossa power-up, la schivata da un Goomba e il ballo della vittoria finale con 'WAHOO!' gridato tutti insieme.",
+      "answer": "Nessuna risposta corretta — verificare che tutte e 5 le mosse siano presenti, che duri almeno 30 secondi e che tutta la squadra partecipi in modo sincronizzato."
+    },
+    {
+      "id": 5,
+      "title": "🍽️ Il Menù di Toad",
+      "description": "Toad ha aperto il ristorante 'Da Toad – Cucina del Regno'! Create il suo menù con 4 sezioni (antipasti, primi, secondi, dolci) e almeno 3 piatti per sezione. Ogni piatto deve avere un nome a tema Mario e il prezzo in monete. Disegnate anche un piatto a vostra scelta (a colori).",
+      "answer": "Nessuna risposta corretta — verificare che ci siano le 4 sezioni con almeno 3 piatti ciascuna, nomi tematici, prezzi in monete e almeno un piatto disegnato a colori."
+    },
+    {
+      "id": 6,
+      "title": "🌀 Il Labirinto Impossibile",
+      "description": "Bowser ha costruito un labirinto per bloccarvi! Disegnate su carta quadrettata un labirinto che va dall'entrata 'Villaggio Toad' all'uscita 'Castello Bowser'. Inserite vicoli ciechi, zone pericolose con Goomba o fiamme e zone power-up con funghi o stelle. Prima di mostrarlo, un compagno deve risolverlo a matita.",
+      "answer": "Nessuna risposta corretta — verificare entrata e uscita con le scritte, presenza di ostacoli e power-up, e che il percorso soluzione sia tracciato a matita e sia percorribile."
+    },
+    {
+      "id": 7,
+      "title": "🔍 Il Quiz da Campione",
+      "description": "Bowser ha cancellato tutta la storia di Mario! Cercate su Google le risposte a queste 8 domande e scrivetele su un foglio indicando il sito usato: 1) Anno del primo gioco Mario Bros arcade? 2) Nome del dinosauro verde amico di Mario? 3) In quale paese è nata la saga? 4) Come si chiama il fratello di Mario? 5) Chi ha creato Mario (nome e cognome)? 6) Come si chiama la principessa rapita? 7) Su quale console è uscito Super Mario 64? 8) Come si chiama il cattivo con i guanti bianchi?",
+      "answer": "Risposte corrette: 1) 1983 | 2) Yoshi | 3) Giappone | 4) Luigi | 5) Shigeru Miyamoto | 6) Principessa Peach (o Toadstool) | 7) Nintendo 64 | 8) Wario. Verificare anche la fonte citata per ogni risposta."
+    },
+    {
+      "id": 8,
+      "title": "🚨 Wanted: Bowser!",
+      "description": "La polizia del regno cerca Bowser! Create su Word un manifesto 'RICERCATO' con: la sua foto trovata su Google, i suoi soprannomi, i suoi crimini più famosi (creativi e divertenti), la ricompensa in monete e l'ultima posizione nota con uno screenshot di Google Maps.",
+      "answer": "Nessuna risposta corretta — verificare: foto di Bowser, soprannomi, crimini creativi, ricompensa in monete, screenshot di Maps per l'ultima posizione."
+    },
+    {
+      "id": 9,
+      "title": "🏆 Le Olimpiadi del Regno",
+      "description": "Mario organizza le Olimpiadi del regno! Inventate 6 sport a tema Mario (es. 'Gara di Raccolta Monete', 'Lancio di Guscio Koopa'...). In un foglio di calcolo create la classifica con i punteggi di ogni atleta e decretate il vincitore usando le formule di somma. Colorate le prime 3 posizioni in oro, argento e bronzo.",
+      "answer": "Nessuna risposta corretta — verificare: 6 sport con nomi tematici, classifica nel foglio di calcolo con formula di somma, colorazione oro/argento/bronzo applicata."
+    },
+    {
+      "id": 10,
+      "title": "⚡ Le Mosse Segrete",
+      "description": "Ogni eroe ha bisogno di mosse speciali! Ognuno inventa la propria mossa con nome epico e gesto fisico. Poi la squadra crea una sequenza combinata — una mossa ciascuno in ordine — che forma l'attacco finale. Memorizzatela ed esibitela davanti all'insegnante nominando ogni mossa ad alta voce durante l'esecuzione.",
+      "answer": "Nessuna risposta corretta — verificare: ogni membro ha la propria mossa su carta, la sequenza ha un nome, dura almeno 20 secondi e ognuno nomina la propria mossa durante l'esecuzione."
+    },
+    {
+      "id": 11,
+      "title": "📰 Il Fumetto Eroico",
+      "description": "I giornali del regno vogliono raccontare la vostra storia! Create su carta un fumetto di almeno 6 vignette su un episodio della vostra avventura. I personaggi devono parlare nelle nuvolette, la storia deve avere inizio, problema e soluzione. Colorate almeno 3 vignette.",
+      "answer": "Nessuna risposta corretta — verificare: almeno 6 vignette con dialoghi nelle nuvolette, struttura inizio-problema-soluzione, almeno 3 vignette colorate."
+    },
+    {
+      "id": 12,
+      "title": "🌍 Mario nel Mondo Reale",
+      "description": "Mario esiste anche nel mondo reale! Usate Google Maps per trovare e documentare: 1) La città chiamata 'Mario' in Texas, USA 2) Il castello di Neuschwanstein in Germania (il castello di Peach!) 3) Una grotta o caverna famosa (stile Mondo Sotterraneo) 4) Un vulcano attivo visto dal satellite 5) Un'isola con una forma curiosa. Per ognuno: screenshot, nome del luogo e perché vi ricorda Mario.",
+      "answer": "Risposta attesa: 1) Mario, Texas, USA | 2) Castello di Neuschwanstein, Baviera, Germania | 3) Qualsiasi grotta famosa | 4) Qualsiasi vulcano | 5) Libero. Verificare screenshot e motivazione per ogni luogo."
+    },
+    {
+      "id": 13,
+      "title": "📚 Il Manuale per Novellini",
+      "description": "Un bambino non ha mai sentito parlare di Mario! Su Word scrivete un 'Manuale di Sopravvivenza nel Regno dei Funghi' per chi non sa niente. Deve avere una copertina con immagine, almeno 5 capitoli su personaggi, nemici, power-up, livelli e strategie, e una sezione finale 'Errori da non fare MAI nel regno'.",
+      "answer": "Nessuna risposta corretta — verificare: copertina con immagine, almeno 5 capitoli numerati e titolati, sezione finale 'Errori da non fare MAI'."
+    },
+    {
+      "id": 14,
+      "title": "🎵 La Canzone di Mario",
+      "description": "Il regno ha bisogno di un inno! Create una canzone (o rap o filastrocca) originale sulla vostra squadra nel mondo di Mario. Deve menzionare tutti i componenti della squadra, includere almeno 5 elementi di Mario (Bowser, Peach, funghi, stelle, monete...) e avere un ritornello. Imparatela a memoria ed esibitevi davanti all'insegnante.",
+      "answer": "Nessuna risposta corretta — verificare: nomi di tutti i membri presenti, almeno 5 elementi di Mario, ritornello presente, esecuzione a memoria senza guardare il foglio."
+    },
+    {
+      "id": 15,
+      "title": "🎤 Il Discorso del Campione",
+      "description": "Avete sconfitto Bowser e salvato Peach! Ognuno prepara e recita una parte del discorso di vittoria. Il discorso deve: salutare il regno, raccontare la missione, ringraziare almeno 3 personaggi con motivazione e finire con una frase epica detta tutti insieme ad alta voce. Nessuno può leggere dal foglio!",
+      "answer": "Nessuna risposta corretta — verificare: ogni membro dice la propria parte, presenti saluto/missione/ringraziamenti/frase finale in coro, nessuno legge dal foglio."
+    }
+  ]
+}

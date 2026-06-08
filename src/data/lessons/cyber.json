@@ -1,0 +1,100 @@
+{
+  "id": "cyber",
+  "slug": "cyber-detective",
+  "title": "Cyber-Detective in Azione",
+  "subtitle": "Ritrova la ricetta segreta!",
+  "intro": "Era un tranquillo pomeriggio di pioggia e nella cassaforte digitale della nostra scuola era custodito il tesoro più grande di tutti: la ricetta segreta della 'Pizza Perfetta', una pizza talmente buona che fa venire voglia di fare i compiti di matematica con il sorriso! Il Preside la teneva al sicuro nel server principale, protetta da password difficilissime. Ma, proprio quando i cuochi della mensa stavano per preparare l'impasto, è suonato l'allarme rosso! Un misterioso ladro, conosciuto nel mondo criminale come 'L'Ombra Digitale', è riuscito a intrufolarsi nel sistema. In un batter d'occhio ha rubato l'unica copia della ricetta e ha cancellato tutti i backup! La polizia è disperata perché il ladro è furbo e non ha lasciato impronte digitali, ma solo strane tracce elettroniche: file nascosti, codici segreti e indovinelli sparsi per i computer. Hanno un disperato bisogno di voi, la squadra speciale di Cyber-Detective! Dovrete indagare a fondo, usare i vostri computer come lenti d'ingrandimento per scovare gli indizi e risolvere il caso prima che l'Ombra Digitale si mangi tutta la pizza. Scegliete la vostra agenzia investigativa, mettetevi comodi davanti ai monitor e, appena siete pronti, inserite il primo codice segreto per aprire il fascicolo delle indagini!",
+  "outro": "Incredibile lavoro di squadra, agenti speciali! Analizzando l'ultimo difficilissimo indizio siete riusciti a tracciare la posizione esatta del computer del ladro! Grazie alle vostre ricerche, la polizia ha fatto irruzione nel nascondiglio dell'Ombra Digitale proprio mentre stava per infornare la prima pizza rubata. Il ladro è stato arrestato e, con un enorme sospiro di sollievo da parte di tutti, la ricetta segreta della Pizza Perfetta è tornata sana e salva nel server della scuola! Il capo della polizia vi ha inviato una medaglia virtuale al valore: avete dimostrato che non c'è ladro abbastanza furbo da sfuggire a dei veri investigatori. Siete stati tutti eccezionali nel seguire le piste e risolvere gli enigmi digitali senza mai arrendervi. Ma adesso, come in ogni centrale di polizia che si rispetti, dobbiamo guardare la lavagna dei punteggi... quale agenzia investigativa avrà chiuso più casi oggi?",
+  "steps": [
+    {
+      "id": 1,
+      "title": "🗂️ Il Fascicolo del Sospettato",
+      "description": "Ogni indagine inizia da un profilo! Create su Word il fascicolo dell'Ombra Digitale con: foto trovata su Google (un hacker mascherato), almeno 5 alias, il suo metodo operativo, l'ultima posizione nota con screenshot di Maps, 3 complici inventati con nome in codice e una breve analisi psicologica sul perché ha rubato la ricetta.",
+      "answer": "Nessuna risposta corretta — verificare: foto, almeno 5 alias, metodo operativo, screenshot Maps, 3 complici, analisi psicologica."
+    },
+    {
+      "id": 2,
+      "title": "🏠 La Scena del Crimine",
+      "description": "I detective devono ricostruire cosa è successo! Disegnate su carta la planimetria dall'alto del server room dopo il furto. Includete: le postazioni computer, il server principale con il lucchetto rotto, le porte, le telecamere con il loro angolo visuale e almeno 6 prove fisiche lasciate dal ladro (numerate con una legenda).",
+      "answer": "Nessuna risposta corretta — verificare: prospettiva dall'alto, postazioni e server, telecamere con angolo visuale, almeno 6 prove numerate con legenda."
+    },
+    {
+      "id": 3,
+      "title": "💻 Decodifica il Messaggio",
+      "description": "L'Ombra Digitale ha lasciato messaggi in codice! Ogni numero corrisponde a una lettera (A=65, B=66, C=67... Z=90, spazio=32). Decodificate questo messaggio mostrando tutti i passaggi: 73-110-100-97-103-97-32-115-117-32-100-105-32-109-101. Poi create voi un messaggio codificato nello stesso modo (almeno 4 parole) su un foglio separato.",
+      "answer": "Risposta corretta: I=73, n=110, d=100, a=97, g=103, a=97, spazio=32, s=115, u=117, spazio=32, d=100, i=105, spazio=32, m=109, e=101 → 'Indaga su di me'. Il messaggio creato dalla squadra deve essere decodificabile con lo stesso sistema."
+    },
+    {
+      "id": 4,
+      "title": "📍 Traccia il Fuggitivo",
+      "description": "Il ladro è in fuga! Usate Google Maps per trovare: 1) Il Colosseo di Roma 2) Il British Museum di Londra 3) Il CERN di Ginevra 4) La NASA a Houston, Texas 5) Interpol a Lione, Francia. Per ognuno: screenshot e una riga su cosa ha fatto lì il ladro (inventatela). Disegnate a mano la rotta del suo viaggio su una mappa del mondo.",
+      "answer": "Risposta attesa: 1) Colosseo, Roma, Italia | 2) British Museum, Londra, UK | 3) CERN, Ginevra/Meyrin, Svizzera | 4) NASA JSC, Houston, Texas, USA | 5) Interpol HQ, Lione, Francia. Verificare screenshot e mappa del percorso."
+    },
+    {
+      "id": 5,
+      "title": "📊 Il Database delle Prove",
+      "description": "Un buon detective tiene tutto in ordine! In un foglio di calcolo create il database di almeno 12 prove inventate del caso, con livello di importanza (Alta/Media/Bassa). Usate CONTA.SE per contare quante prove ci sono per ogni livello e colorate le righe: rosso per Alta, giallo per Media, verde per Bassa.",
+      "answer": "Nessuna risposta corretta — verificare: almeno 12 prove, funzione CONTA.SE usata correttamente, colorazione rosso/giallo/verde applicata."
+    },
+    {
+      "id": 6,
+      "title": "📧 L'Email Trappola",
+      "description": "L'Ombra Digitale ingannava le vittime con email false! Create su Word una fakemail di phishing (solo a scopo educativo!) fingendo di essere la 'Banca della Scuola'. Deve avere almeno 7 elementi tipici delle truffe. Accanto all'email elencate tutti gli elementi sospetti che avete inserito e scrivete le '5 Regole d'Oro per non cascarci'.",
+      "answer": "Nessuna risposta corretta — verificare: email fittizia con almeno 7 elementi sospetti (link falso, urgenza, richiesta password, errori grammaticali, mittente storpiato, promessa/minaccia, logo errato), lista elementi e 5 Regole d'Oro."
+    },
+    {
+      "id": 7,
+      "title": "🕵️ L'Infiltrazione Silenziosa",
+      "description": "Gli agenti speciali si muovono in silenzio assoluto! Inventate una sequenza di movimento 'infiltrazione' di almeno 40 secondi con: camminata silenziosa, appiattirsi al muro, sbirciare oltre un angolo e comunicazione con segnali manuali inventati da voi (scrivetene almeno 5 con il significato). Regola fondamentale: nessun rumore con i piedi. Mostrate prima i segnali, poi eseguite.",
+      "answer": "Nessuna risposta corretta — verificare: almeno 5 segnali scritti con significato, sequenza di almeno 40 secondi con le mosse, silenzio assoluto dei piedi durante l'esecuzione."
+    },
+    {
+      "id": 8,
+      "title": "🗺️ La Mappa del Crimine Digitale",
+      "description": "Dove colpisce di più l'Ombra Digitale? Cercate su Google i paesi più colpiti da crimini informatici. Disegnate un planisfero semplificato e colorateli con gradazioni di rosso (più scuro = più pericoloso). Aggiungete una legenda e 3 grafici disegnati a mano (a barre, a torta o a linee) con i dati trovati.",
+      "answer": "Risposta indicativa: i paesi più colpiti includono USA, Cina, Russia, India, UK, Germania. Verificare che i paesi colorati corrispondano a dati reali trovati su Google e che ci siano 3 grafici e la legenda."
+    },
+    {
+      "id": 9,
+      "title": "🔐 Crea la Password Perfetta",
+      "description": "La scuola deve mettere al sicuro i suoi sistemi! Cercate su Google le caratteristiche di una password sicura. Su Word scrivete una guida con almeno 8 regole, 3 esempi di password (una debole, una media, una fortissima) con analisi delle caratteristiche, e le 3 password più usate (e più pericolose!) del mondo.",
+      "answer": "Risposta attesa per le 3 peggiori password: '123456', 'password', '123456789'. Le 8 regole devono includere: lunghezza, maiuscole+minuscole, numeri, simboli, no parole di dizionario, no dati personali, diversa per ogni sito, cambiarla periodicamente."
+    },
+    {
+      "id": 10,
+      "title": "📋 Il Rapporto Forense",
+      "description": "Il laboratorio ha analizzato il computer del ladro! Su Word scrivete un 'Rapporto di Analisi Forense Digitale' con intestazione ufficiale, i dati del dispositivo (marca, modello, seriale — inventati), una tabella dei file sospetti trovati, la cronologia dei siti visitati e le conclusioni investigative. Aggiungete il numero di pagina nel piè di pagina.",
+      "answer": "Nessuna risposta corretta — verificare: intestazione formale, dati dispositivo, tabella file sospetti, cronologia siti, conclusioni, numero pagina nel piè di pagina."
+    },
+    {
+      "id": 11,
+      "title": "❓ Chi è Kevin Mitnick?",
+      "description": "I detective studiano i criminali del passato! Cercate su Google chi era Kevin Mitnick. Scrivete su Word una scheda biografica di almeno 20 righe: chi era, cosa ha fatto di illegale, come è stato catturato e cosa ha fatto dopo. Poi cercate altri 2 famosi hacker e fate una scheda breve per ognuno. Infine scrivete la vostra opinione: gli hacker sono sempre cattivi?",
+      "answer": "Risposta attesa: Kevin Mitnick (1963–2023), nato in California. Hackerò Nokia, Motorola, FBI. Arrestato nel 1995, 5 anni di prigione. Dopo diventò consulente di sicurezza. Per gli altri 2 hacker: accettare qualsiasi nome reale (es. Julian Assange, Aaron Swartz, Anonymous...)."
+    },
+    {
+      "id": 12,
+      "title": "🔡 Il Cifrario dell'Agenzia",
+      "description": "L'agenzia ha bisogno di un codice segreto! Inventate un cifrario visivo dove ogni lettera italiana è un simbolo disegnato a mano (forme geometriche, frecce — non lettere di altri alfabeti). Disegnate la tabella come 'Manuale Cifrato dell'Agenzia', poi cifrate: 'IL LADRO SI NASCONDE DOVE MENO TE LO ASPETTI'. Un compagno di un'altra squadra deve decifrarlo in meno di 5 minuti.",
+      "answer": "Verificare che la tabella abbia 21 simboli univoci e che il messaggio 'IL LADRO SI NASCONDE DOVE MENO TE LO ASPETTI' sia correttamente cifrato e decifrabile senza ambiguità."
+    },
+    {
+      "id": 13,
+      "title": "🎭 L'Interrogatorio",
+      "description": "Abbiamo catturato un testimone! Un membro fa il testimone oculare: la squadra inventa insieme la sua storia (cosa ha visto, dove, come era vestito il ladro) e la scrive come promemoria. Gli altri fanno i detective e fanno almeno 10 domande. Alla fine scrivete su Word il Verbale di Interrogatorio formale con data, generalità del testimone, domande e risposte.",
+      "answer": "Nessuna risposta corretta — verificare: storia scritta come promemoria, almeno 10 domande durante l'interrogatorio, Verbale formale con data/generalità/domande+risposte."
+    },
+    {
+      "id": 14,
+      "title": "🛡️ Il Piano di Sicurezza",
+      "description": "La scuola non deve più essere violata! Create su Word un 'Piano di Sicurezza Informatica per la Nostra Scuola' con: i principali rischi informatici che corre una scuola (cercateli su Google), le soluzioni, le regole per studenti e professori e un piano di emergenza in caso di attacco.",
+      "answer": "Nessuna risposta corretta — verificare: rischi reali con soluzioni, regole per studenti, regole per professori, piano di emergenza."
+    },
+    {
+      "id": 15,
+      "title": "📺 La Conferenza Stampa",
+      "description": "Il caso è risolto e i giornali vogliono sapere tutto! Preparate e recitate una conferenza stampa di almeno 2 minuti. Ruoli: Direttore dell'Agenzia, Detective Capo, Esperto Informatico e un Giornalista che fa domande improvvisate. Preparate le vostre battute su carta, poi recitate dal vivo improvvisando le risposte alle domande.",
+      "answer": "Nessuna risposta corretta — verificare: 4 ruoli assegnati, battute scritte su carta per ognuno, durata almeno 2 minuti, il giornalista fa domande non preparate e gli altri improvvisano le risposte."
+    }
+  ]
+}

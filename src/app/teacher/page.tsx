@@ -2,11 +2,14 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
-import lessonsData from '@/data/lessons.json'
+import marioLesson from '@/data/lessons/mario.json'
+import magiaLesson from '@/data/lessons/magia.json'
+import cyberLesson from '@/data/lessons/cyber.json'
+import spazioLesson from '@/data/lessons/spazio.json'
 import teamsData from '@/data/teams.json'
 import type { Lesson, ThemeData, Step } from '@/types'
 
-const lessons = lessonsData as Lesson[]
+const lessons = [marioLesson, magiaLesson, cyberLesson, spazioLesson] as Lesson[]
 const teams = teamsData as Record<string, ThemeData>
 
 export default function TeacherPage() {

@@ -1,0 +1,100 @@
+{
+  "id": "magia",
+  "slug": "accademia-magia",
+  "title": "L'Accademia di Magia Digitale",
+  "subtitle": "Salva il Grande Mago Preside!",
+  "intro": "Era la notte prima degli esami finali all'Accademia di Magia Digitale. Il Grande Mago Preside stava sistemando le pagelle magiche nel Grande Server di Cristallo, la stanza segreta della scuola dove le informazioni fluttuano nell'aria come polvere di stelle. Tutto era tranquillo, si sentiva solo il leggero ronzio dei calderoni e il gufare di qualche civetta. All'improvviso, un fulmine verde ha squarciato il soffitto! Il dispettoso Stregone Malware, un mago oscuro scacciato anni fa perché usava la magia per copiare i compiti, si è intrufolato nell'Accademia. Con un colpo della sua bacchetta distorta, ha lanciato un terribile incantesimo: ha rimpicciolito il Preside e lo ha intrappolato dentro una minuscola chiavetta USB! Come se non bastasse, ha sparso le formule per il contro-incantesimo in tutti i computer della scuola, sigillando i file con dei potenti lucchetti magici. I professori sono nel panico: senza il Preside, la magia dell'Accademia rischia di spegnersi per sempre! Tocca a voi, i giovani apprendisti più talentuosi. Dovrete usare i computer come vere e proprie bacchette magiche, decifrare antiche pergamene, navigare nelle reti incantate e superare le illusioni di Malware. Scegliete la vostra casata magica, mettetevi comodi davanti agli schermi e, quando siete pronti, digitate il vostro primo codice segreto per rompere il primo incantesimo!",
+  "outro": "Ci siete riusciti, la magia è compiuta! Non appena l'ultima prova è stata superata, dai vostri schermi è scaturita una luce dorata e brillante. La luce ha attraversato tutta l'aula ed è finita dritta sulla chiavetta USB dove era rinchiuso il Preside. Con un fragoroso scoppio di scintille blu, l'incantesimo di Malware si è rotto in mille pezzi e il Grande Mago è tornato alla sua grandezza naturale, sano e salvo! Lo Stregone Malware, rendendosi conto della potenza dei vostri incantesimi informatici, ha lanciato un urlo di terrore, gli è caduto il cappello a punta e se l'è data a gambe scomparendo in una nuvola di fumo nero, per non farsi vedere mai più! Il Preside si sta spolverando il mantello e vi ringrazia di cuore: avete salvato l'Accademia dimostrando che logica, intelligenza e lavoro di squadra sono la magia più potente di tutte. Ma ora, togliamoci i cappelli a punta e diamo uno sguardo al grande tabellone luminoso... quale casata magica avrà dimostrato di essere la più abile?",
+  "steps": [
+    {
+      "id": 1,
+      "title": "🛡️ Lo Stemma della Casata",
+      "description": "Ogni casata magica ha il suo stemma! Disegnate a mano lo stemma ufficiale della vostra casata con: uno scudo, un motto inventato, i colori ufficiali e un animale totemico con corona. Poi su Word create una scheda con lo stemma e la storia della casata: chi può entrare, quali sono i suoi valori e la sua specialità magica.",
+      "answer": "Nessuna risposta corretta — verificare: stemma con scudo, motto, colori, animale totemico; scheda Word con storia e valori della casata."
+    },
+    {
+      "id": 2,
+      "title": "🃏 Le Carte Incantesimo",
+      "description": "Ogni mago ha il suo mazzo di carte! Su Word create 5 schede incantesimo come quelle di un gioco di carte collezionabili. Ognuna deve avere: nome dell'incantesimo, livello di difficoltà (stelle), ingredienti necessari, effetto e almeno un effetto collaterale divertente. Cercate un'immagine su Google per almeno 2 carte.",
+      "answer": "Nessuna risposta corretta — verificare: 5 carte ognuna con nome/stelle/ingredienti/effetto/effetto collaterale, almeno 2 immagini da Google."
+    },
+    {
+      "id": 3,
+      "title": "🌀 Il Labirinto del Cristallo",
+      "description": "Per raggiungere la chiavetta USB col Preside bisogna attraversare il Labirinto del Cristallo! Disegnate su carta un labirinto CIRCOLARE (ad anelli concentrici, come una cipolla) con il Grande Server al centro. Inserite porte chiuse, trappole con creature magiche e scorciatoie. Il labirinto deve essere simmetrico. Risolvete il labirinto prima di mostrarlo.",
+      "answer": "Nessuna risposta corretta — verificare: forma circolare con anelli, lucchetti/trappole/scorciatoie, simmetria sinistra/destra, soluzione tracciata."
+    },
+    {
+      "id": 4,
+      "title": "⚔️ Il Duello Magico",
+      "description": "I maghi si sfidano a duello! Ognuno è un mago con 3 incantesimi, ognuno con il suo gesto fisico unico. Stabilite le regole su chi batte chi (stile carta-forbice-sasso) e scrivetele su carta. Poi simulate almeno 3 duelli 1vs1 davanti all'insegnante. Registrate i risultati in un tabellone.",
+      "answer": "Nessuna risposta corretta — verificare: ogni membro ha 3 incantesimi con gesto, regole scritte, tabellone di almeno 3 duelli, simulazione dal vivo."
+    },
+    {
+      "id": 5,
+      "title": "📜 Il Bestiario Magico",
+      "description": "La biblioteca dell'Accademia ha perso il suo bestiario! Ricostruitelo con 5 creature magiche completamente inventate. Per ognuna: nome, immagine trovata su Google e modificata in Paint, habitat, poteri speciali e come domarla o calmarla.",
+      "answer": "Nessuna risposta corretta — verificare: 5 creature inventate, ognuna con immagine modificata, habitat, poteri e modo di domarla."
+    },
+    {
+      "id": 6,
+      "title": "⭐ Il Cielo degli Stregoni",
+      "description": "Gli stregoni leggono il futuro nelle stelle! Cercate su Google i dati di 8 stelle visibili a occhio nudo (nome, costellazione, distanza in anni luce, temperatura, colore) e inseriteli in un foglio di calcolo. Ordinate la tabella per distanza, create un grafico a barre con le distanze e rispondete: quale stella è la più vicina? E la più calda?",
+      "answer": "Risposta attesa: la stella più vicina visibile a occhio nudo è Sirio (~8,6 anni luce). La più calda tra le più luminose è Rigel (~12.000 K) o Spica (~25.000 K) secondo le stelle scelte. Verificare ordinamento e grafico a barre."
+    },
+    {
+      "id": 7,
+      "title": "🔏 Il Codice Segreto della Casata",
+      "description": "Ogni casata ha un codice per comunicare! Inventate un codice dove ogni lettera dell'alfabeto è un simbolo disegnato a mano (forme geometriche, rune inventate — non lettere di altri alfabeti). Disegnate la tabella completa come 'Tomo Segreto della Casata', poi codificate il messaggio: 'LA MAGIA VERA VIVE NEL CUORE DI CHI CREDE'. L'insegnante deve poterlo decodificare.",
+      "answer": "Verificare che la tabella abbia 21 simboli univoci e che il messaggio 'LA MAGIA VERA VIVE NEL CUORE DI CHI CREDE' sia correttamente codificato e decodificabile con la tabella fornita."
+    },
+    {
+      "id": 8,
+      "title": "🪐 I Pianeti dei Maghi",
+      "description": "I maghi controllano i pianeti! Create una presentazione (una slide per pianeta più copertina) intitolata 'Il Sistema Solare visto da un Mago'. Per ogni pianeta: immagine reale trovata su Google, nome magico inventato, un incantesimo che si può lanciare solo da lì e un fatto scientifico reale.",
+      "answer": "Nessuna risposta corretta — verificare: copertina con titolo e nomi, 8 slide con immagine reale/nome magico/incantesimo inventato/fatto scientifico per ogni pianeta."
+    },
+    {
+      "id": 9,
+      "title": "🧪 La Pozione della Liberazione",
+      "description": "Bisogna preparare la pozione per liberare il Preside! Scrivete su carta la ricetta completa con almeno 8 ingredienti fantastici e il procedimento. Poi recitate la preparazione: uno legge i passi mentre gli altri fanno i gesti. Infine inventate una filastrocca di almeno 6 versi da recitare tutti in coro mentre lanciate la pozione.",
+      "answer": "Nessuna risposta corretta — verificare: ricetta con almeno 8 ingredienti e procedimento, recitazione con gesti, filastrocca di almeno 6 versi recitata in coro."
+    },
+    {
+      "id": 10,
+      "title": "🏅 Il Torneo delle Casate",
+      "description": "Le 5 casate si sfidano nel torneo annuale! Create il tabellone a eliminazione diretta (quarti, semifinali, finale) e inventate 3 categorie di sfida. Assegnate i punteggi per ogni match. In un foglio di calcolo create la classifica finale usando le formule di somma. Chi vince il torneo?",
+      "answer": "Nessuna risposta corretta — verificare: tabellone con quarti/semifinali/finale, 3 categorie, punteggi assegnati, formula di somma nel foglio di calcolo, vincitore decretato."
+    },
+    {
+      "id": 11,
+      "title": "🏰 I Castelli dei Maghi",
+      "description": "Lo Stregone Malware potrebbe nascondersi in un castello reale! Usate Google Maps per trovare 5 castelli veri nel mondo che potrebbero essere l'Accademia di Magia. Per ognuno: screenshot in mappa normale e satellite, nome e paese, e perché sarebbe perfetto per i maghi.",
+      "answer": "Nessuna risposta corretta — verificare: 5 castelli reali con screenshot mappa+satellite, nome/paese e motivazione per ognuno."
+    },
+    {
+      "id": 12,
+      "title": "📖 Il Grimorio Personale",
+      "description": "Ogni mago degno di questo nome ha il suo Grimorio! Ognuno crea su carta la propria pagina con: nome del mago inventato, un incantesimo personale con il suo simbolo magico, le istruzioni d'uso in rima, i pericoli se mal lanciato e quando è più potente. Poi, in cerchio, ognuno recita la propria pagina ad alta voce come se stesse attivando il libro.",
+      "answer": "Nessuna risposta corretta — verificare: pagina per ogni membro con simbolo, istruzioni in rima, pericoli e momento di potere; recitazione dal vivo di ogni pagina."
+    },
+    {
+      "id": 13,
+      "title": "🔎 Caccia agli Errori Magici",
+      "description": "Lo Stregone Malware ha manomesso i testi dell'Accademia! L'insegnante vi consegnerà un testo con 10 errori intenzionali. Trovate tutti gli errori, correggeteli sul testo e spiegate per ognuno perché era sbagliato e qual è la forma corretta. Bisogna trovarne almeno 8 su 10.",
+      "answer": "L'insegnante deve preparare un testo con esattamente 10 errori. La prova è superata se la squadra trova e corregge correttamente almeno 8 errori con la spiegazione del perché."
+    },
+    {
+      "id": 14,
+      "title": "🗺️ La Mappa dei Portali",
+      "description": "I portali magici collegano il mondo intero! Disegnate a mano il planisfero e posizionate 8 portali in luoghi geografici reali verificati su Maps. Per ogni portale: un simbolo, un nome magico inventato, dove porta e chi lo custodisce. Collegate i portali con linee colorate che formino una figura geometrica. Aggiungete una legenda.",
+      "answer": "Nessuna risposta corretta — verificare: planisfero disegnato a mano, 8 portali in luoghi reali, simbolo/nome/destinazione/custode per ognuno, linee colorate che formano una figura geometrica, legenda presente."
+    },
+    {
+      "id": 15,
+      "title": "🎓 Il Giuramento della Casata",
+      "description": "Il Preside è libero! La casata deve pronunciare il Giuramento Ufficiale. Su Word scrivete il giuramento diviso in 3 parti (Promesse al Preside, tra compagni, al mondo della Magia). Deve includere una parte da dire tutti in coro e finire con un gesto comune della casata. Recitate il giuramento a memoria davanti all'insegnante.",
+      "answer": "Nessuna risposta corretta — verificare: 3 sezioni, parte in coro, gesto finale comune, recitazione a memoria senza guardare il foglio."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "spazio",
+  "slug": "naufragio-spaziale",
+  "title": "Naufragio Spaziale",
+  "subtitle": "Ripara la Galactica e torna a casa!",
+  "intro": "Tutto procedeva alla perfezione a bordo della super-navicella scolastica 'Galactica'. Eravamo partiti per una fantastica gita spaziale, navigando tra le stelle per studiare da vicino gli anelli di Saturno. Le macchinette sfornavano panini spaziali a zero gravità e si stava benissimo. Ma, all'improvviso, BOOM! Abbiamo attraversato una turbolenta pioggia di meteoriti dispettosi. Uno di questi sassi spaziali ha colpito l'antenna principale, mandando in tilt l'intero sistema di navigazione. Le luci in cabina sono diventate rosse, le sirene hanno iniziato a suonare e i motori si sono spenti. Peggio ancora, ci siamo persi in una galassia sconosciuta e i radar segnalano che dei buffi ma appiccicosi alieni verdi stanno arrivando per smontare la nostra nave e usarla come pezzo di ricambio per i loro dischi volanti! Il computer centrale è andato in blocco di sicurezza e ha nascosto i manuali di riparazione in giro per i vari terminali. Ora tocca a voi, la nostra squadra speciale di Ingegneri Spaziali! Dovrete usare i vostri computer di bordo per ricalibrare i sensori, riparare i circuiti e superare i blocchi informatici per far ripartire i motori prima che gli alieni ci svitino le ali. Scegliete il vostro equipaggio, allacciate le cinture di sicurezza e inserite il primo codice di emergenza per iniziare le riparazioni. La Terra ci aspetta!",
+  "outro": "Missione compiuta, ingegneri! Appena avete inserito l'ultimo dato corretto nei vostri terminali, le fastidiose luci rosse si sono spente e un rassicurante bagliore azzurro ha illuminato la plancia di comando. I motori principali hanno fatto un rombo fortissimo – VROOOOSH! – e la Galactica è scattata in avanti alla velocità della luce, lasciandosi alle spalle i buffi alieni verdi proprio mentre stavano per svitare il nostro tubo di scappamento! In pochi istanti, il nostro bellissimo e rassicurante pianeta blu è ricomparso dai finestrini. Siamo sani e salvi! Il computer di bordo è tornato a funzionare perfettamente e vi invia un messaggio di congratulazioni: senza la vostra freddezza e le vostre abilità davanti allo schermo, staremmo ancora fluttuando nello spazio profondo. Avete dimostrato che un vero equipaggio non va in panico, ma lavora insieme per risolvere i problemi. Ma ora, togliamoci i caschi spaziali e diamo un'occhiata al radar dei punteggi... quale equipaggio sarà stato il più veloce a riparare la nave?",
+  "steps": [
+    {
+      "id": 1,
+      "title": "🖥️ La Plancia di Comando",
+      "description": "L'impatto ha distrutto le planimetrie della nave! Ridisegnate su carta la plancia di comando della Galactica vista dall'alto. Deve avere almeno 12 strumenti con nome e funzione, lo schermo principale al centro e un sedile per ogni membro dell'equipaggio. Colorate in verde i sistemi funzionanti e in rosso quelli danneggiati.",
+      "answer": "Nessuna risposta corretta — verificare: almeno 12 strumenti con nome e funzione, schermo centrale, sedili per ogni membro, colorazione verde/rosso dei sistemi."
+    },
+    {
+      "id": 2,
+      "title": "📔 Il Log di Bordo",
+      "description": "Il registro della Galactica è andato perso! Su Word ricostruite il log dei 5 giorni precedenti al naufragio. Per ogni giorno: data galattica inventata, coordinate, velocità, almeno 3 eventi e stato dei sistemi. Il Giorno 5 deve descrivere l'impatto con i meteoriti in modo drammatico.",
+      "answer": "Nessuna risposta corretta — verificare: 5 giorni con data galattica/coordinate/velocità/almeno 3 eventi/stato sistemi, Giorno 5 con descrizione drammatica dell'impatto."
+    },
+    {
+      "id": 3,
+      "title": "🪐 Il Sistema Solare in Scala",
+      "description": "Il sistema di navigazione ha perso le distanze reali! Cercate su Google le distanze dei pianeti dal Sole in milioni di km. Create su carta una rappresentazione in scala con ogni pianeta alla sua distanza giusta (potete unire più fogli). Colorate ogni pianeta del suo colore reale e scrivete un fatto curioso per ognuno.",
+      "answer": "Risposta attesa (distanze medie dal Sole): Mercurio 57,9 | Venere 108,2 | Terra 149,6 | Marte 227,9 | Giove 778,5 | Saturno 1.432 | Urano 2.867 | Nettuno 4.515 milioni di km. Verificare che le posizioni siano proporzionalmente corrette rispetto alla scala dichiarata."
+    },
+    {
+      "id": 4,
+      "title": "🚀 I Calcoli del Rientro",
+      "description": "Il computer è rotto: i calcoli vanno fatti a mano! Risolvete su carta questi 4 problemi mostrando tutti i passaggi: (1) La Terra è a 4,2 anni luce. La nave viaggia a 0,1 volte la velocità della luce. Quanti anni ci vorranno? (2) Avete 450 unità di carburante, consumo 12 unità per anno luce. Basta per tornare? (3) L'ossigeno dura 8 mesi ma le riparazioni ne consumano il 25% in più. Quanti giorni vi rimangono? (4) La nave perde il 3% di energia all'ora. Da quante ore ha subito i danni se ora è all'84%?",
+      "answer": "Risposte: (1) 4,2 ÷ 0,1 = 42 anni | (2) 450 ÷ 12 = 37,5 anni luce — sì, è sufficiente (37,5 > 4,2) | (3) 8 mesi = 240 giorni; con +25% consumo → 240 ÷ 1,25 = 192 giorni | (4) 100% − 84% = 16%; 16 ÷ 3 = 5,33 ore ≈ 5 ore e 20 minuti."
+    },
+    {
+      "id": 5,
+      "title": "🆘 SOS Multiformato",
+      "description": "Le radio sono rotte: il segnale deve arrivare in 3 modi! (1) Su Word scrivete il messaggio radio formale MAYDAY con nome nave, coordinate, tipo di emergenza e richiesta di soccorso. (2) Su carta disegnate il segnale SOS in codice Morse (punto = cerchio, linea = rettangolo). (3) Con i vostri corpi formate S-O-S: S = braccia incrociate diagonali, O = braccia a cerchio sopra la testa. Eseguite (3) davanti all'insegnante.",
+      "answer": "Risposta corretta del Morse: · · · — — — · · · (tre punti, tre linee, tre punti). Verificare: (1) messaggio MAYDAY completo; (2) disegno Morse corretto; (3) esecuzione corporea S-O-S corretta."
+    },
+    {
+      "id": 6,
+      "title": "🌍 Geografie Spaziali sulla Terra",
+      "description": "Per rientrare dobbiamo riconoscere i paesaggi terrestri dal satellite! Usate Google Maps per trovare: 1) Il Cratere Barringer in Arizona, USA (un vero cratere da meteorite) 2) Il deserto di Wadi Rum in Giordania (usato come set di film di Marte) 3) La città chiamata 'Mars' in Pennsylvania, USA 4) L'Osservatorio di Monte Palomar in California 5) Le Saline di Salar de Uyuni in Bolivia. Per ognuno: screenshot e perché sembra un posto spaziale.",
+      "answer": "Risposta attesa: 1) Barringer Meteor Crater, Arizona, USA | 2) Wadi Rum, Giordania | 3) Mars, Pennsylvania, USA | 4) Palomar Observatory, California, USA | 5) Salar de Uyuni, Bolivia. Verificare screenshot corretti."
+    },
+    {
+      "id": 7,
+      "title": "👨‍🚀 L'Equipaggio Perfetto",
+      "description": "La nave ha bisogno dei migliori! In un foglio di calcolo create la selezione per 8 posti sulla Galactica tra 12 candidati inventati, con colonne per: nome, specializzazione, anni di esperienza, livello competenza (1-10) e lingue parlate. Create una formula per calcolare il punteggio di ognuno e selezionate i top-8. Colorate le loro righe in verde.",
+      "answer": "Nessuna risposta corretta — verificare che la formula del punteggio sia inserita correttamente nel foglio di calcolo, i top-8 siano evidenziati in verde."
+    },
+    {
+      "id": 8,
+      "title": "🔬 Scienza dello Spazio",
+      "description": "L'equipaggio deve conoscere la fisica spaziale! Cercate su Google e scrivete su Word una guida su: (1) Cos'è la velocità di fuga terrestre e quanto vale in km/s; (2) Perché in orbita si è in assenza di gravità pur essendoci la Terra sotto; (3) Cosa succede al corpo umano dopo 6 mesi senza gravità; (4) Come funziona un motore a reazione nello spazio dove non c'è aria.",
+      "answer": "Risposte attese: (1) 11,2 km/s | (2) In orbita si è in caduta libera costante — la velocità orizzontale fa sì che la Terra 'scenda' alla stessa velocità | (3) perdita massa ossea, atrofia muscolare, spostamento fluidi verso la testa, problemi alla vista | (4) III legge di Newton: gas espulsi creano spinta opposta, senza bisogno d'aria."
+    },
+    {
+      "id": 9,
+      "title": "🌌 La Mappa Galattica",
+      "description": "Il sistema di navigazione ha bisogno di una nuova mappa! Su carta A3 (o due A4 uniti) disegnate la Via Lattea a spirale con: la posizione del Sole ('SIAMO QUI ☀️'), il centro galattico, almeno 5 stelle reali vicine al Sole con i loro nomi, la rotta della Galactica e il punto dell'impatto. Aggiungete anche 3 stazioni di rifornimento inventate.",
+      "answer": "Risposta attesa per le stelle vicine al Sole: Proxima Centauri (4,2 al), Alpha Centauri (4,4 al), Stella di Barnard (5,9 al), Wolf 359 (7,8 al), Sirio (8,6 al). Verificare forma a spirale e tutte le indicazioni richieste."
+    },
+    {
+      "id": 10,
+      "title": "🤖 Il Robot di Riparazione",
+      "description": "I robot di bordo sono fuori uso! Costruitene uno usando solo oggetti che avete in questo momento sul banco (matite, gomme, righelli, clip, astucci...). Preparate la scheda tecnica su carta (nome, materiali, funzione). Poi dimostrate che il robot riesce a raccogliere un oggetto posizionato dall'insegnante e spostarlo in un altro posto.",
+      "answer": "Nessuna risposta corretta — verificare: robot costruito con oggetti del banco, scheda tecnica scritta, dimostrazione di raccolta e spostamento dell'oggetto dell'insegnante."
+    },
+    {
+      "id": 11,
+      "title": "📋 Il Protocollo di Emergenza",
+      "description": "La nave non ha protocolli di sicurezza! Su Word scrivete il 'Manuale di Emergenza Spaziale della Galactica' con esattamente 5 protocolli: OSSIGENO SCARSO, INVASIONE ALIENA, MOTORI GUASTI, METEORITE IN ROTTA DI COLLISIONE, AMMUTINAMENTO A BORDO. Ogni protocollo deve avere i passi da seguire in ordine numerico e il responsabile di ogni passo.",
+      "answer": "Nessuna risposta corretta — verificare: esattamente 5 protocolli con i nomi richiesti, ognuno con passi numerati e responsabile per ogni passo."
+    },
+    {
+      "id": 12,
+      "title": "🔭 Esopianeti da Colonizzare",
+      "description": "Se non riusciamo a tornare, serve un pianeta alternativo! Cercate su Google i 5 esopianeti più simili alla Terra. Per ognuno: nome, stella ospite, distanza dalla Terra in anni luce, temperatura media e perché potrebbe essere abitabile. In un foglio di calcolo create un grafico comparativo tra i 5 pianeti per somiglianza con la Terra.",
+      "answer": "Risposta attesa (i più citati): Kepler-442b, Kepler-452b, Proxima Centauri b, TRAPPIST-1e, Kepler-62f. Accettare qualsiasi 5 esopianeti trovati con fonti. Verificare grafico a barre nel foglio di calcolo."
+    },
+    {
+      "id": 13,
+      "title": "🤟 I Segnali dell'Equipaggio",
+      "description": "Le radio sono rotte! Inventate un sistema di segnali con le mani per comunicare in silenzio. Scrivete almeno 10 segnali con disegno del gesto e significato. Poi simulate un'emergenza: un membro è dall'altra parte della stanza e deve ricevere istruzioni in silenzio totale per 'riparare un componente'. La simulazione deve durare almeno 60 secondi.",
+      "answer": "Nessuna risposta corretta — verificare: almeno 10 segnali scritti con disegno e significato, simulazione di almeno 60 secondi in silenzio totale con 'riparazione' completata."
+    },
+    {
+      "id": 14,
+      "title": "👽 Il Registro dei Pianeti Alieni",
+      "description": "La Galactica ha incontrato pianeti sconosciuti! Inventate 8 pianeti alieni con: nome, distanza dal Sole più vicino, diametro, temperatura media, tipo di atmosfera, abitabilità per gli umani e una peculiarità bizzarra e originale. Inseriteli in un foglio di calcolo. Poi disegnate in Paint il pianeta più strano e inseritelo in Word con la sua scheda tecnica.",
+      "answer": "Nessuna risposta corretta — verificare: 8 pianeti nel foglio di calcolo con tutte le colonne, disegno Paint del pianeta più strano inserito in Word con la scheda tecnica."
+    },
+    {
+      "id": 15,
+      "title": "🎬 L'Ammartaggio Eroico",
+      "description": "La Galactica sta per atterrare! Simulate l'atterraggio in una scena di almeno 2 minuti. Ruoli: Pilota (dà ordini tecnici), Ingegnere (annuncia lo stato dei sistemi), Ufficiale Comunicazioni (trasmette i messaggi alla Terra). Preparate le vostre battute su carta, poi recitate dal vivo. Alla fine ognuno dice una frase sull'importanza dell'esplorazione spaziale.",
+      "answer": "Nessuna risposta corretta — verificare: battute scritte su carta per ogni ruolo, scena di almeno 2 minuti con tutti i ruoli attivi, frase finale di ogni membro sull'esplorazione spaziale."
+    }
+  ]
+}
