@@ -9,14 +9,14 @@
     {
       "id": 1,
       "title": "🗺️ La Mappa del Regno",
-      "description": "Bowser ha distrutto tutte le mappe del regno! Ridisegnate a mano su carta la mappa del Regno dei Funghi. Deve avere almeno 8 zone con nome (es. Pianura dei Funghi, Castello di Peach, Vulcano di Bowser...), collegate da strade o fiumi. Ogni zona deve avere un simbolo, la mappa una bussola e una legenda. Coloratela.",
-      "answer": "Nessuna risposta corretta — verificare che la mappa abbia almeno 8 zone nominate con simboli, una bussola, una legenda e colori."
+      "description": "Bowser ha distrutto tutte le mappe del regno! Ridisegnate a mano su carta la mappa del Regno dei Funghi. Deve avere almeno 8 zone con nome (es. Pianura dei Funghi, Castello di Peach, Vulcano di Bowser...), collegate da strade o fiumi. Ogni zona deve avere un simbolo. Coloratela.",
+      "answer": "Nessuna risposta corretta — verificare che la mappa abbia almeno 8 zone nominate con simboli e colori."
     },
     {
       "id": 2,
       "title": "🎨 Il Ritratto in Paint",
-      "description": "Mario ha bisogno di un nuovo alleato: voi! Aprite Paint e disegnatevi come personaggio del mondo Mario (un nuovo Toad, un Koopa buono, un fungo gigante...). Aggiungete uno sfondo a tema Mario, il vostro nome e il vostro superpotere speciale. Salvate come 'eroe_[nome_squadra].png'.",
-      "answer": "Nessuna risposta corretta — verificare che il disegno abbia uno sfondo a tema, il nome e il superpotere indicati, e che il file sia salvato con il nome corretto."
+      "description": "Mario ha bisogno di un nuovo alleato: voi! Aprite Paint e disegnatevi come personaggio del mondo Mario. Aggiungete uno sfondo a tema Mario, il suo nome e il suo superpotere speciale.",
+      "answer": "Nessuna risposta corretta — verificare che il disegno abbia uno sfondo a tema, il nome e il superpotere indicati."
     },
     {
       "id": 3,
@@ -27,8 +27,8 @@
     {
       "id": 4,
       "title": "🕺 La Coreografia di Mario",
-      "description": "Per entrare nel castello di Bowser bisogna conoscere le mosse segrete! Inventate una coreografia di gruppo di almeno 30 secondi ispirata a Mario. Deve includere: il salto con raccolta moneta, la corsa con ostacoli, la mossa power-up, la schivata da un Goomba e il ballo della vittoria finale con 'WAHOO!' gridato tutti insieme.",
-      "answer": "Nessuna risposta corretta — verificare che tutte e 5 le mosse siano presenti, che duri almeno 30 secondi e che tutta la squadra partecipi in modo sincronizzato."
+      "description": "Per entrare nel castello di Bowser bisogna conoscere le mosse segrete! Inventate una coreografia di gruppo di almeno 30 secondi ispirata a Mario.",
+      "answer": "Nessuna risposta corretta — verificare che ci siano le 5 mosse indicate e che la coreografia duri almeno 30 secondi."
     },
     {
       "id": 5,
@@ -39,62 +39,62 @@
     {
       "id": 6,
       "title": "🌀 Il Labirinto Impossibile",
-      "description": "Bowser ha costruito un labirinto per bloccarvi! Disegnate su carta quadrettata un labirinto che va dall'entrata 'Villaggio Toad' all'uscita 'Castello Bowser'. Inserite vicoli ciechi, zone pericolose con Goomba o fiamme e zone power-up con funghi o stelle. Prima di mostrarlo, un compagno deve risolverlo a matita.",
-      "answer": "Nessuna risposta corretta — verificare entrata e uscita con le scritte, presenza di ostacoli e power-up, e che il percorso soluzione sia tracciato a matita e sia percorribile."
+      "description": "Bowser ha costruito un labirinto per bloccarvi! Disegnate su carta un labirinto che va dall'entrata 'Villaggio Toad' all'uscita 'Castello Bowser'. Fate provare al maestro il labirinto, se sarà per lui abbastanza avvincente da passarlo avrete superato lo step.",
+      "answer": "Nessuna risposta corretta — verificare che ci siano l'entrata e l'uscita con i nomi, ostacoli e power-up, e che il maestro possa risolverlo."
     },
     {
       "id": 7,
       "title": "🔍 Il Quiz da Campione",
-      "description": "Bowser ha cancellato tutta la storia di Mario! Cercate su Google le risposte a queste 8 domande e scrivetele su un foglio indicando il sito usato: 1) Anno del primo gioco Mario Bros arcade? 2) Nome del dinosauro verde amico di Mario? 3) In quale paese è nata la saga? 4) Come si chiama il fratello di Mario? 5) Chi ha creato Mario (nome e cognome)? 6) Come si chiama la principessa rapita? 7) Su quale console è uscito Super Mario 64? 8) Come si chiama il cattivo con i guanti bianchi?",
+      "description": "Bowser ha cancellato tutta la storia di Mario! Cercate su Google le risposte a queste 8 domande e scrivetele su un foglio: 1) Anno del primo gioco Mario Bros arcade? 2) Nome del dinosauro verde amico di Mario? 3) In quale paese è nata la saga? 4) Come si chiama il fratello di Mario? 5) Chi ha creato Mario (nome e cognome)? 6) Come si chiama la principessa rapita? 7) Su quale console è uscito Super Mario 64? 8) Come si chiama il cattivo con i guanti bianchi?",
       "answer": "Risposte corrette: 1) 1983 | 2) Yoshi | 3) Giappone | 4) Luigi | 5) Shigeru Miyamoto | 6) Principessa Peach (o Toadstool) | 7) Nintendo 64 | 8) Wario. Verificare anche la fonte citata per ogni risposta."
     },
     {
       "id": 8,
       "title": "🚨 Wanted: Bowser!",
-      "description": "La polizia del regno cerca Bowser! Create su Word un manifesto 'RICERCATO' con: la sua foto trovata su Google, i suoi soprannomi, i suoi crimini più famosi (creativi e divertenti), la ricompensa in monete e l'ultima posizione nota con uno screenshot di Google Maps.",
-      "answer": "Nessuna risposta corretta — verificare: foto di Bowser, soprannomi, crimini creativi, ricompensa in monete, screenshot di Maps per l'ultima posizione."
+      "description": "La polizia del regno cerca Bowser! Create su Word un manifesto 'RICERCATO' con: la sua foto trovata su Google, i suoi soprannomi, i suoi crimini più famosi (creativi e divertenti) e la ricompensa in monete.",
+      "answer": "Nessuna risposta corretta — verificare: foto di Bowser, soprannomi, crimini creativi e ricompensa in monete."
     },
     {
       "id": 9,
-      "title": "🏆 Le Olimpiadi del Regno",
-      "description": "Mario organizza le Olimpiadi del regno! Inventate 6 sport a tema Mario (es. 'Gara di Raccolta Monete', 'Lancio di Guscio Koopa'...). In un foglio di calcolo create la classifica con i punteggi di ogni atleta e decretate il vincitore usando le formule di somma. Colorate le prime 3 posizioni in oro, argento e bronzo.",
-      "answer": "Nessuna risposta corretta — verificare: 6 sport con nomi tematici, classifica nel foglio di calcolo con formula di somma, colorazione oro/argento/bronzo applicata."
+      "title": "🧩 L'Indovinello di Bowser",
+      "description": "Risolvete questo indovinello sul Regno dei Funghi per superare la prova: 'Sono piccolo e rosso con i puntini bianchi, se mi mangi cresci e non sarai mai stanco. Se invece divento verde e ho un numero uno, ti regalo una vita e non mi teme nessuno. Chi sono?' Trovate la risposta e ditela al prof!",
+      "answer": "Risposta corretta: Il Super Fungo (Fungo Rosso) e il Fungo 1UP (Fungo Verde)."
     },
     {
       "id": 10,
-      "title": "⚡ Le Mosse Segrete",
-      "description": "Ogni eroe ha bisogno di mosse speciali! Ognuno inventa la propria mossa con nome epico e gesto fisico. Poi la squadra crea una sequenza combinata — una mossa ciascuno in ordine — che forma l'attacco finale. Memorizzatela ed esibitela davanti all'insegnante nominando ogni mossa ad alta voce durante l'esecuzione.",
-      "answer": "Nessuna risposta corretta — verificare: ogni membro ha la propria mossa su carta, la sequenza ha un nome, dura almeno 20 secondi e ognuno nomina la propria mossa durante l'esecuzione."
+      "title": "🎵 La Canzone del Timer",
+      "description": "Trovate su YouTube la canzone di vittoria di Mario Bros che si attiva quando ci sono due numeri uguali nel timer di fine livello. Se non riuscite a trovarla, chiedete al prof di canticchiarvela!",
+      "answer": "Nessuna risposta corretta — verificare che trovino su YouTube il suono o la melodia corretta di quando le cifre del timer finale sono uguali."
     },
     {
       "id": 11,
-      "title": "📰 Il Fumetto Eroico",
-      "description": "I giornali del regno vogliono raccontare la vostra storia! Create su carta un fumetto di almeno 6 vignette su un episodio della vostra avventura. I personaggi devono parlare nelle nuvolette, la storia deve avere inizio, problema e soluzione. Colorate almeno 3 vignette.",
-      "answer": "Nessuna risposta corretta — verificare: almeno 6 vignette con dialoghi nelle nuvolette, struttura inizio-problema-soluzione, almeno 3 vignette colorate."
+      "title": "🧮 La Super Calcolatrice",
+      "description": "Risolvete questo calcolo lungo usando la calcolatrice del vostro PC: (5430 - 280) * 4 : 2 + 1520. Quando avete il risultato finale, ditelo al prof!",
+      "answer": "Risposta corretta: 11820. Verificare che usino la calcolatrice del PC per fare il calcolo."
     },
     {
       "id": 12,
       "title": "🌍 Mario nel Mondo Reale",
-      "description": "Mario esiste anche nel mondo reale! Usate Google Maps per trovare e documentare: 1) La città chiamata 'Mario' in Texas, USA 2) Il castello di Neuschwanstein in Germania (il castello di Peach!) 3) Una grotta o caverna famosa (stile Mondo Sotterraneo) 4) Un vulcano attivo visto dal satellite 5) Un'isola con una forma curiosa. Per ognuno: screenshot, nome del luogo e perché vi ricorda Mario.",
+      "description": "Mario esiste anche nel mondo reale! Usate Google Maps per trovare e documentare: 1) La città chiamata 'Mario' in Texas, USA 2) Il castello di Neuschwanstein in Germania (il castello di Peach!) 3) Una grotta o caverna famosa 4) Un vulcano attivo visto dal satellite 5) Un'isola con una forma curiosa.",
       "answer": "Risposta attesa: 1) Mario, Texas, USA | 2) Castello di Neuschwanstein, Baviera, Germania | 3) Qualsiasi grotta famosa | 4) Qualsiasi vulcano | 5) Libero. Verificare screenshot e motivazione per ogni luogo."
     },
     {
       "id": 13,
-      "title": "📚 Il Manuale per Novellini",
-      "description": "Un bambino non ha mai sentito parlare di Mario! Su Word scrivete un 'Manuale di Sopravvivenza nel Regno dei Funghi' per chi non sa niente. Deve avere una copertina con immagine, almeno 5 capitoli su personaggi, nemici, power-up, livelli e strategie, e una sezione finale 'Errori da non fare MAI nel regno'.",
-      "answer": "Nessuna risposta corretta — verificare: copertina con immagine, almeno 5 capitoli numerati e titolati, sezione finale 'Errori da non fare MAI'."
+      "title": "🎭 La Scenetta di Bowser",
+      "description": "Preparate ed eseguite una breve scenetta da mostrare al maestro in cui i membri del gruppo inscenano Bowser che avvelena di nascosto il bicchiere di Mario e lo fa svenire.",
+      "answer": "Nessuna risposta corretta — verificare la recitazione della scenetta in cui Bowser avvelena il bicchiere di Mario di nascosto e lo fa svenire."
     },
     {
       "id": 14,
-      "title": "🎵 La Canzone di Mario",
-      "description": "Il regno ha bisogno di un inno! Create una canzone (o rap o filastrocca) originale sulla vostra squadra nel mondo di Mario. Deve menzionare tutti i componenti della squadra, includere almeno 5 elementi di Mario (Bowser, Peach, funghi, stelle, monete...) e avere un ritornello. Imparatela a memoria ed esibitevi davanti all'insegnante.",
-      "answer": "Nessuna risposta corretta — verificare: nomi di tutti i membri presenti, almeno 5 elementi di Mario, ritornello presente, esecuzione a memoria senza guardare il foglio."
+      "title": "🌟 I Power-Up di Super Mario",
+      "description": "Studiate almeno 10 power-up di Super Mario e scrivete i loro nomi su un foglio. Se riuscirete a spiegare al prof cosa fanno tutti i power-up che avete scritto, supererete la prova!",
+      "answer": "Nessuna risposta corretta — verificare la lista di almeno 10 power-up scritti su foglio e che sappiano spiegare oralmente i loro effetti."
     },
     {
       "id": 15,
-      "title": "🎤 Il Discorso del Campione",
-      "description": "Avete sconfitto Bowser e salvato Peach! Ognuno prepara e recita una parte del discorso di vittoria. Il discorso deve: salutare il regno, raccontare la missione, ringraziare almeno 3 personaggi con motivazione e finire con una frase epica detta tutti insieme ad alta voce. Nessuno può leggere dal foglio!",
-      "answer": "Nessuna risposta corretta — verificare: ogni membro dice la propria parte, presenti saluto/missione/ringraziamenti/frase finale in coro, nessuno legge dal foglio."
+      "title": "👥 Gli Abitanti del Regno",
+      "description": "Imparate a memoria almeno 14 personaggi di Super Mario, scriveteli su un foglio e portatelo al maestro. Trovate un'immagine per ogni personaggio che avete scelto su google immagini e scaricatela. Se riuscirete a ricordarli tutti davanti a lui senza guardare il foglio, avrete superato la prova!",
+      "answer": "Nessuna risposta corretta — verificare che abbiano scritto almeno 14 personaggi e che riescano a ricordarli a memoria davanti al docente."
     }
   ]
 }

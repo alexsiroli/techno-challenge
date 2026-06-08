@@ -217,7 +217,7 @@ export default function GameDashboard({ lesson, team, stepOrder, teamPins }: Pro
                     </div>
 
                     {pinError && (
-                      <div className="flex items-center gap-2 text-red-400 text-sm font-bold animate-bounce text-outline">
+                      <div className="flex items-center gap-2 text-red-400 text-sm font-bold animate-bounce">
                         <span>❌</span>
                         <span className={theme.fontClass}>Codice di avvio errato!</span>
                       </div>
@@ -306,7 +306,7 @@ export default function GameDashboard({ lesson, team, stepOrder, teamPins }: Pro
                         </div>
 
                         {pinError && (
-                          <div className="flex items-center gap-2 text-red-400 text-sm font-bold animate-bounce text-outline">
+                          <div className="flex items-center gap-2 text-red-400 text-sm font-bold animate-bounce">
                             <span>❌</span>
                             <span className={theme.fontClass}>
                               {theme.id === 'cyber' ? 'ACCESSO NEGATO' : theme.id === 'magia' ? 'Formula errata!' : 'Codice errato!'}

@@ -57,21 +57,21 @@
       },
       {
         "id": 9,
-        "title": "🏆 Le Olimpiadi del Regno",
-        "description": "Mario vuole organizzare le Olimpiadi! Aprite un foglio di calcolo (Excel o Google Sheets) e create la classifica dei 'Giochi Olimpici del Regno dei Funghi'. Inventate 6 sport a tema Mario (es. 'Gara di Raccolta Monete', 'Lancio di Guscio Koopa', 'Salto sui Blocchi ?'...). Per ogni sport create una tabella con 3 colonne: Atleta (nome inventato), Punteggio, Posizione. I punteggi devono essere inseriti e le posizioni calcolate usando la funzione di ordinamento. Colorate le prime 3 posizioni: oro (giallo), argento (grigio), bronzo (arancione). Fate una classifica finale sommando tutti i punteggi. Mostrate all'insegnante.",
-        "answer": "Nessuna risposta corretta — verificare: 6 sport con nomi tematici, tabelle con Atleta/Punteggio/Posizione, ordinamento applicato, colorazione oro/argento/bronzo, classifica finale con formula di somma."
+        "title": "🧩 L'Indovinello di Bowser",
+        "description": "Risolvete questo indovinello sul Regno dei Funghi per superare la prova: 'Sono piccolo e rosso con i puntini bianchi, se mi mangi cresci e non sarai mai stanco. Se invece divento verde e ho un numero uno, ti regalo una vita e non mi teme nessuno. Chi sono?' Trovate la risposta e ditela al prof!",
+        "answer": "Risposta corretta: Il Super Fungo (Fungo Rosso) e il Fungo 1UP (Fungo Verde)."
       },
       {
         "id": 10,
-        "title": "⚡ Le Mosse Segrete",
-        "description": "Ogni eroe ha bisogno di mosse speciali per combattere Bowser! Ogni membro della squadra deve inventare una propria 'mossa speciale' ispirata al mondo Mario, darle un nome epico, e abbinarci un gesto fisico. Scrivetele tutte su carta in una lista. Poi create una SEQUENZA COMBINATA: una mossa ciascuno, in ordine, che forma un attacco finale della squadra. Dovete memorizzare la sequenza e eseguirla davanti all'insegnante nominando OGNI mossa ad alta voce mentre la eseguite (es. 'FUNGO GIGANTE!' → tutti saltano in su; 'PALLA DI FUOCO!' → gesto di lancio...). La sequenza deve avere un nome e durare almeno 20 secondi.",
-        "answer": "Nessuna risposta corretta — verificare: ogni membro ha la propria mossa su carta, la sequenza combinata ha un nome, dura ≥20 secondi, ognuno nomina la propria mossa durante l'esecuzione."
+        "title": "🎵 La Canzone del Timer",
+        "description": "Trovate su YouTube la canzone di vittoria di Mario Bros che si attiva quando ci sono due numeri uguali nel timer di fine livello. Se non riuscite a trovarla, chiedete al prof di canticchiarvela!",
+        "answer": "Nessuna risposta corretta — verificare che trovino su YouTube il suono o la melodia corretta di quando le cifre del timer finale sono uguali."
       },
       {
         "id": 11,
-        "title": "📰 Il Fumetto Eroico",
-        "description": "I giornali del regno vogliono raccontare la vostra storia! Create su carta un fumetto di almeno 6 vignette che racconta UN episodio della vostra avventura di oggi (anche inventato). Regole: ogni vignetta deve avere i dialoghi scritti nei fumetti (quelli a nuvoletta), i personaggi devono essere riconoscibili con il nome scritto sotto, almeno 3 vignette devono essere colorate, la storia deve avere inizio-problema-soluzione. Potete disegnare voi stessi come personaggi. Mostrate il fumetto all'insegnante che valuterà chiarezza e creatività.",
-        "answer": "Nessuna risposta corretta — verificare: ≥6 vignette, dialoghi in fumetti, nomi sotto i personaggi, ≥3 vignette colorate, struttura narrativa inizio-problema-soluzione presente."
+        "title": "🧮 La Super Calcolatrice",
+        "description": "Risolvete questo calcolo lungo usando la calcolatrice del vostro PC: (5430 - 280) * 4 : 2 + 1520. Quando avete il risultato finale, ditelo al prof!",
+        "answer": "Risposta corretta: 11820. Verificare che usino la calcolatrice del PC per fare il calcolo."
       },
       {
         "id": 12,
@@ -81,21 +81,21 @@
       },
       {
         "id": 13,
-        "title": "📚 Il Manuale per Novellini",
-        "description": "Un bambino non ha mai sentito parlare di Mario! Scrivete su Word un 'Manuale di Sopravvivenza nel Regno dei Funghi' per chi non sa assolutamente niente di Mario. Deve avere: una copertina con titolo e immagine trovata su Google, almeno 5 capitoli numerati con titolo (es. 'Capitolo 1: Chi è Mario', 'Capitolo 2: I nemici pericolosi', 'Capitolo 3: I power-up che salvano la vita'...), ogni capitolo lungo almeno 4 righe, almeno 3 immagini trovate su Google, e una sezione finale 'Errori da non fare MAI nel regno'. Il manuale deve occupare almeno 2 pagine. Mostrate all'insegnante.",
-        "answer": "Nessuna risposta corretta — verificare: copertina con immagine, ≥5 capitoli numerati e titolati con ≥4 righe ciascuno, ≥3 immagini, sezione 'Errori da non fare MAI', almeno 2 pagine totali."
+        "title": "🎭 La Scenetta di Bowser",
+        "description": "Preparate ed eseguite una breve scenetta da mostrare al maestro in cui i membri del gruppo inscenano Bowser che avvelena di nascosto il bicchiere di Mario e lo fa svenire.",
+        "answer": "Nessuna risposta corretta — verificare la recitazione della scenetta in cui Bowser avvelena il bicchiere di Mario di nascosto e lo fa svenire."
       },
       {
         "id": 14,
-        "title": "🎵 La Canzone di Mario",
-        "description": "Il regno ha bisogno di un inno! Create una canzone (o rap o filastrocca) originale sulla vostra squadra nel mondo di Mario. Deve: durare almeno 45 secondi quando cantata/recitata, avere almeno 8 versi scritti su carta, menzionare tutti i membri della squadra, includere almeno 5 personaggi o elementi di Mario (Bowser, Peach, funghi, stelle, monete...), e avere un ritornello ripetuto almeno 2 volte. Scrivetela su carta, imparatela a memoria, e eseguitela TUTTA INSIEME davanti all'insegnante con la voce. Nessun foglio in mano durante l'esecuzione!",
-        "answer": "Nessuna risposta corretta — verificare: ≥45 secondi di esecuzione, testo scritto con ≥8 versi, tutti i nomi dei membri presenti, ≥5 elementi di Mario, ritornello ripetuto ≥2 volte, nessuno legge dal foglio durante l'esecuzione."
+        "title": "🌟 I Power-Up di Super Mario",
+        "description": "Studiate almeno 10 power-up di Super Mario e scrivete i loro nomi su un foglio. Se riuscirete a spiegare al prof cosa fanno tutti i power-up che avete scritto, supererete la prova!",
+        "answer": "Nessuna risposta corretta — verificare la lista di almeno 10 power-up scritti su foglio e che sappiano spiegare oralmente i loro effetti."
       },
       {
         "id": 15,
-        "title": "🎤 Il Discorso del Campione",
-        "description": "Avete sconfitto Bowser e salvato Peach! Ora dovete tenere il discorso ufficiale di vittoria. Create su Word un discorso di gruppo di almeno 15 righe che OGNI membro recita in parte davanti all'insegnante. Il discorso deve includere: il saluto ufficiale al regno, la descrizione della missione (cosa avete affrontato oggi), il momento più difficile e come l'avete superato, i ringraziamenti (almeno 3 personaggi da ringraziare con motivazione), la morale della storia (cosa avete imparato), e una frase finale epica detta TUTTI INSIEME ad alta voce. Ogni membro deve dire almeno 2 righe. Nessuno può leggere dal foglio durante l'esecuzione: dovete saperlo!",
-        "answer": "Nessuna risposta corretta — verificare: documento Word ≥15 righe, ogni membro dice ≥2 righe a memoria, presenti tutti gli elementi richiesti (saluto, missione, momento difficile, ringraziamenti ×3, morale, frase finale in coro)."
+        "title": "👥 Gli Abitanti del Regno",
+        "description": "Imparate a memoria almeno 14 personaggi di Super Mario, scriveteli su un foglio e portatelo al maestro. Trovate un'immagine per ogni personaggio che avete scelto su google immagini e scaricatela. Se riuscirete a ricordarli tutti davanti a lui senza guardare il foglio, avrete superato la prova!",
+        "answer": "Nessuna risposta corretta — verificare che abbiano scritto almeno 14 personaggi e che riescano a ricordarli a memoria davanti al docente."
       }
     ]
   },
