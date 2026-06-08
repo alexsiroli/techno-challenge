@@ -259,21 +259,33 @@ export default function GameDashboard({ lesson, team, stepOrder, teamPins }: Pro
                       {currentChallenge?.description}
                     </div>
 
-                    {currentStepIndex < totalSteps - 1 ? (
-                      // Form per inserire il codice per passare al prossimo step
+                    {currentStepIndex < totalSteps ? (
+                      // Form per inserire il codice per passare al prossimo step o vincere
                       <form onSubmit={handlePinSubmit} className="flex flex-col items-center gap-4 mt-6 border-t pt-6 border-dashed border-gray-600/30">
                         <div className={`text-center mb-2`}>
                           <p className={`${theme.subtext} text-sm mb-1 ${theme.fontClass}`}>
-                            {theme.id === 'cyber'
-                              ? 'INSERISCI CODICE DI ACCESSO PROSSIMO FILE'
-                              : theme.id === 'magia'
-                                ? 'Formula magica per la prossima pergamena'
-                                : theme.id === 'spazio'
-                                  ? 'CODICE DI AUTORIZZAZIONE PROSSIMO SETTORE'
-                                  : 'Inserisci il PIN per sbloccare lo step successivo'}
+                            {currentStepIndex === totalSteps - 1 ? (
+                              theme.id === 'cyber'
+                                ? 'INSERISCI CHIAVE DI DECRITTAZIONE FINALE'
+                                : theme.id === 'magia'
+                                  ? 'Formula magica finale per salvare il Preside'
+                                  : theme.id === 'spazio'
+                                    ? 'CODICE DI AUTORIZZAZIONE ROTTA DI RIENTRO'
+                                    : 'Inserisci il PIN di completamento'
+                            ) : (
+                              theme.id === 'cyber'
+                                ? 'INSERISCI CODICE DI ACCESSO PROSSIMO FILE'
+                                : theme.id === 'magia'
+                                  ? 'Formula magica per la prossima pergamena'
+                                  : theme.id === 'spazio'
+                                    ? 'CODICE DI AUTORIZZAZIONE PROSSIMO SETTORE'
+                                    : 'Inserisci il PIN per sbloccare lo step successivo'
+                            )}
                           </p>
                           <p className={`${theme.text} text-xs opacity-80 ${theme.fontClass}`}>
-                            Completa la prova sopra e inserisci il PIN dato dal professore per avanzare
+                            {currentStepIndex === totalSteps - 1
+                              ? 'Mostrate l\'ultimo compito completato al professore per ricevere il codice finale!'
+                              : 'Completa la prova sopra e inserisci il PIN dato dal professore per avanzare'}
                           </p>
                         </div>
 
@@ -326,32 +338,27 @@ export default function GameDashboard({ lesson, team, stepOrder, teamPins }: Pro
                             ${theme.id === 'cyber' ? 'border border-green-500' : ''}
                           `}
                         >
-                          {theme.id === 'cyber' ? '> SBLOCCA FILE_' : theme.id === 'magia' ? '✨ Avanza!' : theme.id === 'spazio' ? '⚡ CONFERMA' : '🔓 Prova Superata!'}
+                          {currentStepIndex === totalSteps - 1 ? (
+                            theme.id === 'cyber'
+                              ? '> COMPLETA LA MISSIONE_'
+                              : theme.id === 'magia'
+                                ? '✨ Spezza l\'incantesimo!'
+                                : theme.id === 'spazio'
+                                  ? '⚡ ATTERRA'
+                                  : '🏆 COMPLETA LA MISSIONE!'
+                          ) : (
+                            theme.id === 'cyber'
+                              ? '> SBLOCCA FILE_'
+                              : theme.id === 'magia'
+                                ? '✨ Avanza!'
+                                : theme.id === 'spazio'
+                                  ? '⚡ CONFERMA'
+                                  : '🔓 Prova Superata!'
+                          )}
                         </button>
                       </form>
                     ) : (
-                      // Ultimo step sbloccato: solo Bottone di Fine Missione
-                      <div className="flex flex-col items-center gap-4 mt-6 border-t pt-6 border-dashed border-gray-600/30 text-center">
-                        <div className="mb-2">
-                          <p className={`${theme.subtext} text-sm mb-1 ${theme.fontClass}`}>
-                            COMPLIMENTI! AVETE ULTIMATO L&apos;ULTIMA MISSIONE
-                          </p>
-                          <p className={`${theme.text} text-xs opacity-80 ${theme.fontClass}`}>
-                            Fate controllare il lavoro finale al professore per completare ufficialmente la sfida
-                          </p>
-                        </div>
-                        <button
-                          onClick={() => setIsComplete(true)}
-                          className={`
-                            px-10 py-5 rounded-xl font-bold ${theme.buttonText || 'text-white'} text-xl
-                            ${theme.buttonBg} ${theme.buttonHover}
-                            transition-all transform hover:scale-110 shadow-lg animate-pulse-glow
-                            ${theme.fontClass}
-                          `}
-                        >
-                          🏆 COMPLETA LA MISSIONE!
-                        </button>
-                      </div>
+                      null
                     )}
                   </div>
                 </div>

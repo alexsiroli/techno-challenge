@@ -109,93 +109,93 @@
     "steps": [
       {
         "id": 1,
-        "title": "🛡️ Lo Stemma della Casata",
-        "description": "Ogni casata magica ha il suo stemma! Disegnate a mano su carta lo stemma ufficiale della vostra casata. Deve avere: uno scudo diviso in 4 parti (ognuna con un simbolo diverso che rappresenta un valore della casata), un motto inventato scritto sotto (può essere in italiano, latino, o in una lingua fantastica), i colori ufficiali (massimo 3), e un animale totemico con corona. Poi aprite Word e create una scheda ufficiale con: lo stemma disegnato (fotografato con webcam o ridisegnato in Paint), il nome della casata, il motto spiegato, e una descrizione della casata di almeno 8 righe (storia, valori, chi può entrare). Mostrate tutto all'insegnante.",
-        "answer": "Nessuna risposta corretta — verificare: stemma con 4 simboli, motto, ≤3 colori, animale totemico; scheda Word con stemma, nome, motto spiegato, descrizione ≥8 righe."
+        "title": "🎮 Geometry Dash",
+        "description": "Trovate un computer della scuola connesso a Internet. Aprite Google e cercate 'geometry lite pc'. Aprite il sito e cercate il gioco 'Geometry Dash'. L'obiettivo è avviare il gioco e riuscire a completare un livello a vostra scelta. Quando ci siete riusciti, chiamate il professore per fargli vedere la schermata finale e ottenere il codice segreto!",
+        "answer": "Nessuna risposta corretta — verificare a schermo il completamento di un livello di Geometry Dash."
       },
       {
         "id": 2,
-        "title": "🃏 Le Carte Incantesimo",
-        "description": "Ogni mago ha il suo mazzo di carte speciali! Su Word, create 5 'schede incantesimo' come quelle di un gioco di carte collezionabili. Ogni carta deve essere separata da una riga decorativa e avere: nome dell'incantesimo (creativo!), livello di difficoltà (da 1 a 5 stelle disegnate), ingredienti necessari (almeno 3 ingredienti bizzarri), effetto dell'incantesimo (cosa fa esattamente), durata, e almeno un effetto collaterale divertente. Usate font eleganti per i nomi, bordi decorativi (opzione Bordi di Word), e cercate un'immagine su Google per almeno 2 carte. Mostrate all'insegnante.",
-        "answer": "Nessuna risposta corretta — verificare: 5 carte, ognuna con nome/stelle/≥3 ingredienti/effetto/durata/effetto collaterale, bordi decorativi applicati, ≥2 immagini da Google."
+        "title": "🪄 Progetta la tua Bacchetta Magica",
+        "description": "Ogni mago ha bisogno del suo strumento! Ciascun membro della squadra deve prendere un foglio e disegnare la propria bacchetta magica. Dovete colorarla e scrivere accanto: il materiale di cui è fatta (es. legno di ciliegio con piuma di fenice) e il potere speciale unico che possiede (es. fa lievitare gli oggetti, lancia scintille curative, crea illusioni). Quando ognuno ha finito il proprio disegno, mostrateli tutti insieme al professore per ottenere il codice!",
+        "answer": "Nessuna risposta corretta — verificare che ciascun membro della squadra abbia disegnato e colorato la propria bacchetta descrivendone il materiale e il potere speciale."
       },
       {
         "id": 3,
-        "title": "🌀 Il Labirinto del Cristallo",
-        "description": "Per raggiungere la chiavetta USB col Preside bisogna attraversare il Labirinto del Cristallo! Disegnate su carta un labirinto CIRCOLARE (ad anelli concentrici, come una cipolla) invece del classico rettangolare. Al centro c'è il 'Grande Server di Cristallo'. Deve avere: almeno 4 anelli concentrici con corridoi, porte chiuse (disegnate dei lucchetti), 3 false vie che portano a trappole (disegnate creature magiche), e almeno 2 scorciatoie. La particolarità: il labirinto deve essere simmetrico — il lato sinistro e il lato destro devono essere speculari. Risolvete il labirinto voi stessi con un colore diverso per ogni anello attraversato, poi mostrate all'insegnante.",
-        "answer": "Nessuna risposta corretta — verificare: forma circolare con ≥4 anelli, lucchetti sulle porte, ≥3 false vie con trappole, ≥2 scorciatoie, simmetria sinistra/destra, soluzione tracciata con colori diversi per anello."
+        "title": "🎮 Subway Surfers",
+        "description": "Aprite Google sul computer e cercate 'geometry lite pc'. Cercate all'interno del sito il gioco 'Subway Surfers' (o 'Subway Surfer'). L'obiettivo della squadra è giocare e riuscire a raggiungere un punteggio di almeno 15.000 punti raccogliendo contemporaneamente almeno 300 monete in una sola corsa. Mostrate il punteggio al professore per sbloccare il codice!",
+        "answer": "Nessuna risposta corretta — verificare a schermo il raggiungimento di almeno 15.000 punti e 300 monete in Subway Surfers."
       },
       {
         "id": 4,
-        "title": "⚔️ Il Duello Magico",
-        "description": "I maghi si sfidano a duello! Inventate un gioco di duello fisico: ogni membro della squadra è un mago con 3 incantesimi. Create su carta le 'schede personaggio' di tutti (nome del mago, 3 incantesimi ognuno con il proprio gesto fisico unico). Stabilite le regole: quale incantesimo batte quale (stile carta-forbice-sasso ma con 3 scelte per mago). Poi simulate davanti all'insegnante almeno 3 duelli 1vs1 tra compagni: ogni duello ha 3 round, il mago esegue il gesto e dice il nome dell'incantesimo, vince chi ha l'incantesimo superiore. Il tabellone dei risultati deve essere scritto su carta. Mostrate schede + tabellone + simulate un duello dal vivo.",
-        "answer": "Nessuna risposta corretta — verificare: schede personaggio per tutti i membri con 3 incantesimi e gesto, regole scritte (chi batte chi), tabellone di ≥3 duelli compilato, simulazione di almeno un duello dal vivo."
+        "title": "📜 La Creazione degli Incantesimi",
+        "description": "Per difendere l'Accademia servono nuove formule magiche! Inventate insieme come squadra 5 incantesimi completamente originali. Per ciascun incantesimo dovete scrivere su un foglio: 1) La formula magica pronunciabile (es. 'Scribblus Evanesco!'), 2) Cosa succede esattamente quando viene lanciato l'incantesimo (deve essere un effetto originale e divertente). Leggete e spiegate i vostri 5 incantesimi al professore per sbloccare lo step!",
+        "answer": "Nessuna risposta corretta — verificare la lista scritta di 5 incantesimi con formule pronunciabili ed effetti originali e divertenti."
       },
       {
         "id": 5,
-        "title": "📜 Il Bestiario Magico",
-        "description": "La biblioteca dell'Accademia ha perso il suo bestiario! Ricostruitelo. Create su Word un bestiario con 5 creature magiche completamente INVENTATE. Per ognuna: nome della creatura, un'immagine (trovate qualcosa di simile su Google e modificatela in Paint aggiungendo elementi magici), habitat (dove vive), dieta (cosa mangia), poteri speciali (almeno 2), livello di pericolo da 1 a 10, e come dominarla o calmarla. Usate una tabella Word con queste colonne per ogni creatura. Il bestiario deve avere una copertina con titolo elegante e il nome della casata. Almeno 2 pagine totali. Mostrate all'insegnante.",
-        "answer": "Nessuna risposta corretta — verificare: 5 creature inventate, ognuna con immagine modificata/nome/habitat/dieta/≥2 poteri/pericolo 1-10/come domarla, tabella Word, copertina, ≥2 pagine."
+        "title": "🎮 Bottle Flip (Bottle Hop)",
+        "description": "Aprite Google sul computer e cercate 'geometry lite pc'. Cercate all'interno del sito il gioco 'Bottle Flip' (indicato anche come 'Bottle Hop' o simili). L'obiettivo è lanciare la bottiglia facendola atterrare sulle piattaforme fino a raggiungere il livello 15. Quando arrivate al livello 15, chiamate il professore per mostrarlo e ricevere il codice!",
+        "answer": "Nessuna risposta corretta — verificare a schermo il raggiungimento del livello 15 in Bottle Flip / Bottle Hop."
       },
       {
         "id": 6,
-        "title": "⭐ Il Cielo degli Stregoni",
-        "description": "Gli stregoni leggono il futuro nelle stelle! Cercate su Google i dati di 8 stelle visibili a occhio nudo dalla Terra e inseriteli in un foglio di calcolo (Excel o Google Sheets) con queste colonne: Nome stella, Costellazione di appartenenza, Distanza dalla Terra (anni luce), Temperatura superficiale (in gradi Kelvin), Colore apparente. Poi: ordinate la tabella per distanza (dalla più vicina alla più lontana), create un grafico a barre con i nomi sull'asse X e le distanze sull'asse Y, e colorate le celle della colonna 'Colore' con il colore reale della stella. Rispondete per iscritto: quale stella è la più vicina? E la più calda? Mostrate all'insegnante.",
-        "answer": "Risposta attesa: la stella più vicina alla Terra visibile a occhio nudo è Sirio (distanza ~8,6 anni luce). La più calda tra le stelle più luminose è Rigel (~12.000 K) o Spica (~25.000 K) — dipende dalle stelle scelte. Verificare che l'ordinamento per distanza e il grafico a barre siano corretti."
+        "title": "🧮 Il Super Calcolo con la Calcolatrice",
+        "description": "Risolvete questo difficilissimo calcolo magico sul computer! Aprite la calcolatrice del vostro PC (cercando 'Calcolatrice' nella barra delle applicazioni di Windows) e risolvete questa operazione rispettando le parentesi: ((9876 x 32) - 12344) : 8 + 95143. Scrivete il risultato finale su un foglio e mostrate l'operazione al professore per sbloccare lo step!",
+        "answer": "Risposta corretta: 133104. Verificare che eseguano il calcolo con la calcolatrice del PC. (Dettagli calcolo: 9876 x 32 = 316032. 316032 - 12344 = 303688. 303688 : 8 = 37961. 37961 + 95143 = 133104)."
       },
       {
         "id": 7,
-        "title": "🔏 Il Codice Segreto della Casata",
-        "description": "Ogni casata ha un codice segreto per comunicare! Inventate un codice crittografico VISIVO dove ogni lettera dell'alfabeto è rappresentata da un simbolo disegnato a mano (forme geometriche, combinazioni di punti e linee, rune inventate — NON lettere di altri alfabeti). Disegnate la tabella completa (almeno le 21 lettere italiane) su carta come un 'Tomo Segreto della Casata'. Poi codificate questo messaggio usando il vostro codice: 'LA MAGIA VERA VIVE NEL CUORE DI CHI CREDE' e scrivetelo su un foglio separato. L'insegnante deve poterlo decodificare usando la vostra tabella. Mostrate tabella + messaggio codificato.",
-        "answer": "Verificare che: la tabella abbia ≥21 simboli univoci (uno per lettera), il messaggio 'LA MAGIA VERA VIVE NEL CUORE DI CHI CREDE' sia correttamente codificato decodificabile con la tabella fornita. Provate voi stessi a decodificarlo per confermare."
+        "title": "🎮 Loop Crash",
+        "description": "Aprite Google sul computer e cercate 'geometry lite pc'. Cercate all'interno del sito il gioco 'Loop Crash'. L'obiettivo è guidare le macchinine in cerchio evitando gli incidenti e riuscire a completare almeno 20 giri interi senza scontrarvi. Fate vedere il vostro record di 20 giri al professore per ottenere il codice!",
+        "answer": "Nessuna risposta corretta — verificare a schermo il completamento di almeno 20 giri in Loop Crash."
       },
       {
         "id": 8,
-        "title": "🪐 I Pianeti dei Maghi",
-        "description": "I maghi controllano i pianeti! Create una presentazione di 9 slide (una per pianeta + una copertina) intitolata 'Il Sistema Solare visto da un Mago'. Per ogni pianeta: cercate un'immagine reale su Google e inseritela, scrivete il nome magico che gli dareste e perché, un 'incantesimo speciale' che si può lanciare solo da quel pianeta (inventatelo!), e un fatto scientifico reale interessante trovato su Google. La copertina deve avere il titolo e i nomi della squadra. L'ultima slide è una mappa del sistema solare disegnata su Paint e poi inserita. Mostrate la presentazione all'insegnante.",
-        "answer": "Nessuna risposta corretta — verificare: copertina con titolo e nomi, 8 slide (una per pianeta) ognuna con immagine reale/nome magico/incantesimo inventato/fatto scientifico, slide finale con mappa Paint."
+        "title": "🔍 L'Enigma degli Anagrammi",
+        "description": "I maghi adorano nascondere messaggi segreti nelle parole! La vostra parola di partenza è 'CARTE'. Il vostro compito è trovare almeno 2 anagrammi di senso compiuto di questa parola (cioè dovete usare esattamente le stesse lettere C, A, R, T, E per formare altre tre parole italiane reali). Scrivetele su un foglio e portatelo al professore per sbloccare lo step!",
+        "answer": "Risposte corrette: CERTA, CRETA, TRACE. Verificare che abbiano trovato tutte e tre le parole sul loro foglio."
       },
       {
         "id": 9,
-        "title": "🧪 La Pozione della Liberazione",
-        "description": "Bisogna preparare la pozione per liberare il Preside! Prima su carta scrivete la ricetta completa della 'Pozione della Liberazione': nome ufficiale, almeno 8 ingredienti con dosi precise (ingredienti fantasiosi e divertenti), procedimento in 7 passi numerati, tempo di preparazione, e avvertenze. Poi RECITATE la preparazione: uno legge la ricetta ad alta voce passo per passo mentre gli altri la 'preparano' con gesti (mescolare, aggiungere ingredienti, assaggiare...). Infine inventate una filastrocca/incantesimo di almeno 6 versi che si recita mentre si lancia la pozione, detti tutti in coro. Mostrate ricetta scritta + eseguite la recitazione davanti all'insegnante.",
-        "answer": "Nessuna risposta corretta — verificare: ricetta scritta con ≥8 ingredienti e dosi, procedimento in 7 passi, avvertenze; recitazione con gesti coerente; filastrocca di ≥6 versi recitata in coro."
+        "title": "🎮 Friday Night Funkin",
+        "description": "Aprite Google sul computer e cercate 'geometry lite pc'. Cercate all'interno del sito il gioco 'Friday Night Funkin'. Avviate il gioco, andate nella modalità 'Freeplay' e selezionate il brano intitolato 'Eggnog'. L'obiettivo è completare l'intera canzone premendo le frecce a ritmo senza andare fuori tempo e perdere. Mostrate il livello completato al professore per ottenere il codice!",
+        "answer": "Nessuna risposta corretta — verificare a schermo il completamento del livello Eggnog in modalità Freeplay su Friday Night Funkin."
       },
       {
         "id": 10,
-        "title": "🏅 Il Torneo delle Casate",
-        "description": "Le 5 casate si sfidano nel torneo annuale! Create su Word o carta il tabellone di un torneo a eliminazione diretta tra le 5 casate (con turni: quarti, semifinali, finale). Inventate 3 categorie di sfida (es. Velocità negli incantesimi, Precisione nella mira, Creatività del sortilegio). Per ogni match inventate un punteggio da 0 a 10 per categoria. Calcolate il totale di ogni match e decretate il vincitore. Poi aprite un foglio di calcolo e create la classifica finale con tutte le casate, i punteggi di ogni partita, e il totale. Usate una formula per sommare automaticamente. Chi vince il torneo? Mostrate tabellone + foglio di calcolo all'insegnante.",
-        "answer": "Nessuna risposta corretta — verificare: tabellone con quarti/semifinali/finale, 3 categorie di sfida inventate, punteggi 0-10 per categoria, calcolo totali, foglio di calcolo con formula di somma automatica, vincitore decretato."
+        "title": "🔍 Gli Incantesimi di Harry Potter",
+        "description": "Ogni vero mago deve conoscere le formule magiche classiche! Aprite il browser e cercate sul Web i nomi dei 5 incantesimi di Harry Potter che servono a: 1) Aggiustare gli occhiali, 2) Illuminare/fare luce, 3) Uccidere (la maledizione senza perdono), 4) Far volare/levitare gli oggetti, 5) Disarmare un avversario. Scrivete i 5 incantesimi su un foglio. Attenzione: tutti i membri della squadra dovranno conoscere a memoria le risposte, perché il professore interrogherà chi vuole lui prima di darvi il codice!",
+        "answer": "Risposte corrette: 1) Oculus Reparo (o Reparo), 2) Lumos, 3) Avada Kedavra, 4) Wingardium Leviosa, 5) Expelliarmus. Interrogare a caso i membri della squadra per verificare che conoscano gli incantesimi prima di dare il PIN."
       },
       {
         "id": 11,
-        "title": "🏰 I Castelli dei Maghi",
-        "description": "Lo Stregone Malware potrebbe nascondersi in un castello reale! Usate Google Maps per trovare e documentare 5 castelli veri nel mondo che potrebbero essere l'Accademia di Magia. Per ognuno: uno screenshot in modalità mappa normale, uno screenshot in modalità satellite (veduta dall'alto), il nome completo e il paese, e almeno 2 ragioni per cui questo castello sarebbe perfetto per i maghi (storia, forma, posizione...). Create un documento Word con tutte le immagini disposte in modo ordinato e le descrizioni sotto. Il documento deve avere una copertina con titolo. Mostrate all'insegnante.",
-        "answer": "Nessuna risposta corretta — verificare: 5 castelli reali trovati su Maps, per ognuno screenshot mappa + satellite + nome/paese + ≥2 ragioni, documento Word ordinato con copertina."
+        "title": "🎮 Incredibox Sprunki",
+        "description": "Aprite Google sul computer e cercate 'geometry lite pc'. Cercate all'interno del sito il gioco 'Sprunki' (o 'Incredibox Sprunki'). L'obiettivo è comporre una canzone originale trascinando i vari suoni e accessori sui personaggi per creare un ritmo coordinato e orecchiabile. Quando siete soddisfatti del vostro pezzo, fate ascoltare la canzone al professore: se gli piacerà il vostro arrangiamento, vi darà il codice segreto per avanzare!",
+        "answer": "Nessuna risposta corretta — verificare l'ascolto della composizione musical della squadra a schermo e dare il PIN se il ritmo è gradevole."
       },
       {
         "id": 12,
-        "title": "📖 Il Grimorio Personale",
-        "description": "Ogni mago degno di questo nome ha il suo Grimorio! Ogni membro della squadra crea su carta la propria pagina del Grimorio (un foglio a testa). Ogni pagina deve avere: nome del mago (inventato o il proprio), un incantesimo personale inventato con il suo glifo magico (simbolo disegnato), le istruzioni d'uso in rima (almeno 4 versi), i pericoli se mal lanciato (almeno 2), e il momento in cui è più potente (luna piena? all'alba? solo il venerdì?). Decorate le pagine con bordi e simboli. Poi, riuniti in cerchio, ognuno recita la propria pagina ad alta voce come se stesse 'attivando' il libro. Mostrate i grimori + recitate davanti all'insegnante.",
-        "answer": "Nessuna risposta corretta — verificare: pagina per ogni membro con nome/glifo/istruzioni in rima ≥4 versi/≥2 pericoli/momento di potere; pagine decorate; recitazione di ogni pagina dal vivo."
+        "title": "🎨 Il Mago Speciale",
+        "description": "Disegnate su un foglio di carta un potente mago o strega. Il disegno deve conterrà almeno 4 colori diversi e deve evidenziare una caratteristica speciale fisica o di abbigliamento bizzarra e divertente (es. ha un cappello a cilindro da cui esce un coniglio, ha gli occhiali a forma di stelle, ha tre braccia per lanciare tre incantesimi, o ha una barba così lunga che la usa come sciarpa). Mostrate il vostro disegno colorato al professore per ottenere il codice!",
+        "answer": "Nessuna risposta corretta — verificare il disegno del mago colorato (almeno 4 colori) provvisto della caratteristica bizzarra visibile e spiegata."
       },
       {
         "id": 13,
-        "title": "🔎 Caccia agli Errori Magici",
-        "description": "Lo Stregone Malware ha manomesso i testi dell'Accademia! L'insegnante vi consegnerà un testo con 10 errori intenzionali (ortografici, grammaticali, o di senso). Il vostro compito: trovare TUTTI gli errori, correggerli sul testo, e per ognuno spiegare su un foglio separato PERCHÉ era sbagliato e qual è la forma corretta. Lavorate insieme come squadra. Attenzione: alcuni errori sono ovvi, altri sono nascosti! Quando avete finito, consegnate sia il testo corretto sia il foglio delle spiegazioni all'insegnante, che verificherà quanti ne avete trovati. Serve trovarne almeno 8 su 10 per superare la prova.",
-        "answer": "L'insegnante deve preparare in anticipo un testo con esattamente 10 errori e la relativa lista di correzioni. La prova è superata se la squadra trova e corregge correttamente almeno 8 errori su 10 con la spiegazione del perché."
+        "title": "🎮 Stickman Hook",
+        "description": "Aprite Google sul computer e cercate 'geometry lite pc'. Cercate all'interno del sito il gioco 'Stickman Hook'. L'obiettivo è oscillare con le corde evitando gli ostacoli e riuscire a raggiungere il livello 15. Fate vedere la schermata del livello 15 completato al professore per ottenere il codice!",
+        "answer": "Nessuna risposta corretta — verificare a schermo il raggiungimento del livello 15 in Stickman Hook."
       },
       {
         "id": 14,
-        "title": "🗺️ La Mappa dei Portali",
-        "description": "I portali magici collegano il mondo intero! Disegnate su carta A4 in orizzontale il planisfero del mondo (la mappa del mondo — cercatene il contorno su Google per ispirarvi, poi ridisegnatela a mano). Su questa mappa posizionate 8 'portali magici' in luoghi geografici reali verificati su Google Maps. Per ogni portale: un simbolo disegnato, un nome magico inventato, cosa c'è dall'altra parte (dove porta), e chi lo custodisce. Collegate i portali con linee tratteggiate colorate che formino una figura geometrica (es. un ottagramma). Aggiungete una legenda. Mostrate all'insegnante la mappa completa e spiegatela.",
-        "answer": "Nessuna risposta corretta — verificare: planisfero disegnato a mano con proporzioni accettabili, 8 portali in luoghi geografici reali verificabili, simbolo/nome magico/destinazione/custode per ognuno, linee colorate che formano una figura geometrica, legenda presente."
+        "title": "🎮 Minecraft (Survival Sword)",
+        "description": "Aprite Google sul computer e cercate 'geometry lite pc'. Cercate all'interno del sito il gioco 'Minecraft' (o la versione browser classica/demo). Entrate in modalità Survival ed eseguite questo compito di fabbricazione: dovete raccogliere i materiali necessari (legno, pietra, ferro) e riuscire a fabbricare una Spada di Ferro usando il tavolo da lavoro (Crafting Table). Mostrate la spada di ferro nella vostra mano al professore per ricevere il codice segreto!",
+        "answer": "Nessuna risposta corretta — verificare a schermo che il giocatore abbia fabbricato e stia impugnando una spada di ferro in modalità Survival."
       },
       {
         "id": 15,
-        "title": "🎓 Il Giuramento della Casata",
-        "description": "Il Preside è libero! Ora la casata deve pronunciare il Giuramento Ufficiale. Create su Word un giuramento solenne di almeno 12 righe che rappresenta i valori e le promesse della vostra casata. Il giuramento deve: avere un titolo elegante con il nome della casata, essere diviso in 3 parti (Promesse al Preside, Promesse tra compagni, Promessa al mondo della Magia), contenere almeno una parte che si dice TUTTI IN CORO (sottolineata nel testo), e finire con un gesto fisico comune (alzare la 'bacchetta'/matita, inclinare la testa, toccare i pugni...). Stampate o mostrate il documento, poi recitate il giuramento davanti all'insegnante. Nessuno può guardare il foglio durante l'esecuzione!",
-        "answer": "Nessuna risposta corretta — verificare: documento Word ≥12 righe con titolo, 3 sezioni distinte, parte in coro sottolineata, gesto finale comune; recitazione a memoria senza guardare il foglio."
+        "title": "🎮 Lift Off 2",
+        "description": "Aprite Google sul computer e cercate 'geometry lite pc'. Cercate all'interno del sito il gioco 'Lift Off 2' (o 'Lift Off' del catalogo). L'obiettivo è lanciare il razzo o l'oggetto e pilotarlo in sicurezza guadagnando almeno 3.000 punti in una singola partita. Chiamate il professore per mostrargli il vostro punteggio di 3.000 punti e ottenere l'ultimo codice!",
+        "answer": "Nessuna risposta corretta — verificare a schermo il raggiungimento di un punteggio pari o superiore a 3.000 in Lift Off 2."
       }
     ]
   },

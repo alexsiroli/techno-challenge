@@ -54,9 +54,17 @@ export default function TeacherPage() {
   const monitorTeamData = monitorThemeData?.teams.find((t) => t.id === monitorTeam)
   const monitorStepOrder = monitorTeamData ? monitorThemeData.order[monitorTeam] : null
   const monitorChallengeIndex = monitorStepOrder ? monitorStepOrder[monitorStep] : null
-  const monitorChallenge = monitorChallengeIndex !== null && monitorChallengeIndex !== undefined
-    ? monitorLesson.steps[monitorChallengeIndex]
-    : null
+  const isMonitorVictory = monitorStep === 15
+  const monitorChallenge = isMonitorVictory
+    ? {
+        id: 99,
+        title: "🏆 Vittoria Finale",
+        description: "Date questo codice alla squadra per far comparire a sorpresa la schermata di vittoria e completare la sfida!",
+        answer: "Verificare l'ultimo compito a schermo e dare il PIN per far comparire la schermata di vittoria."
+      } as Step
+    : (monitorChallengeIndex !== null && monitorChallengeIndex !== undefined
+        ? monitorLesson.steps[monitorChallengeIndex]
+        : null)
 
   return (
     <main className="min-h-screen bg-gray-950 text-white">
@@ -141,14 +149,22 @@ export default function TeacherPage() {
                     </tr>
                   </thead>
                   <tbody>
-                    {Array.from({ length: 15 }).map((_, stepIndex) => (
+                    {Array.from({ length: 16 }).map((_, stepIndex) => (
                       <tr key={stepIndex} className="border-t border-gray-800 hover:bg-gray-800/20 transition-colors">
                         <td className="px-4 py-3 font-bold text-indigo-400 border-r border-gray-700 text-center">
-                          {stepIndex + 1}
+                          {stepIndex === 15 ? "🏆" : stepIndex + 1}
                         </td>
                         {themeData.teams.map((t) => {
-                          const challengeIndex = themeData.order[t.id][stepIndex]
-                          const challenge = lesson.steps[challengeIndex]
+                          const isVictory = stepIndex === 15
+                          const challengeIndex = isVictory ? null : themeData.order[t.id][stepIndex]
+                          const challenge = isVictory 
+                            ? {
+                                id: 99,
+                                title: "🏆 Vittoria Finale",
+                                description: "Date questo codice alla squadra per far comparire a sorpresa la schermata di vittoria e completare la sfida!",
+                                answer: "Verificare l'ultimo compito a schermo e dare il PIN per far comparire la schermata di vittoria."
+                              } as Step
+                            : lesson.steps[challengeIndex!]
                           const pin = themeData.pins[t.id][stepIndex]
                           const cellKey = `${selectedTheme}_${t.id}_${stepIndex}`
                           const isHighlighted = highlights.includes(cellKey)
@@ -163,20 +179,22 @@ export default function TeacherPage() {
                                   : 'hover:bg-gray-800/40'
                               }`}
                             >
-                              <div className="text-[10px] text-gray-500 mb-1">Prova #{challengeIndex + 1}</div>
+                              <div className="text-[10px] text-gray-500 mb-1">
+                                {isVictory ? "Sblocco Finale" : `Prova #${challengeIndex! + 1}`}
+                              </div>
                               <div className="text-xs text-gray-300 mb-2 line-clamp-1" title={challenge?.title}>
                                 {challenge?.title}
                               </div>
                               <div className="flex items-center justify-between gap-1 bg-gray-950 rounded px-2 py-1 border border-gray-700">
                                 <span className="font-mono font-bold text-base text-yellow-400 tracking-widest pl-1">
-                                  {isRevealed ? pin : '••••'}
+                                  {isRevealed ? (pin || '—') : '••••'}
                                 </span>
                                 <div className="flex items-center gap-0.5">
                                   <button
                                     type="button"
                                     onClick={(e) => {
                                       e.stopPropagation()
-                                      setModalChallenge(challenge ?? null)
+                                      setModalChallenge(challenge as Step ?? null)
                                     }}
                                     className="text-gray-400 hover:text-blue-300 transition-colors p-1 text-xs"
                                     title="Vedi dettagli prova"
@@ -308,8 +326,8 @@ export default function TeacherPage() {
                   disabled={!monitorTeam}
                   className="w-full bg-gray-800 text-white border border-gray-600 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500 disabled:opacity-40"
                 >
-                  {Array.from({ length: 15 }).map((_, i) => (
-                    <option key={i} value={i}>Step {i + 1}</option>
+                  {Array.from({ length: 16 }).map((_, i) => (
+                    <option key={i} value={i}>{i === 15 ? '🏆 Vittoria Finale' : `Step ${i + 1}`}</option>
                   ))}
                 </select>
               </div>
@@ -326,7 +344,9 @@ export default function TeacherPage() {
                       <h3 className="text-xl font-bold text-white">{monitorChallenge.title}</h3>
                     </div>
                     <div className="text-right">
-                      <div className="text-xs text-indigo-300 mb-1">Prova #{(monitorChallengeIndex ?? 0) + 1}</div>
+                      <div className="text-xs text-indigo-300 mb-1">
+                        {isMonitorVictory ? "Sblocco Finale" : `Prova #${(monitorChallengeIndex ?? 0) + 1}`}
+                      </div>
                       <div className="font-mono text-2xl font-bold text-yellow-400 tracking-widest">
                         {monitorThemeData.pins[monitorTeam]?.[monitorStep] ?? '—'}
                       </div>
@@ -387,6 +407,19 @@ export default function TeacherPage() {
                       {stepIdx + 1}
                     </button>
                   ))}
+                  <button
+                    onClick={() => setMonitorStep(15)}
+                    className={`
+                      px-3 py-2 rounded-lg text-xs font-semibold transition-all
+                      ${monitorStep === 15
+                        ? 'bg-indigo-600 text-white ring-2 ring-indigo-400'
+                        : 'bg-gray-800 text-gray-400 hover:bg-gray-700'
+                      }
+                    `}
+                    title="Vittoria Finale"
+                  >
+                    🏆 Vittoria
+                  </button>
                 </div>
               </div>
             )}
