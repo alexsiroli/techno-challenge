@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import lessonsData from '@/data/lessons.json'
 import teamsData from '@/data/teams.json'
@@ -14,7 +14,33 @@ export default function TeacherPage() {
   const [monitorTheme, setMonitorTheme] = useState<string>(lessons[0].id)
   const [monitorTeam, setMonitorTeam] = useState<string>('')
   const [monitorStep, setMonitorStep] = useState<number>(0)
-  const [activeTab, setActiveTab] = useState<'codes' | 'monitor'>('codes')
+  const [activeTab, setActiveTab] = useState<'codes' | 'story' | 'monitor'>('codes')
+
+  const [revealedPins, setRevealedPins] = useState<Record<string, boolean>>({})
+  const [highlights, setHighlights] = useState<string[]>([])
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const raw = localStorage.getItem('techno_challenge_teacher_highlights')
+      if (raw) {
+        try {
+          setHighlights(JSON.parse(raw))
+        } catch (e) {
+          console.error(e)
+        }
+      }
+    }
+  }, [])
+
+  function toggleHighlight(cellKey: string) {
+    setHighlights((prev) => {
+      const next = prev.includes(cellKey)
+        ? prev.filter((k) => k !== cellKey)
+        : [...prev, cellKey]
+      localStorage.setItem('techno_challenge_teacher_highlights', JSON.stringify(next))
+      return next
+    })
+  }
 
   const lesson = lessons.find((l) => l.id === selectedTheme)!
   const themeData = teams[selectedTheme]
@@ -38,18 +64,22 @@ export default function TeacherPage() {
             <p className="text-xs text-gray-400">Techno Challenge — Pannello di controllo</p>
           </div>
         </div>
-        <Link href="/" className="text-gray-400 hover:text-white transition-colors text-sm">
-          ← Home
-        </Link>
+        <span className="text-sm font-semibold text-indigo-400 tracking-wider">PANNELLO DOCENTE</span>
       </header>
 
       <div className="p-8 max-w-7xl mx-auto">
-        <div className="flex gap-4 mb-8 border-b border-gray-700 pb-4">
+        <div className="flex gap-4 mb-8 border-b border-gray-700 pb-4 flex-wrap">
           <button
             onClick={() => setActiveTab('codes')}
             className={`px-6 py-3 rounded-t-lg font-semibold transition-colors ${activeTab === 'codes' ? 'bg-indigo-600 text-white' : 'text-gray-400 hover:text-white'}`}
           >
             📋 Tabella Codici PIN
+          </button>
+          <button
+            onClick={() => setActiveTab('story')}
+            className={`px-6 py-3 rounded-t-lg font-semibold transition-colors ${activeTab === 'story' ? 'bg-indigo-600 text-white' : 'text-gray-400 hover:text-white'}`}
+          >
+            📖 Storia e Avvio
           </button>
           <button
             onClick={() => setActiveTab('monitor')}
@@ -59,26 +89,39 @@ export default function TeacherPage() {
           </button>
         </div>
 
+        {(activeTab === 'codes' || activeTab === 'story') && (
+          <div className="mb-6 flex gap-3 flex-wrap">
+            {lessons.map((l) => (
+              <button
+                key={l.id}
+                onClick={() => setSelectedTheme(l.id)}
+                className={`px-5 py-2 rounded-full font-semibold text-sm transition-all ${selectedTheme === l.id ? 'bg-indigo-600 text-white' : 'bg-gray-800 text-gray-300 hover:bg-gray-700'}`}
+              >
+                {l.title}
+              </button>
+            ))}
+          </div>
+        )}
+
         {activeTab === 'codes' && (
           <div>
-            <div className="mb-6 flex gap-3 flex-wrap">
-              {lessons.map((l) => (
-                <button
-                  key={l.id}
-                  onClick={() => setSelectedTheme(l.id)}
-                  className={`px-5 py-2 rounded-full font-semibold text-sm transition-all ${selectedTheme === l.id ? 'bg-indigo-600 text-white' : 'bg-gray-800 text-gray-300 hover:bg-gray-700'}`}
-                >
-                  {l.title}
-                </button>
-              ))}
-            </div>
-
             <div className="bg-gray-900 rounded-2xl border border-gray-700 overflow-hidden">
-              <div className="p-4 border-b border-gray-700 bg-gray-800">
-                <h2 className="font-bold text-lg">{lesson.title} — Codici PIN per Squadra e Step</h2>
-                <p className="text-xs text-gray-400 mt-1">
-                  Ogni squadra affronta le prove in ordine diverso. Le celle mostrano: N.Prova — Titolo — PIN
-                </p>
+              <div className="p-4 border-b border-gray-700 bg-gray-800 flex justify-between items-center flex-wrap gap-4">
+                <div>
+                  <h2 className="font-bold text-lg">{lesson.title} — Codici PIN per Squadra e Step</h2>
+                  <p className="text-xs text-gray-400 mt-1">
+                    Fai clic su una cella per colorarla/selezionarla. Clicca sull&apos;occhietto per rivelare il PIN.
+                  </p>
+                </div>
+                <button 
+                  onClick={() => {
+                    setHighlights([]);
+                    localStorage.removeItem('techno_challenge_teacher_highlights');
+                  }}
+                  className="px-4 py-2 bg-gray-700 hover:bg-gray-600 text-xs font-semibold rounded-lg transition-colors"
+                >
+                  Cancella Evidenziature
+                </button>
               </div>
 
               <div className="overflow-x-auto">
@@ -95,7 +138,7 @@ export default function TeacherPage() {
                   </thead>
                   <tbody>
                     {Array.from({ length: 15 }).map((_, stepIndex) => (
-                      <tr key={stepIndex} className="border-t border-gray-800 hover:bg-gray-800/50 transition-colors">
+                      <tr key={stepIndex} className="border-t border-gray-800 hover:bg-gray-800/20 transition-colors">
                         <td className="px-4 py-3 font-bold text-indigo-400 border-r border-gray-700 text-center">
                           {stepIndex + 1}
                         </td>
@@ -103,12 +146,38 @@ export default function TeacherPage() {
                           const challengeIndex = themeData.order[t.id][stepIndex]
                           const challenge = lesson.steps[challengeIndex]
                           const pin = themeData.pins[t.id][stepIndex]
+                          const cellKey = `${selectedTheme}_${t.id}_${stepIndex}`
+                          const isHighlighted = highlights.includes(cellKey)
+                          const isRevealed = revealedPins[cellKey]
                           return (
-                            <td key={t.id} className="px-3 py-3 border-r border-gray-700 last:border-r-0">
-                              <div className="text-xs text-gray-500 mb-1">Prova #{challengeIndex + 1}</div>
-                              <div className="text-xs text-gray-300 mb-2 line-clamp-1">{challenge?.title}</div>
-                              <div className="font-mono font-bold text-lg text-yellow-400 tracking-widest bg-gray-950 rounded px-2 py-1 text-center border border-gray-700">
-                                {pin}
+                            <td
+                              key={t.id}
+                              onClick={() => toggleHighlight(cellKey)}
+                              className={`px-3 py-3 border-r border-gray-700 last:border-r-0 cursor-pointer select-none transition-all duration-200 ${
+                                isHighlighted
+                                  ? 'bg-amber-950/70 border border-amber-500 hover:bg-amber-900/60'
+                                  : 'hover:bg-gray-800/40'
+                              }`}
+                            >
+                              <div className="text-[10px] text-gray-500 mb-1">Prova #{challengeIndex + 1}</div>
+                              <div className="text-xs text-gray-300 mb-2 line-clamp-1" title={challenge?.title}>
+                                {challenge?.title}
+                              </div>
+                              <div className="flex items-center justify-between gap-1 bg-gray-950 rounded px-2 py-1 border border-gray-700">
+                                <span className="font-mono font-bold text-base text-yellow-400 tracking-widest pl-1">
+                                  {isRevealed ? pin : '••••'}
+                                </span>
+                                <button
+                                  type="button"
+                                  onClick={(e) => {
+                                    e.stopPropagation()
+                                    setRevealedPins((prev) => ({ ...prev, [cellKey]: !prev[cellKey] }))
+                                  }}
+                                  className="text-gray-400 hover:text-white transition-colors p-1"
+                                  title={isRevealed ? "Nascondi PIN" : "Mostra PIN"}
+                                >
+                                  {isRevealed ? '👁️' : '🙈'}
+                                </button>
                               </div>
                             </td>
                           )
@@ -120,11 +189,59 @@ export default function TeacherPage() {
               </div>
             </div>
 
-            <div className="mt-6 bg-yellow-900/30 border border-yellow-700 rounded-xl p-4">
-              <p className="text-yellow-300 text-sm">
-                <span className="font-bold">💡 Come usare questa tabella:</span> Quando una squadra completa uno step, cerca la riga dello step successivo nella colonna della loro squadra.
-                Dai loro il PIN mostrato in giallo. Non condividere i PIN in anticipo!
+            <div className="mt-6 bg-indigo-950/40 border border-indigo-800 rounded-xl p-4">
+              <p className="text-indigo-300 text-sm">
+                <span className="font-bold">💡 Istruzioni Tabellone:</span> Clicca su qualsiasi cella della griglia per evidenziarla in arancione. Questo ti aiuta a ricordare quale step ha raggiunto ogni squadra. I PIN sono nascosti di default per evitare sguardi indiscreti sulla tua cattedra; clicca sull&apos;icona dell&apos;occhio per rivelarli quando devi comunicarli.
               </p>
+            </div>
+          </div>
+        )}
+
+        {activeTab === 'story' && (
+          <div className="bg-gray-900 rounded-2xl border border-gray-700 p-6 shadow-2xl">
+            <h2 className="text-xl font-bold text-white mb-6 flex items-center gap-2 border-b border-gray-800 pb-3">
+              📖 Storia e Avvio del Tema: {lesson.title}
+            </h2>
+
+            <div className="bg-indigo-950/40 border border-indigo-800 rounded-xl p-5 mb-6 flex flex-col lg:flex-row lg:items-center justify-between gap-6 shadow-md">
+              <div>
+                <span className="text-xs uppercase tracking-wider text-indigo-300 font-semibold">Link di Gioco per gli Studenti</span>
+                <div className="text-lg font-bold text-white mt-1">
+                  <Link href={`/${lesson.slug}`} target="_blank" className="hover:underline flex items-center gap-2 text-indigo-400">
+                    <span>🔗</span> /{lesson.slug}
+                  </Link>
+                </div>
+              </div>
+              <div>
+                <span className="text-xs uppercase tracking-wider text-indigo-300 font-semibold">PIN di Avvio (Primo Step)</span>
+                <div className="flex flex-wrap gap-2 mt-2">
+                  {themeData.teams.map((t) => {
+                    const startPin = themeData.pins[t.id][0]
+                    return (
+                      <span key={t.id} className="bg-gray-950 px-3 py-1.5 rounded-lg border border-gray-800 text-xs font-mono flex items-center gap-1.5 shadow-md">
+                        <span>{t.emoji}</span>
+                        <span className="font-semibold text-gray-300">{t.name}:</span>
+                        <strong className="text-yellow-400 text-sm tracking-wider">{startPin}</strong>
+                      </span>
+                    )
+                  })}
+                </div>
+              </div>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="bg-gray-950 p-5 rounded-xl border border-gray-800">
+                <h4 className="font-bold text-indigo-400 mb-3 border-b border-gray-800 pb-2 flex items-center gap-2">
+                  <span>🎬</span> Introduzione (Intro)
+                </h4>
+                <p className="text-sm text-gray-300 leading-relaxed whitespace-pre-wrap">{lesson.intro}</p>
+              </div>
+              <div className="bg-gray-950 p-5 rounded-xl border border-gray-800">
+                <h4 className="font-bold text-indigo-400 mb-3 border-b border-gray-800 pb-2 flex items-center gap-2">
+                  <span>🏁</span> Conclusione (Outro)
+                </h4>
+                <p className="text-sm text-gray-300 leading-relaxed whitespace-pre-wrap">{lesson.outro}</p>
+              </div>
             </div>
           </div>
         )}
@@ -182,7 +299,7 @@ export default function TeacherPage() {
             </div>
 
             {monitorTeam && monitorChallenge ? (
-              <div className="bg-gray-900 border border-indigo-700 rounded-2xl overflow-hidden">
+              <div className="bg-gray-900 border border-indigo-700 rounded-2xl overflow-hidden shadow-2xl">
                 <div className="bg-indigo-900 px-6 py-4">
                   <div className="flex items-center justify-between">
                     <div>

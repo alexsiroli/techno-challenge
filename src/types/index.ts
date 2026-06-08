@@ -51,4 +51,6 @@ export interface ThemeConfig {
   pinStyle: string
   icon: string
   particles?: string
+  inputText?: string
+  buttonText?: string
 }
