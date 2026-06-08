@@ -21,17 +21,19 @@ export function generateStaticParams() {
 }
 
 interface Props {
-  params: { tema: string; squadra: string }
+  params: Promise<{ tema: string; squadra: string }>
 }
 
-export default function TeamDashboardPage({ params }: Props) {
-  const lesson = lessons.find((l) => l.slug === params.tema)
+export default async function TeamDashboardPage({ params }: Props) {
+  const { tema, squadra } = await params
+
+  const lesson = lessons.find((l) => l.slug === tema)
   if (!lesson) notFound()
 
   const themeData = teams[lesson.id]
   if (!themeData) notFound()
 
-  const team = themeData.teams.find((t) => t.id === params.squadra)
+  const team = themeData.teams.find((t) => t.id === squadra)
   if (!team) notFound()
 
   const stepOrder = themeData.order[team.id]

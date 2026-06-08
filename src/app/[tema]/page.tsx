@@ -13,11 +13,13 @@ export function generateStaticParams() {
 }
 
 interface Props {
-  params: { tema: string }
+  params: Promise<{ tema: string }>
 }
 
-export default function ThemeLobbyPage({ params }: Props) {
-  const lesson = lessons.find((l) => l.slug === params.tema)
+export default async function ThemeLobbyPage({ params }: Props) {
+  const { tema } = await params
+
+  const lesson = lessons.find((l) => l.slug === tema)
   if (!lesson) notFound()
 
   const themeData = teams[lesson.id]
