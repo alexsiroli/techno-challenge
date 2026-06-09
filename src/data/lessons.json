@@ -110,8 +110,8 @@
       {
         "id": 1,
         "title": "🎮 Geometry Dash",
-        "description": "Trovate un computer della scuola connesso a Internet. Aprite Google e cercate 'geometry lite pc'. Aprite il sito e cercate il gioco 'Geometry Dash'. L'obiettivo è avviare il gioco e riuscire a completare un livello a vostra scelta. Quando ci siete riusciti, chiamate il professore per fargli vedere la schermata finale e ottenere il codice segreto!",
-        "answer": "Nessuna risposta corretta — verificare a schermo il completamento di un livello di Geometry Dash."
+        "description": "Trovate un computer della scuola connesso a Internet. Aprite Google e cercate 'geometry lite pc'. Aprite il sito e cercate il gioco 'Geometry Dash'. L'obiettivo è avviare il gioco e riuscire a completare almeno il 50% di un livello a vostra scelta (non è necessario finirlo tutto!). Quando ci siete riusciti, chiamate il professore per fargli vedere la schermata e ottenere il codice segreto!",
+        "answer": "Nessuna risposta corretta — verificare a schermo il raggiungimento di almeno il 50% di un livello di Geometry Dash."
       },
       {
         "id": 2,
@@ -122,7 +122,7 @@
       {
         "id": 3,
         "title": "🎮 Subway Surfers",
-        "description": "Aprite Google sul computer e cercate 'geometry lite pc'. Cercate all'interno del sito il gioco 'Subway Surfers' (o 'Subway Surfer'). L'obiettivo della squadra è giocare e riuscire a raggiungere un punteggio di almeno 15.000 punti raccogliendo contemporaneamente almeno 300 monete in una sola corsa. Mostrate il punteggio al professore per sbloccare il codice!",
+        "description": "Aprite Google sul computer e cercate 'geometry lite pc'. Cercate all'interno del sito il gioco 'Subway Surfers' (o 'Subway Surfer'). L'obiettivo della squadra è giocare e riuscire a raggiungere un punteggio di almeno 15.000 punti raccogliendo almeno 300 monete. Mostrate il punteggio al professore per sbloccare il codice!",
         "answer": "Nessuna risposta corretta — verificare a schermo il raggiungimento di almeno 15.000 punti e 300 monete in Subway Surfers."
       },
       {
@@ -158,8 +158,8 @@
       {
         "id": 9,
         "title": "🎮 Friday Night Funkin",
-        "description": "Aprite Google sul computer e cercate 'geometry lite pc'. Cercate all'interno del sito il gioco 'Friday Night Funkin'. Avviate il gioco, andate nella modalità 'Freeplay' e selezionate il brano intitolato 'Eggnog'. L'obiettivo è completare l'intera canzone premendo le frecce a ritmo senza andare fuori tempo e perdere. Mostrate il livello completato al professore per ottenere il codice!",
-        "answer": "Nessuna risposta corretta — verificare a schermo il completamento del livello Eggnog in modalità Freeplay su Friday Night Funkin."
+        "description": "Aprite Google sul computer e cercate 'geometry lite pc'. Cercate all'interno del sito il gioco 'Friday Night Funkin'. Avviate il gioco, andate nella modalità 'Freeplay' e selezionate un brano a vostra scelta. L'obiettivo è completare l'intera canzone premendo le frecce a ritmo senza andare fuori tempo e perdere. Mostrate la schermata di fine canzone al professore per ottenere il codice!",
+        "answer": "Nessuna risposta corretta — verificare a schermo il completamento di una canzone a scelta in modalità Freeplay su Friday Night Funkin."
       },
       {
         "id": 10,
