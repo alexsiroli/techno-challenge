@@ -8,69 +8,69 @@
   "steps": [
     {
       "id": 1,
-      "title": "🗂️ Il Fascicolo del Sospettato",
-      "description": "Ogni indagine inizia da un profilo! Create su Word il fascicolo dell'Ombra Digitale con: foto trovata su Google (un hacker mascherato), almeno 5 alias, il suo metodo operativo, l'ultima posizione nota con screenshot di Maps, 3 complici inventati con nome in codice e una breve analisi psicologica sul perché ha rubato la ricetta.",
-      "answer": "Nessuna risposta corretta — verificare: foto, almeno 5 alias, metodo operativo, screenshot Maps, 3 complici, analisi psicologica."
+      "title": "🗂️ L'Identikit del Celebre Hacker",
+      "description": "Scegliete una persona famosa reale (un cantante, un attore, uno sportivo, ecc.) e immaginatela nei panni di un hacker! Su Word create il suo profilo: dategli un nome da hacker (es. 'Il Cantante del Codice' o 'Il Bomber del Firewall'), descrivete la sua finta attività criminale e inventate il suo metodo speciale di hackeraggio ispirato a ciò per cui è famoso nella realtà. Mostrate la scheda al maestro.",
+      "answer": "Nessuna risposta corretta — verificare che la squadra abbia scelto una persona famosa reale, assegnato un nome da hacker originale e descritto un metodo di hackeraggio divertente correlato."
     },
     {
       "id": 2,
       "title": "🏠 La Scena del Crimine",
-      "description": "I detective devono ricostruire cosa è successo! Disegnate su carta la planimetria dall'alto del server room dopo il furto. Includete: le postazioni computer, il server principale con il lucchetto rotto, le porte, le telecamere con il loro angolo visuale e almeno 6 prove fisiche lasciate dal ladro (numerate con una legenda).",
-      "answer": "Nessuna risposta corretta — verificare: prospettiva dall'alto, postazioni e server, telecamere con angolo visuale, almeno 6 prove numerate con legenda."
+      "description": "I detective devono ricostruire cosa è successo! Disegnate su carta la planimetria dall'alto della stanza dei computer della scuola dopo il furto. La mappa deve includere: le postazioni dei computer, la cassaforte digitale principale (il computer centrale) con il lucchetto rotto disegnato, le porte, le telecamere con il loro angolo di visuale e almeno 6 indizi o prove fisiche lasciate dal ladro (numerate con una legenda a lato, es. impronte, finestra aperta, un cavo staccato...). Mostrate il disegno al maestro.",
+      "answer": "Nessuna risposta corretta — verificare la mappa dall'alto con postazioni computer, computer centrale con lucchetto rotto, porte, telecamere con coni visivi e almeno 6 prove fisiche numerate con legenda."
     },
     {
       "id": 3,
       "title": "💻 Decodifica il Messaggio",
-      "description": "L'Ombra Digitale ha lasciato messaggi in codice! Ogni numero corrisponde a una lettera (A=65, B=66, C=67... Z=90, spazio=32). Decodificate questo messaggio mostrando tutti i passaggi: 73-110-100-97-103-97-32-115-117-32-100-105-32-109-101. Poi create voi un messaggio codificato nello stesso modo (almeno 4 parole) su un foglio separato.",
-      "answer": "Risposta corretta: I=73, n=110, d=100, a=97, g=103, a=97, spazio=32, s=115, u=117, spazio=32, d=100, i=105, spazio=32, m=109, e=101 → 'Indaga su di me'. Il messaggio creato dalla squadra deve essere decodificabile con lo stesso sistema."
+      "description": "L'Ombra Digitale ha lasciato messaggi in codice! Ogni numero corrisponde alla posizione della lettera nell'alfabeto internazionale (A=1, B=2, C=3... Z=26, lo spazio=27). Decodificate su carta questo messaggio mostrando tutti i passaggi (numero → lettera): 9-14-4-1-7-1-27-19-21-27-4-9-27-13-5. Poi create voi un messaggio codificato nello stesso modo (di almeno 4 parole) su un foglio da far risolvere al maestro!",
+      "answer": "Risposta corretta: 9=I, 14=N, 4=D, 1=A, 7=G, 1=A, 27=(spazio), 19=S, 21=U, 27=(spazio), 4=D, 9=I, 27=(spazio), 13=M, 5=E → 'INDAGA SU DI ME'. Verificare che la squadra decodifichi correttamente e scriva un proprio messaggio con lo stesso sistema."
     },
     {
       "id": 4,
       "title": "📍 Traccia il Fuggitivo",
-      "description": "Il ladro è in fuga! Usate Google Maps per trovare: 1) Il Colosseo di Roma 2) Il British Museum di Londra 3) Il CERN di Ginevra 4) La NASA a Houston, Texas 5) Interpol a Lione, Francia. Per ognuno: screenshot e una riga su cosa ha fatto lì il ladro (inventatela). Disegnate a mano la rotta del suo viaggio su una mappa del mondo.",
-      "answer": "Risposta attesa: 1) Colosseo, Roma, Italia | 2) British Museum, Londra, UK | 3) CERN, Ginevra/Meyrin, Svizzera | 4) NASA JSC, Houston, Texas, USA | 5) Interpol HQ, Lione, Francia. Verificare screenshot e mappa del percorso."
+      "description": "Il ladro è in fuga! Usate Google Maps per cercare e aprire in una scheda del browser ciascuno di questi 5 luoghi in cui è stato segnalato: 1) Il Colosseo di Roma, 2) Il British Museum di Londra, 3) Il CERN di Ginevra, 4) La NASA a Houston (Texas), 5) L'Interpol a Lione (Francia). Tenete tutte le 5 schede aperte sul computer per mostrarle al maestro. Inoltre, disegnate a mano su un foglio la rotta del suo viaggio su una mappa del mondo semplificata.",
+      "answer": "Nessuna risposta corretta — verificare che sul computer siano aperte le 5 schede di Google Maps con i luoghi corretti e che abbiano disegnato la rotta su carta."
     },
     {
       "id": 5,
-      "title": "📊 Il Database delle Prove",
-      "description": "Un buon detective tiene tutto in ordine! In un foglio di calcolo create il database di almeno 12 prove inventate del caso, con livello di importanza (Alta/Media/Bassa). Usate CONTA.SE per contare quante prove ci sono per ogni livello e colorate le righe: rosso per Alta, giallo per Media, verde per Bassa.",
-      "answer": "Nessuna risposta corretta — verificare: almeno 12 prove, funzione CONTA.SE usata correttamente, colorazione rosso/giallo/verde applicata."
+      "title": "🎮 Thief Puzzle",
+      "description": "Aprite internet e cercate 'Thief Puzzle crazy games' o andate direttamente sul sito CrazyGames. Trovate il gioco 'Thief Puzzle'. L'obiettivo della squadra è collaborare e superare i vari livelli fino a raggiungere il livello 20. Chiamate il maestro per mostrargli la schermata del livello 20 superato!",
+      "answer": "Nessuna risposta corretta — verificare visivamente a schermo che la squadra abbia raggiunto o superato il livello 20 di Thief Puzzle."
     },
     {
       "id": 6,
       "title": "📧 L'Email Trappola",
-      "description": "L'Ombra Digitale ingannava le vittime con email false! Create su Word una fakemail di phishing (solo a scopo educativo!) fingendo di essere la 'Banca della Scuola'. Deve avere almeno 7 elementi tipici delle truffe. Accanto all'email elencate tutti gli elementi sospetti che avete inserito e scrivete le '5 Regole d'Oro per non cascarci'.",
-      "answer": "Nessuna risposta corretta — verificare: email fittizia con almeno 7 elementi sospetti (link falso, urgenza, richiesta password, errori grammaticali, mittente storpiato, promessa/minaccia, logo errato), lista elementi e 5 Regole d'Oro."
+      "description": "L'Ombra Digitale è un esperto nell'ingannare le persone inviando email false! Su Word create un'email fasulla che all'apparenza sembri del tutto reale, ma che in realtà sia una trappola per convincere chi la riceve a inviare o condividere i propri dati bancari. Mostrate l'email al maestro e spiegategli come fa a ingannare la vittima.",
+      "answer": "Nessuna risposta corretta — verificare che l'email creata su Word sembri realistica ma contenga un trucco/inganno per spingere a condividere dati bancari."
     },
     {
       "id": 7,
-      "title": "🕵️ L'Infiltrazione Silenziosa",
-      "description": "Gli agenti speciali si muovono in silenzio assoluto! Inventate una sequenza di movimento 'infiltrazione' di almeno 40 secondi con: camminata silenziosa, appiattirsi al muro, sbirciare oltre un angolo e comunicazione con segnali manuali inventati da voi (scrivetene almeno 5 con il significato). Regola fondamentale: nessun rumore con i piedi. Mostrate prima i segnali, poi eseguite.",
-      "answer": "Nessuna risposta corretta — verificare: almeno 5 segnali scritti con significato, sequenza di almeno 40 secondi con le mosse, silenzio assoluto dei piedi durante l'esecuzione."
+      "title": "🕵️ Organizza un Furto",
+      "description": "Un vero agente speciale deve saper agire senza farsi notare! Andate dal maestro e avvisatelo in segreto che state avviando la missione di infiltrazione. L'obiettivo della squadra è riuscire a sottrarre/rubare un oggetto (ad esempio una penna, una gomma, un astuccio) da un'altra squadra che sta lavorando, senza che quest'ultima se ne accorga minimamente. Portate l'oggetto rubato al maestro come prova del vostro successo!",
+      "answer": "Nessuna risposta corretta — verificare che la squadra abbia informato preventivamente il docente e che riesca a portare a termine il 'furto' di un piccolo oggetto da un'altra squadra senza destare sospetti."
     },
     {
       "id": 8,
-      "title": "🗺️ La Mappa del Crimine Digitale",
-      "description": "Dove colpisce di più l'Ombra Digitale? Cercate su Google i paesi più colpiti da crimini informatici. Disegnate un planisfero semplificato e colorateli con gradazioni di rosso (più scuro = più pericoloso). Aggiungete una legenda e 3 grafici disegnati a mano (a barre, a torta o a linee) con i dati trovati.",
-      "answer": "Risposta indicativa: i paesi più colpiti includono USA, Cina, Russia, India, UK, Germania. Verificare che i paesi colorati corrispondano a dati reali trovati su Google e che ci siano 3 grafici e la legenda."
+      "title": "🗺️ Le Città nel Mirino",
+      "description": "Cercate su Google quali sono le prime 10 città al mondo più colpite da attacchi informatici o crimini digitali. Scrivete la lista su un foglio e studiatela: dovrete impararle a memoria per ripeterle al maestro durante il controllo delle prove!",
+      "answer": "Risposta indicativa: città globali ad alta densità tecnologica (es. Pechino, Shanghai, New York, Londra, Nuova Delhi, Mosca, Tokyo, ecc. in base a statistiche di cybercrime). Verificare che abbiano trovato 10 città e che sappiano ripeterle a memoria."
     },
     {
       "id": 9,
-      "title": "🔐 Crea la Password Perfetta",
-      "description": "La scuola deve mettere al sicuro i suoi sistemi! Cercate su Google le caratteristiche di una password sicura. Su Word scrivete una guida con almeno 8 regole, 3 esempi di password (una debole, una media, una fortissima) con analisi delle caratteristiche, e le 3 password più usate (e più pericolose!) del mondo.",
-      "answer": "Risposta attesa per le 3 peggiori password: '123456', 'password', '123456789'. Le 8 regole devono includere: lunghezza, maiuscole+minuscole, numeri, simboli, no parole di dizionario, no dati personali, diversa per ogni sito, cambiarla periodicamente."
+      "title": "🔐 Il Puzzle della Password",
+      "description": "Create su Word una password che rispetti contemporaneamente tutti questi requisiti:\n1. Deve essere lunga almeno 5 caratteri.\n2. Deve includere almeno un numero.\n3. Deve includere almeno una lettera maiuscola.\n4. Deve includere almeno un carattere speciale (es. !, ?, @, #, $, ecc.).\n5. La somma delle cifre numeriche presenti nella password deve fare esattamente 25 (es. se inserite i numeri 9, 8, 8, la somma è 9+8+8=25).\n6. Deve includere un mese dell'anno (in italiano).\n7. Deve includere un numero romano (es. I, V, X, ecc.).\n8. Deve includere il nome di un famoso marchio di bevande (es. Coca-Cola, Fanta, Pepsi, Sprite, Gatorade...).\n9. I numeri romani contenuti nella password, moltiplicati tra loro, devono dare come risultato esattamente 35 (suggerimento: quali due numeri moltiplicati fanno 35? Come si scrivono in numeri romani?).\n\nMostrate la password al maestro per verificare se rispetta tutte le regole!",
+      "answer": "Verificare che la password su Word rispetti tutti i 9 requisiti. Esempio di password valida: 'V-VII-maggio-CocaCola-997' (cifre: 9+9+7=25; mesi: maggio; bevanda: CocaCola; maiuscole/speciali presenti; numeri romani: V (5) e VII (7) -> 5 * 7 = 35)."
     },
     {
       "id": 10,
-      "title": "📋 Il Rapporto Forense",
-      "description": "Il laboratorio ha analizzato il computer del ladro! Su Word scrivete un 'Rapporto di Analisi Forense Digitale' con intestazione ufficiale, i dati del dispositivo (marca, modello, seriale — inventati), una tabella dei file sospetti trovati, la cronologia dei siti visitati e le conclusioni investigative. Aggiungete il numero di pagina nel piè di pagina.",
-      "answer": "Nessuna risposta corretta — verificare: intestazione formale, dati dispositivo, tabella file sospetti, cronologia siti, conclusioni, numero pagina nel piè di pagina."
+      "title": "📋 L'Identikit del Sospettato",
+      "description": "Disegnate su un foglio l'identikit del sospettato basandovi sulle testimonianze raccolte. Il disegno deve contenere tutti questi dettagli precisi:\n1. Abbondanti baffi verdi\n2. Occhiali da sole tondi\n3. Sopracciglia folte\n4. Capelli ricci sul lato destro e lisci sul lato sinistro\n5. Una collana d'argento formata da tanti anelli a forma di cuore\n6. Due nei: uno sulla guancia destra e uno sull'orecchio sinistro\n7. Una cicatrice sulla fronte\n8. Un tatuaggio maori sul collo\n\nMostrate l'identikit finito al maestro.",
+      "answer": "Nessuna risposta corretta — verificare che il disegno contenga tutti e 8 i dettagli richiesti dall'identikit (baffi verdi, occhiali tondi, sopracciglia folte, capelli metà ricci e metà lisci, collana di cuori, nei su guancia DX e orecchio SX, cicatrice sulla fronte e tatuaggio maori sul collo)."
     },
     {
       "id": 11,
       "title": "❓ Chi è Kevin Mitnick?",
-      "description": "I detective studiano i criminali del passato! Cercate su Google chi era Kevin Mitnick. Scrivete su Word una scheda biografica di almeno 20 righe: chi era, cosa ha fatto di illegale, come è stato catturato e cosa ha fatto dopo. Poi cercate altri 2 famosi hacker e fate una scheda breve per ognuno. Infine scrivete la vostra opinione: gli hacker sono sempre cattivi?",
-      "answer": "Risposta attesa: Kevin Mitnick (1963–2023), nato in California. Hackerò Nokia, Motorola, FBI. Arrestato nel 1995, 5 anni di prigione. Dopo diventò consulente di sicurezza. Per gli altri 2 hacker: accettare qualsiasi nome reale (es. Julian Assange, Aaron Swartz, Anonymous...)."
+      "description": "I detective studiano i celebri hacker del passato! Cercate su Google chi era Kevin Mitnick: scoprite in quale periodo è vissuto, cosa ha fatto di illegale, come è stato catturato, cosa ha fatto dopo il carcere e perché è famoso. Studiate bene queste informazioni insieme alla squadra: il maestro vi interrogherà a voce prima di darvi il codice per continuare!",
+      "answer": "Risposta attesa: Kevin Mitnick (1963–2023) è stato uno dei più famosi hacker del mondo. Ha violato sistemi importanti (Nokia, Motorola, reti di telecomunicazione), è stato arrestato dall'FBI dopo una lunga caccia all'uomo, ha scontato 5 anni di prigione ed è poi diventato un consulente di sicurezza informatica (White Hat). Interrogare a voce i membri della squadra su questi dettagli."
     },
     {
       "id": 12,
@@ -80,21 +80,21 @@
     },
     {
       "id": 13,
-      "title": "🎭 L'Interrogatorio",
-      "description": "Abbiamo catturato un testimone! Un membro fa il testimone oculare: la squadra inventa insieme la sua storia (cosa ha visto, dove, come era vestito il ladro) e la scrive come promemoria. Gli altri fanno i detective e fanno almeno 10 domande. Alla fine scrivete su Word il Verbale di Interrogatorio formale con data, generalità del testimone, domande e risposte.",
-      "answer": "Nessuna risposta corretta — verificare: storia scritta come promemoria, almeno 10 domande durante l'interrogatorio, Verbale formale con data/generalità/domande+risposte."
+      "title": "🎭 Le Truffe Digitali",
+      "description": "Un bravo cyber-detective deve conoscere le minacce del web! Cercate su Google e studiate bene la differenza tra: 1) Phishing, 2) Ransomware, 3) Spoofing. Imparate cosa sono, come funzionano e come ci si può difendere da essi. Quando vi sentite pronti, andate dal maestro per un'interrogazione orale di gruppo!",
+      "answer": "Risposta attesa:\n- Phishing: email o messaggi falsi che fingono di essere legittimi per rubare password o dati personali.\n- Ransomware: virus che blocca/cifra i file di un computer e chiede un riscatto in denaro per sbloccarli.\n- Spoofing: trucco tecnologico per nascondere o camuffare la propria identità reale (es. alterare il mittente di una mail o l'indirizzo IP) facendosi passare per qualcun altro.\nInterrogare la squadra a voce."
     },
     {
       "id": 14,
-      "title": "🛡️ Il Piano di Sicurezza",
-      "description": "La scuola non deve più essere violata! Create su Word un 'Piano di Sicurezza Informatica per la Nostra Scuola' con: i principali rischi informatici che corre una scuola (cercateli su Google), le soluzioni, le regole per studenti e professori e un piano di emergenza in caso di attacco.",
-      "answer": "Nessuna risposta corretta — verificare: rischi reali con soluzioni, regole per studenti, regole per professori, piano di emergenza."
+      "title": "🛡️ Alibi di Ferro",
+      "description": "Siete sotto accusa! Siete stati incolpati di aver rubato la merenda della maestra Paola durante la ricreazione. Riunitevi con la squadra, inventate una versione dei fatti credibile (un alibi dettagliato con orari, spostamenti e prove) e preparatevi a convincere il maestro della vostra assoluta innocenza!",
+      "answer": "Nessuna risposta corretta — valutare la credibilità dell'alibi presentato a voce dalla squadra, la coordinazione delle risposte e la capacità di convincimento."
     },
     {
       "id": 15,
-      "title": "📺 La Conferenza Stampa",
-      "description": "Il caso è risolto e i giornali vogliono sapere tutto! Preparate e recitate una conferenza stampa di almeno 2 minuti. Ruoli: Direttore dell'Agenzia, Detective Capo, Esperto Informatico e un Giornalista che fa domande improvvisate. Preparate le vostre battute su carta, poi recitate dal vivo improvvisando le risposte alle domande.",
-      "answer": "Nessuna risposta corretta — verificare: 4 ruoli assegnati, battute scritte su carta per ognuno, durata almeno 2 minuti, il giornalista fa domande non preparate e gli altri improvvisano le risposte."
+      "title": "📺 L'Infiltrazione Finale",
+      "description": "La prova finale metterà alla prova la vostra massima discrezione e coordinazione! Dovete riuscire a sottrarre, senza farvi assolutamente scoprire, uno dei foglietti segreti che il maestro ha posizionato sulla sua cattedra. Su questo foglietto troverete la chiave finale per completare la Cyber-Challenge!",
+      "answer": "Nessuna risposta corretta — la squadra deve sottrarre con discrezione un foglietto dalla cattedra senza farsi notare dal maestro. Se catturati, devono riprovare o subire una penalità."
     }
   ]
 }
