@@ -23,9 +23,9 @@ export default function HomePage() {
         <Marchio className="text-xl text-oro md:text-2xl" />
       </header>
 
-      <section className="mx-auto grid w-full max-w-6xl flex-1 items-center gap-8 px-5 pb-6 pt-10 md:grid-cols-[minmax(0,7fr)_minmax(0,5fr)] md:gap-10 md:px-8 md:pt-12">
+      <section className="mx-auto grid w-full max-w-6xl flex-1 items-center gap-8 px-5 pb-6 pt-10 md:grid-cols-[minmax(0,8fr)_minmax(0,4fr)] md:gap-10 md:px-8 md:pt-12">
         <div>
-          <h1 className="font-brand text-[clamp(2.6rem,5.6vw,4.6rem)] font-black leading-[1] tracking-[-0.015em]">
+          <h1 className="font-brand text-[clamp(2.6rem,5.4vw,4.5rem)] font-black leading-[1] tracking-[-0.015em]">
             Quattro mondi, <span className="text-oro md:block">una parola magica.</span>
           </h1>
           <p className="mt-6 max-w-[38ch] text-lg leading-relaxed text-muto md:text-xl">
