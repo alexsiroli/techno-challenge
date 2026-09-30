@@ -31,6 +31,8 @@ export default function GameDashboard({ lesson, team, stepOrder, teamPins }: Pro
 
   useEffect(() => {
     const progress = getProgress(lesson.id, team.id)
+    // Il localStorage si legge solo dopo l'idratazione: l'HTML dell'export statico non lo conosce
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setCurrentStepIndex(progress.currentStep >= totalSteps ? totalSteps - 1 : progress.currentStep)
     setUnlockedSteps(progress.unlockedSteps)
     if (progress.currentStep >= totalSteps) {

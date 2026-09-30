@@ -1,5 +1,8 @@
 import type { Config } from 'tailwindcss'
 
+// I colori del marchio vivono come canali RGB in src/app/globals.css (:root), qui solo i nomi.
+const tok = (name: string) => `rgb(var(--${name}) / <alpha-value>)`
+
 const config: Config = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -9,35 +12,30 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        notte: tok('notte'),
+        velluto: tok('velluto'),
+        viola: tok('viola'),
+        accademia: tok('accademia'),
+        oro: { DEFAULT: tok('oro'), scuro: tok('oro-scuro') },
+        luce: tok('luce'),
+        luna: tok('luna'),
+        muto: tok('muto'),
+        errore: tok('errore'),
+      },
       fontFamily: {
-        pixel: ['"Press Start 2P"', 'monospace'],
-        serif: ['"Cinzel Decorative"', 'Georgia', 'serif'],
-        mono: ['"Share Tech Mono"', 'Courier New', 'monospace'],
-        tech: ['"Orbitron"', 'sans-serif'],
+        // marchio e lettura
+        brand: ['var(--font-brand)', 'Georgia', 'serif'],
+        sans: ['var(--font-body)', 'system-ui', 'sans-serif'],
+        // temi (invariati)
+        pixel: ['var(--font-pixel)', 'monospace'],
+        serif: ['var(--font-magic)', 'Georgia', 'serif'],
+        mono: ['var(--font-terminal)', 'Courier New', 'monospace'],
+        tech: ['var(--font-tech)', 'sans-serif'],
       },
-      animation: {
-        'flicker': 'flicker 0.15s infinite',
-        'pulse-glow': 'pulse-glow 2s ease-in-out infinite',
-        'float': 'float 3s ease-in-out infinite',
-        'scanline': 'scanline 8s linear infinite',
-      },
-      keyframes: {
-        flicker: {
-          '0%, 100%': { opacity: '1' },
-          '50%': { opacity: '0.8' },
-        },
-        'pulse-glow': {
-          '0%, 100%': { boxShadow: '0 0 5px currentColor' },
-          '50%': { boxShadow: '0 0 20px currentColor, 0 0 40px currentColor' },
-        },
-        float: {
-          '0%, 100%': { transform: 'translateY(0)' },
-          '50%': { transform: 'translateY(-10px)' },
-        },
-        scanline: {
-          '0%': { transform: 'translateY(-100%)' },
-          '100%': { transform: 'translateY(100vh)' },
-        },
+      transitionTimingFunction: {
+        // ease-out deciso per entrate e risposte (il default di Tailwind resta ai temi)
+        uscita: 'cubic-bezier(0.23, 1, 0.32, 1)',
       },
     },
   },
