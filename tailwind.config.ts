@@ -21,7 +21,6 @@ const config: Config = {
         luce: tok('luce'),
         luna: tok('luna'),
         muto: tok('muto'),
-        errore: tok('errore'),
       },
       fontFamily: {
         // marchio e lettura

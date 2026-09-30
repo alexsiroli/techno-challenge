@@ -15,7 +15,6 @@
   --luce: 255 241 184; /* #FFF1B8 scintille */
   --luna: 241 236 255; /* #F1ECFF testo */
   --muto: 189 178 221; /* #BDB2DD testo secondario, 9:1 sulla notte */
-  --errore: 255 138 128; /* #FF8A80 errori, 7:1 sulla notte */
   color-scheme: dark;
 }
 

@@ -199,6 +199,14 @@ export default function TeacherPage() {
                             <td
                               key={t.id}
                               onClick={() => toggleHighlight(cellKey)}
+                              // Anche da tastiera: Tab fino alla cella, Invio o Spazio la segna
+                              tabIndex={0}
+                              onKeyDown={(e) => {
+                                if (e.target === e.currentTarget && (e.key === 'Enter' || e.key === ' ')) {
+                                  e.preventDefault()
+                                  toggleHighlight(cellKey)
+                                }
+                              }}
                               className={`cursor-pointer select-none border-r border-viola/70 px-2.5 py-2.5 align-top transition-colors duration-150 last:border-r-0 ${
                                 isHighlighted ? 'bg-oro/15 shadow-[inset_0_0_0_2px_rgb(var(--oro))]' : 'hover:bg-viola/40'
                               }`}
@@ -220,7 +228,7 @@ export default function TeacherPage() {
                                       e.stopPropagation()
                                       setModalChallenge(challenge ?? null)
                                     }}
-                                    className="grid h-9 w-9 place-items-center rounded-md text-muto transition-colors hover:bg-viola hover:text-luna"
+                                    className="grid h-11 w-11 place-items-center rounded-lg text-muto transition-colors hover:bg-viola hover:text-luna"
                                     title="Vedi la prova"
                                     aria-label={`Vedi la prova: ${challenge?.title}`}
                                   >
@@ -232,7 +240,7 @@ export default function TeacherPage() {
                                       e.stopPropagation()
                                       setRevealedPins((prev) => ({ ...prev, [cellKey]: !prev[cellKey] }))
                                     }}
-                                    className="grid h-9 w-9 place-items-center rounded-md text-muto transition-colors hover:bg-viola hover:text-luna"
+                                    className="grid h-11 w-11 place-items-center rounded-lg text-muto transition-colors hover:bg-viola hover:text-luna"
                                     title={isRevealed ? 'Nascondi PIN' : 'Mostra PIN'}
                                     aria-label={`${isRevealed ? 'Nascondi' : 'Mostra'} il PIN di ${t.name}, step ${stepIndex + 1}`}
                                     aria-pressed={!!isRevealed}
