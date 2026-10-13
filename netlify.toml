@@ -6,6 +6,10 @@
   command = "echo offline"
   publish = "offline"
 
+# Il plugin Next.js installato sul sito cerca la build di Next: lo saltiamo.
+[build.environment]
+  NETLIFY_NEXT_PLUGIN_SKIP = "true"
+
 # sw.js disattiva il service worker dell'app nei browser che l'hanno già installato:
 # deve arrivare sempre fresco.
 [[headers]]
