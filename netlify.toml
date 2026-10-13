@@ -1,7 +1,19 @@
-[build]
-  command = "npm run build"
-  publish = "out"
+# Sito temporaneamente offline (decisione D-2026-10-13-app-online-a-rischio).
+# Si pubblica solo la cartella offline/: nessuna build dell'app.
+# Per tornare online: revert di questo commit.
 
+[build]
+  command = "echo offline"
+  publish = "offline"
+
+# sw.js disattiva il service worker dell'app nei browser che l'hanno già installato:
+# deve arrivare sempre fresco.
+[[headers]]
+  for = "/sw.js"
+  [headers.values]
+    Cache-Control = "no-cache"
+
+# offline/ contiene solo la pagina (e sw.js): ogni altro percorso riceve la pagina.
 [[redirects]]
   from = "/*"
   to = "/index.html"
