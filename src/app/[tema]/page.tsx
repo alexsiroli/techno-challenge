@@ -7,6 +7,7 @@ import spazioLesson from '@/data/lessons/spazio.json'
 import teamsData from '@/data/teams.json'
 import type { Lesson, ThemeData } from '@/types'
 import { getTheme } from '@/lib/themes'
+import { Marchio } from '@/components/Marchio'
 
 const lessons = [marioLesson, magiaLesson, cyberLesson, spazioLesson] as Lesson[]
 const teams = teamsData as Record<string, ThemeData>
@@ -50,7 +51,7 @@ export default async function ThemeLobbyPage({ params }: Props) {
       
       <div className="relative z-10 flex flex-col min-h-screen">
         <header className={`${theme.headerBg} border-b border-white/10 shadow-2xl py-5 px-8 flex items-center justify-between backdrop-blur-xl`}>
-          <span className={`font-bold text-xl ${theme.text} tracking-widest uppercase`}>TECHNO CHALLENGE</span>
+          <Marchio variante="mono" className={`text-xl md:text-2xl ${theme.text}`} />
           <div className="text-3xl drop-shadow-lg">{headerDecorations[lesson.id]}</div>
         </header>
 
@@ -59,7 +60,7 @@ export default async function ThemeLobbyPage({ params }: Props) {
             <div className={`text-8xl mb-6 drop-shadow-2xl ${theme.id === 'mario' ? 'animate-bounce' : ''}`}>
               {theme.icon}
             </div>
-            <h1 className={`text-6xl md:text-7xl font-extrabold ${theme.text} mb-4 ${theme.titleFontClass} tracking-tight drop-shadow-lg ${theme.id === 'cyber' ? 'text-shadow-glow animate-pulse' : ''}`}>
+            <h1 className={`text-4xl sm:text-6xl md:text-7xl font-extrabold ${theme.text} mb-4 ${theme.titleFontClass} tracking-tight drop-shadow-lg ${theme.id === 'cyber' ? 'text-shadow-glow animate-pulse' : ''}`}>
               {lesson.title}
             </h1>
             <p className={`text-xl md:text-2xl font-medium ${theme.subtext} opacity-90 tracking-wide`}>{lesson.subtitle}</p>

@@ -31,6 +31,8 @@ export default function GameDashboard({ lesson, team, stepOrder, teamPins }: Pro
 
   useEffect(() => {
     const progress = getProgress(lesson.id, team.id)
+    // Il localStorage si legge solo dopo l'idratazione: l'HTML dell'export statico non lo conosce
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setCurrentStepIndex(progress.currentStep >= totalSteps ? totalSteps - 1 : progress.currentStep)
     setUnlockedSteps(progress.unlockedSteps)
     if (progress.currentStep >= totalSteps) {
@@ -124,9 +126,9 @@ export default function GameDashboard({ lesson, team, stepOrder, teamPins }: Pro
     return (
       <main className={`min-h-screen ${bgClasses[lesson.id] ?? 'bg-gray-900'} flex flex-col items-center justify-center p-8 relative`}>
         <div className="absolute inset-0 bg-black/60 backdrop-blur-md pointer-events-none" />
-        <div className="max-w-3xl w-full text-center relative z-10 p-12 rounded-3xl border border-white/10 bg-black/40 backdrop-blur-xl shadow-[0_0_50px_rgba(255,255,255,0.1)]">
+        <div className="max-w-3xl w-full text-center relative z-10 p-6 sm:p-12 rounded-3xl border border-white/10 bg-black/40 backdrop-blur-xl shadow-[0_0_50px_rgba(255,255,255,0.1)]">
           <div className="text-9xl mb-8 animate-bounce drop-shadow-[0_0_30px_rgba(255,255,255,0.5)]">🏆</div>
-          <h1 className={`text-6xl md:text-7xl font-extrabold ${theme.text} mb-8 ${theme.titleFontClass} tracking-tight drop-shadow-xl`}>
+          <h1 className={`text-2xl ${theme.id === 'mario' ? 'sm:text-4xl md:text-5xl' : 'sm:text-6xl md:text-7xl'} font-extrabold ${theme.text} mb-8 ${theme.titleFontClass} tracking-tight drop-shadow-xl`}>
             MISSIONE COMPLETATA!
           </h1>
           <div className="text-6xl mb-12 flex justify-center gap-4">
