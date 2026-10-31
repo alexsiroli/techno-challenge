@@ -128,7 +128,7 @@ export default function GameDashboard({ lesson, team, stepOrder, teamPins }: Pro
         <div className="absolute inset-0 bg-black/60 backdrop-blur-md pointer-events-none" />
         <div className="max-w-3xl w-full text-center relative z-10 p-12 rounded-3xl border border-white/10 bg-black/40 backdrop-blur-xl shadow-[0_0_50px_rgba(255,255,255,0.1)]">
           <div className="text-9xl mb-8 animate-bounce drop-shadow-[0_0_30px_rgba(255,255,255,0.5)]">🏆</div>
-          <h1 className={`text-6xl md:text-7xl font-extrabold ${theme.text} mb-8 ${theme.titleFontClass} tracking-tight drop-shadow-xl`}>
+          <h1 className={`text-4xl sm:text-6xl md:text-7xl font-extrabold ${theme.text} mb-8 ${theme.titleFontClass} tracking-tight drop-shadow-xl`}>
             MISSIONE COMPLETATA!
           </h1>
           <div className="text-6xl mb-12 flex justify-center gap-4">

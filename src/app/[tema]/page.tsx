@@ -60,7 +60,7 @@ export default async function ThemeLobbyPage({ params }: Props) {
             <div className={`text-8xl mb-6 drop-shadow-2xl ${theme.id === 'mario' ? 'animate-bounce' : ''}`}>
               {theme.icon}
             </div>
-            <h1 className={`text-6xl md:text-7xl font-extrabold ${theme.text} mb-4 ${theme.titleFontClass} tracking-tight drop-shadow-lg ${theme.id === 'cyber' ? 'text-shadow-glow animate-pulse' : ''}`}>
+            <h1 className={`text-4xl sm:text-6xl md:text-7xl font-extrabold ${theme.text} mb-4 ${theme.titleFontClass} tracking-tight drop-shadow-lg ${theme.id === 'cyber' ? 'text-shadow-glow animate-pulse' : ''}`}>
               {lesson.title}
             </h1>
             <p className={`text-xl md:text-2xl font-medium ${theme.subtext} opacity-90 tracking-wide`}>{lesson.subtitle}</p>
